@@ -7,30 +7,35 @@ import {
     Typography,
     Button,
   } from "@material-tailwind/react";
-
-const Cards = () => {
+import Link from 'next/link';
+  interface CardsProps {
+    imageUrl: string;
+    title: string;
+    description: string;
+    
+  }
+  
+  const Cards: React.FC<CardsProps> = ({ imageUrl, title, description,  }) => {
   return (
     <>
     <div>
     <Card className="mt-11 w-26">
       <CardHeader color="blue-gray" className="relative h-[9rem]">
         <img
-          src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+           src={imageUrl}
           alt="card-image"
         />
       </CardHeader>
       <CardBody>
         <Typography variant="h5" color="blue-gray" className="mb-2">
-          UI/UX Review Check
+        {title}
         </Typography>
         <Typography>
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to &quot;Naviglio&quot; where you can enjoy the main
-          night life in Barcelona.
+        {description}
         </Typography>
       </CardBody>
       <CardFooter className="pt-0">
-        <Button>Read More</Button>
+        Read More
       </CardFooter>
     </Card>
     </div>
