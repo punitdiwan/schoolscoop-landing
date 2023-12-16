@@ -1,41 +1,4 @@
-// import { Card } from '@nextui-org/react'
-// import React from 'react'
-// import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
-// import { RiTwitterFill } from "react-icons/ri";
-// import { FaLinkedin } from "react-icons/fa6";
 
-
-// const Footer = () => {
-//   return (
-//     <>
-
-// <div className=''>
-//   <div className='flex  md:space-x-5 md:justify-center xs:grid xs:grid-cols-4 xs:gap-5'>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>BLOG</label></div>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>PRIVACY POLICY</label></div>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>TERMS OF USE</label></div>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>TERMS & CONDITIONS</label></div>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>COPYRIGHT POLICY</label></div>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>DISCLAMER</label></div>
-//     <div><label className='text-[#ffb000]  cursor-pointer'>CAREERS</label></div>
-
-//     </div>
-//     <div className='flex justify-center mt-2 space-x-3'>
-//     <div><FaFacebookSquare className="w-[18px] h-[21px] fill-[#ffb000]" /></div>
-//     <div><RiTwitterFill className="w-[18px] h-[21px] fill-[#ffb000]"/></div>
-//     <div><FaLinkedin className="w-[18px] h-[21px] fill-[#ffb000]" /></div>
-//     <div><FaYoutube  className="w-[18px] h-[21px] fill-[#ffb000]"/></div>
-//     </div>
-//   </div>
-//   <div className='text-center'>
-//     <label className='text-center'>2023 @ <label className='text-[#ffb000] '>School Schoop - ERP System</label></label>
-//   </div>
-
-//     </>
-//   )
-// }
-
-// export default Footer
 
 import { Typography } from "@material-tailwind/react";
  

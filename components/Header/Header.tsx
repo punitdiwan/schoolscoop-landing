@@ -26,6 +26,9 @@ import SectionSeven from "../sections/SectionSeven";
 import SectionEight from "../sections/SectionEight";
 import SectionNine from "../sections/SectionNine";
 import WhatsappForm from "../whatsapp/WhatsappForm";
+import Section2 from "../sections/Section2";
+import Section2one from "../sections/section2card/Section2one";
+import Section2Two from "../sections/section2card/Section2Two";
 
 const Header = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -85,7 +88,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <TopHeader />
+        {/* <TopHeader /> */}
         <NavBar />
         <div className="p-[20px]">
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
@@ -101,13 +104,16 @@ const Header = () => {
 
             <div className="mx-auto p-2 ">
               <SectionOne />
-              <SectionTwo />
+              <Section2/>
+              <Section2Two/>
+              <Section2one/>
 
               <SectionThree />
+              <SectionTwo />
               <SectionFour />
-              <SectionFive />
+              {/* <SectionFive /> */}
               <SectionSix />
-              <SectionSeven />
+              {/* <SectionSeven /> */}
               <SectionEight />
               <SectionNine />
 

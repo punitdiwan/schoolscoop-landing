@@ -1,5 +1,6 @@
 import { Button, Card } from "@material-tailwind/react";
 import React from "react";
+import Section2one from "./section2card/Section2one";
 
 const SectionTwo = () => {
   return (
@@ -14,7 +15,7 @@ const SectionTwo = () => {
           <h2 className="
           xs:text-center xs:text-[#2c5aa0] xs:text-[14px] xs:font-bold
           md:text-center md:text-[#2c5aa0] md:text-lg md:font-bold md:mt-3 ">
-            Trust School Scoop ERP to Simplify School Management & Improve
+            Trust EduSparsh ERP to Simplify School Management & Improve
             Educational Delivery
           </h2>
           <div className="text-center mt-5">
@@ -35,7 +36,7 @@ const SectionTwo = () => {
             />
             <div className="mt-5">
               <h4 className="text-[#999999]">
-                “School scoop ERP software has made our day-to-day management so
+                “EduSparsh ERP software has made our day-to-day management so
                 much easier…”
               </h4>
               <h6 className="text-[#999999]">– Lancer’s Convent</h6>
@@ -52,7 +53,7 @@ const SectionTwo = () => {
             />
             <div className="mt-5">
               <h4 className="text-[#999999]">
-                “School scoop ERP software has made our day-to-day management so
+                “EduSparsh ERP software has made our day-to-day management so
                 much easier…”
               </h4>
               <h6 className="text-[#999999]">– Lancer’s Convent</h6>
@@ -82,13 +83,15 @@ const SectionTwo = () => {
             />
             <div className="mt-5">
               <h4 className="text-[#999999]">
-                “School scoop ERP software has made our day-to-day management so
+                “EduSparsh ERP software has made our day-to-day management so
                 much easier…”
               </h4>
               <h6 className="text-[#999999]">– Lancer’s Convent</h6>
             </div>
           </div>
         </div>
+
+       
       </div>
     </>
   );

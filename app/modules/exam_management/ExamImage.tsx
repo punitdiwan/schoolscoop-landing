@@ -11,7 +11,7 @@ const ExamImage = () => {
           md:top-[30%] md:left-[1%] ">
             {" "}
             <h1 className="text-[40px] font-bold">Exam Management System</h1>
-            <p className=" ">A comprehensive set of features that allows your teachers to spend more
+            <p className="text-justify mx-auto ">A comprehensive set of features that allows your teachers to spend more
              time on student progress and teaching, allows parents to be more involved in their child's 
              education, ensures improved resource availability for your students, enables your
               administrative staff to work smarter, and makes it easier for decision makers to find 

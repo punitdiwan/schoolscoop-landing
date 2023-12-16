@@ -19,7 +19,7 @@ const SectionEight = () => {
               <h3 className="
               xs:text-[14px] xs:font-semibold xs:text-white 
               md:text-lg md:font-semibold md:text-white ">
-                For Existing Edumarshal Users
+                For Existing EduSparsh Users
               </h3>
             </div>
 
@@ -48,7 +48,7 @@ const SectionEight = () => {
             <h3 className="
             xs:text-[20px] xs:font-normal xs:text-white xs:mt-1
             md:text-lg md:font-normal md:text-white mt-3">
-              Learn More About the School Schoop Reseller Program
+              Learn More About the EduSparsh Reseller Program
             </h3>
           </div>
         </div>
