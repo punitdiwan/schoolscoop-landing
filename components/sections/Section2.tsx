@@ -62,7 +62,7 @@ const Section2 = () => {
                 title="Title 1"
                 value="22+"
                 description="Successful Years"
-                icon={FaSchool}
+                imgsrc="ic_successful_years.svg"
               />
             </div>
             <div>
@@ -70,7 +70,7 @@ const Section2 = () => {
                 title="Title 1"
                 value="1600+"
                 description="Happy Clients"
-                icon={FcBusinessman}
+                imgsrc="ic_happy_clients.svg"
               />
             </div>
             <div>
@@ -78,7 +78,7 @@ const Section2 = () => {
                 title="Title 1"
                 value="96%"
                 description="Client Retention"
-                icon={GiReturnArrow}
+                imgsrc="ic_customer_satisfaction.svg"
               />
             </div>
             <div>
@@ -86,7 +86,7 @@ const Section2 = () => {
                 title="Title 1"
                 value="1500+"
                 description="Reports"
-                icon={TbReportAnalytics}
+                imgsrc="ic_reports.svg"
               />
             </div>
             <div>
@@ -94,7 +94,7 @@ const Section2 = () => {
                 title="Title 1"
                 value="2500+"
                 description="Verified Reviews"
-                icon={MdReviews}
+                imgsrc="ic_happy_clients.svg"
               />
             </div>
             <div>
@@ -102,7 +102,7 @@ const Section2 = () => {
                 title="Title 1"
                 value="20000+"
                 description=" Trained"
-                icon={GrGroup}
+                imgsrc="ic_training.svg"
               />
             </div>
           </div>

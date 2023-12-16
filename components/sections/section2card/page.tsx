@@ -10,20 +10,20 @@ interface CardProps {
   title: string;
   value: string;
   description: string;
-  icon: IconType; // Use IconType as the type for the icon prop
+  imgsrc: string; // Use IconType as the type for the icon prop
 }
 
-const Card2: React.FC<CardProps> = ({ title, value, description, icon: Icon }) => {
+const Card2: React.FC<CardProps> = ({ title, value, description, imgsrc }) => {
   return (
     <Card className="max-w-[40rem] h-[6rem] flex-row">
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-2/5 shrink-0 rounded-r-lg bg-[#ffb000]"
+        className="m-0 w-2/5 shrink-0 rounded-r-lg bg-gradient-to-l from-zinc-100 to-gray-700"
       >
        <div className="flex justify-center p-3">
         <div>
-        <Icon size={32} color="#fff" className="h-[5rem] w-[5rem]" />
+    <img src={imgsrc}/>
         </div>
        </div>
       </CardHeader>

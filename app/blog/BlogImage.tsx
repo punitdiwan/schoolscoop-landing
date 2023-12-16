@@ -10,8 +10,8 @@ const BlogImage = () => {
           xs:top-[30%] xs:left-[5%]
           md:top-[30%] md:left-[25%] ">
             {" "}
-            <h1 className="text-[40px] font-bold">School Scoop Blogs</h1>
-            <p className=" ">Find the latest Blogs news from SchoolScoop. See related education and technology articles, photos, podcasts and videos.</p>
+            <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>
+            <p className=" ">Find the latest Blogs news from EduSparsh. See related education and technology articles, photos, podcasts and videos.</p>
           
           </div>
         </div>

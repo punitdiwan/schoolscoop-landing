@@ -23,7 +23,7 @@ const Section2Two = () => {
             </h2>
           </div>
           <div>
-            <p className="font-medium mt-3 text-[#3d3d3d] text-justify mx-10">
+            <p className="font-medium mt-3 text-[#3d3d3d] text-justify md:mx-10">
               EduSparsh software is a customized school management software that
               offers end-to-end solutions for every phase of school management
               like admissions,academic management ,staffs management ,
