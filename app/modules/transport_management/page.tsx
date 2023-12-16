@@ -6,6 +6,7 @@ import React from "react";
 import TransportImage from "./TransportImage";
 import TransportModule from "./TransportModule";
 import TransportReview from "./TransportReview";
+import Footer from "@/components/Footer/Footer";
 
 const TransportManagement = () => {
   return (
@@ -29,6 +30,7 @@ const TransportManagement = () => {
               <TransportImage />
               <TransportModule />
               <TransportReview />
+              <Footer/>
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@ md:top-[210px] md:right-[1px] md:fixed"
 <SchoolScoopFeature/>
 <StudentReview/>
 <SectionSix/>
-<SectionNine />
+
 
 <Footer />
 </div>

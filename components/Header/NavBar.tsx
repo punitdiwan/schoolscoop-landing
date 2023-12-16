@@ -129,11 +129,23 @@ const NavList =() => {
           BLOGS
         </ListItem>
       </Typography>
+      <Typography
+        as="a"
+        href="/contactus"
+        variant="small"
+        color="blue-gray"
+        className="font-medium"
+      >
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-[#2c5aa0] text-[15px]  font-bold hover:text-[#ffb000]">
+          CONTACT US
+        </ListItem>
+      </Typography>
 
   
     </List>
   );
 }
+
 
 
 

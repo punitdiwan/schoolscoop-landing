@@ -30,9 +30,9 @@ import Link from 'next/link';
         <Typography variant="h5" color="blue-gray" className="mb-2">
         {title}
         </Typography>
-        <Typography>
+        {/* <Typography>
         {description}
-        </Typography>
+        </Typography> */}
       </CardBody>
       <CardFooter className="pt-0">
         Read More

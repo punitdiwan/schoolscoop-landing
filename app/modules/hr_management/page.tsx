@@ -37,7 +37,7 @@ const HrManagement = () => {
        <SchoolHrFeature/>
        <HrReview/>
        <SectionSix/>
-<SectionNine />
+
 
 <Footer />
     </div>

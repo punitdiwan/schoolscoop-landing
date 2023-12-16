@@ -5,20 +5,17 @@ import { Typography } from "@material-tailwind/react";
 const SITEMAP = [
   {
     title: "Company",
-    links: ["About Us", "Careers", "Our Team", "Projects"],
+    links: ["About Us"],
   },
   {
     title: "Help Center",
-    links: ["Discord", "Twitter", "GitHub", "Contact Us"],
+    links: [ "Contact Us"],
   },
   {
     title: "Resources",
-    links: ["Blog", "Newsletter", "Free Products", "Affiliate Program"],
+    links: ["Blog"],
   },
-  {
-    title: "Products",
-    links: ["Templates", "UI Kits", "Icons", "Mockups"],
-  },
+
 ];
  
 const currentYear = new Date().getFullYear();

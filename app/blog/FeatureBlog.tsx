@@ -54,11 +54,10 @@ const FeatureBlog = () => {
                     <Cards
                       key={card.id} // Use the "id" as the key for each mapped component
                       imageUrl={card?.blog_image?.data?.full_url}
-                      title={card?.blog_title}
-                      description={card?.blog_message
-                        .split(" ")
-                        .slice(0, 10)
-                        .join(" ")}
+                      title={card?.blog_title} description={""}                      // description={card?.blog_message
+                      //   .split(" ")
+                      //   .slice(0, 10)
+                      //   .join(" ")}
                     />
                   </Link>
                 </div>

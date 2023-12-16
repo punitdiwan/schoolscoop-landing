@@ -35,7 +35,7 @@ const FeesManagement = () => {
               <FeeFeature />
               <FeeReview />
               <SectionSix />
-              <SectionNine />
+ 
 
               <Footer />
             </div>
