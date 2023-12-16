@@ -116,7 +116,7 @@ const SectionOne = () => {
           />
 
           <h3 className="xs:hidden md:block md:font-semibold md:text-4xl text-center text-[#2c5aa0] bg-white">
-            10 Years Of Excellence
+            22 Years Of Excellence
           </h3>
         </div>
       </div>

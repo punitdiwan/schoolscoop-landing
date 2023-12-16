@@ -10,8 +10,9 @@ const SectionSix = () => {
           <h1 className="
             xs:text-[#2c5aa0] xs:text-[24px] xs:font-bold xs:text-center
           md:text-[#2c5aa0] md:text-[40px] md:font-bold md:text-center">
-            Start Using SchoolScoop ERP for Your School Today!
+            Start Using EduSparsh ERP for Your School Today!
           </h1>
+          <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
           <h1 className="
           xs:text-[#b2b2b2] xs:text-[14px] xs:font-normal xs:text-center
           md:text-[#b2b2b2] md:text-[20px] md:font-normal md:text-center

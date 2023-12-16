@@ -15,7 +15,7 @@ const ExamManagement = () => {
   return (
     <>
       <div>
-        <TopHeader />
+  
         <NavBar />
         <div className="p-[20px]">
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">

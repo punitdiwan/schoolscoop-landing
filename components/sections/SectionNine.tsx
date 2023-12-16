@@ -20,6 +20,8 @@ import { TimeManagement } from "../Data/Timedata";
 import { SubjectManagement } from "../Data/Subjectdata";
 import { AttendanceManagement } from "../Data/Attendancedata";
 import {StudentPromotion} from "../Data/Studentpromotiondata"
+import { Typography } from "@material-tailwind/react";
+import { IoBookOutline } from "react-icons/io5";
 
 
 
@@ -30,10 +32,14 @@ const SectionNine = () => {
         <div className="md:flex">
           <div className="">
             <div>
-              <img
-                src="/imges/attachment_23731787.jpeg"
-                className="w-[150px] h-[100px]"
-              />
+            <Typography
+          as="a"
+          href="#"
+          variant="h6"
+          className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-4xl "
+        >
+         <div className="flex"><div> EduSparsh </div><div><IoBookOutline  className="mt-1 ml-2" /></div></div>
+        </Typography>
             </div>
             <div className="mt-[50px]">
               <h2 className="text-[#999999] ">

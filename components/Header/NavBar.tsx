@@ -30,6 +30,7 @@ import {
   
 } from "@heroicons/react/24/solid";
 import NavListMenu from "./NavLIstMenu";
+import { IoBookOutline } from "react-icons/io5";
 
 
 const Modules = [
@@ -143,24 +144,24 @@ const NavBar = () => {
 
 
   return (
-    <div>    <Navbar className="mx-auto max-w-screen-xl px-4 py-2">
+    <div>    <Navbar className="mx-auto max-w-screen-2xl px-6 py-6">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5 lg:ml-2"
+          className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-4xl "
         >
-          School Scoop <img src='/imges/oie_Jt3R7uUw50k2.jpg' className='w-[130px] h-[20px]'/>
+         <div className="flex"><div> EduSparsh </div><div><IoBookOutline  className="mt-1 ml-2" /></div></div>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
         </div>
         <div className="hidden gap-2 lg:flex">
-          <Button variant="text" size="sm" color="blue-gray">
+          <Button variant="outlined" size="sm" className="rounded-full w-[6rem]" >
             Log In
           </Button>
-          <Button variant="gradient" size="sm">
+          <Button variant="outlined" size="sm" className="rounded-full w-[6rem]  ">
             Sign In
           </Button>
         </div>

@@ -10,6 +10,7 @@ const SectionThree = () => {
           md:text-4xl md:font-bold md:text-center md:text-[#2c5aa0]">
             One System, One Dashboard
           </h1>
+          <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
           <h4 className="
           xs:text-[14px] xs:font-bold xs:text-center xs:text-[#2c5aa0]
           md:text-xl md:font-bold md:text-center md:text-[#2c5aa0] mt-2
