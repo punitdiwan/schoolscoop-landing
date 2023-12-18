@@ -31,38 +31,44 @@ import {
 } from "@heroicons/react/24/solid";
 import NavListMenu from "./NavLIstMenu";
 import { IoBookOutline } from "react-icons/io5";
-
+import { PiStudentLight } from "react-icons/pi";
+import { MdManageAccounts } from "react-icons/md";
+import { TbMoneybag } from "react-icons/tb";
+import { IoMdPaper } from "react-icons/io";
+import { FaBusAlt } from "react-icons/fa";
+import { RiParentLine } from "react-icons/ri";
+import { GrUserWorker } from "react-icons/gr";
 
 const Modules = [
   
   {
     title: "Student Management",
     description: "Find the perfect solution for your needs.",
-    icon: SquaresPlusIcon,
+    icon: PiStudentLight,
     link:`/modules/student_management`
   },
   {
     title: "Administration & HR Management",
     description: "Find the perfect solution for your needs.",
-    icon: Bars4Icon,
+    icon: MdManageAccounts,
     link:`/modules/hr_management`
   },
   {
     title: "Fees Management",
     description: "Learn how we can help you achieve your goals.",
-    icon: SunIcon,
+    icon: TbMoneybag,
     link:`/modules/fee_management`
   },
   {
     title: "Exam Management",
     description: "Reach out to us for assistance or inquiries",
-    icon: GlobeAmericasIcon,
+    icon: IoMdPaper,
     link:`/modules/exam_management`
   },
   {
     title: "Transportation Management",
     description: "Find the perfect solution for your needs.",
-    icon: PhoneIcon,
+    icon: FaBusAlt,
     link:`/modules/transport_management`
   },
 
@@ -73,17 +79,15 @@ const Support = [
   {
     title: "For Parents & Students",
     description: "Find the perfect solution for your needs.",
-    icon: SquaresPlusIcon,
+    icon: RiParentLine,
     link:`/help_and_support/help_student_support`
   },
   {
     title: "For School Staff & Administrators",
     description: "Meet and learn about our dedication",
-    icon: UserGroupIcon,
+    icon: GrUserWorker,
     link:`/help_and_support/help_school`
   },
- 
-
 ];
 
 
