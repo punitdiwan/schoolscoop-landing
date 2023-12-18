@@ -15,7 +15,6 @@ const ExamManagement = () => {
   return (
     <>
       <div>
-  
         <NavBar />
         <div className="p-[20px]">
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
@@ -23,8 +22,8 @@ const ExamManagement = () => {
 
             <div
               className="
-xs:top-[250px] xs:right-[1px] xs:fixed xs:z-10 md:z-10
-md:top-[210px] md:right-[1px] md:fixed"
+                    xs:top-[250px] xs:right-[1px] xs:fixed xs:z-10 md:z-10
+                            md:top-[210px] md:right-[1px] md:fixed"
             >
               <img src="/imges/Demo-Button-v.gif" />
             </div>
@@ -36,7 +35,7 @@ md:top-[210px] md:right-[1px] md:fixed"
               <ExamFeature />
               <ExamReview />
               <SectionSix />
-              <SectionNine />
+             
 
               <Footer />
             </div>

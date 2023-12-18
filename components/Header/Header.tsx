@@ -115,7 +115,7 @@ const Header = () => {
               <SectionSix />
               {/* <SectionSeven /> */}
               <SectionEight />
-              <SectionNine />
+              {/* <SectionNine /> */}
 
               <Footer />
             </div>
