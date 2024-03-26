@@ -13,7 +13,7 @@ const SupportImage = () => {
           md:top-[30%] md:left-[25%] ">
             {" "}
             <h1 className="text-[40px] font-bold">EduSparsh Help & Support</h1>
-            <p className=" ">For Students & Parents</p>
+            <p className=" ">For Students & Parents </p>
             <p className=" ">
               Looking for support for school staff & administrators?{" "}
               <Link href="/">Click Here</Link>
