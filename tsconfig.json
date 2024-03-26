@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/blog/Cards.jsx", "components/Footer/Footer.jsx", "app/contactus/ContactInfo.jsx", "components/Header/Header.jsx", "components/sections/SectionTwo.jsx", "components/sections/SectionSix.jsx", "components/sections/SectionOne.jsx", "components/sections/SectionNine.jsx", "components/sections/Carosel.jsx", "components/sections/section2card/page.jsx", "components/Modules/Module.jsx", "components/Header/TopHeader.jsx", "components/Header/NavLIstMenu.jsx", "components/Header/NavBar.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/blog/Cards.jsx", "components/Footer/Footer.jsx", "app/contactus/ContactInfo.jsx", "components/Header/Header.jsx", "components/sections/SectionTwo.jsx", "components/sections/SectionSix.jsx", "components/sections/SectionOne.jsx", "components/sections/SectionNine.jsx", "components/sections/Carosel.jsx", "components/sections/section2card/page.jsx", "components/Modules/Module.jsx", "components/Header/TopHeader.jsx", "components/Header/NavLIstMenu.jsx", "components/Header/NavBar.jsx", "components/sections/SectionFour.jsx"],
   "exclude": ["node_modules"]
 }
