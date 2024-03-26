@@ -17,6 +17,7 @@ const SupportImage = () => {
             <p className=" ">
               Looking for support for school staff & administrators?{" "}
               <Link href="/">Click Here</Link>
+              {/* hey */}
             </p>
           </div>
         </div>
