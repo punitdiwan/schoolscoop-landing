@@ -1,18 +1,18 @@
 import { Card } from '@material-tailwind/react';
 import React from 'react'
 
-interface ModuleProps {
-  data: {
-    image: string;
-    title: string;
-    items: {
-      icon: string;
-      title: string;
-    }[];
-  };
-}
-
-const Module: React.FC<ModuleProps> = ({ data }) => {
+// interface ModuleProps {
+//   data: {
+//     image: string;
+//     title: string;
+//     items: {
+//       icon: string;
+//       title: string;
+//     }[];
+//   };
+// }
+// : React.FC<ModuleProps> 
+const Module= ({ data }) => {
   return (
     <div>
             <div className="flex">

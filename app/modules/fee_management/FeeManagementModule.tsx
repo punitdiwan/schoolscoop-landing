@@ -15,12 +15,12 @@ const FeeManagementModule = () => {
                 <div>
                   {" "}
                   <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
-                  Student Fee Management
+                  Student Fee Management 
                   </h1>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
-                Fully customize school fee ERP, collection parameters to suit your needs. Keep track of student fees as they are made. Enable online payments to further automate the 
+                 customize school fee ERP, collection parameters to suit your needs. Keep track of student fees as they are made. Enable online payments to further automate the 
                 collection process. Send notifications before fees are due and to defaulters.
                 </div>
                 <div>

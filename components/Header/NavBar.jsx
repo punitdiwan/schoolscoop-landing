@@ -96,7 +96,7 @@ const Support = [
 
 const NavList =() => {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
+    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 md:text-sm">
       <Typography
         as="a"
         href="/"
@@ -166,14 +166,14 @@ const NavBar = () => {
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-4xl "
+          className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-3xl "
         >
          <div className="flex"><div> EduSparsh </div><div><IoBookOutline  className="mt-1 ml-2" /></div></div>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
         </div>
-        <div className="hidden gap-2 lg:flex">
+        <div className="hidden gap-1 lg:flex">
           <Button variant="outlined" size="sm" className="rounded-full w-[6rem]" >
             Log In
           </Button>

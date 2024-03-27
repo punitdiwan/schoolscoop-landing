@@ -3,23 +3,23 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline';
 import { Collapse, ListItem, Menu, MenuHandler, MenuItem, MenuList, Typography } from '@material-tailwind/react';
 import Link from 'next/link';
 
-interface NavListMenuProps {
-  data: {
-    title: string;
-    description: string;
-    icon: React.ForwardRefExoticComponent<
-      Omit<React.SVGProps<SVGSVGElement>, "ref"> & {
-        title?: string | undefined;
-        titleId?: string | undefined;
-      } & React.RefAttributes<SVGSVGElement>
-    >;
-    link: string; // Add the link property
-  }[];
-  moduleName: string;
-}
+// interface NavListMenuProps {
+//   data: {
+//     title: string;
+//     description: string;
+//     icon: React.ForwardRefExoticComponent<
+//       Omit<React.SVGProps<SVGSVGElement>, "ref"> & {
+//         title?: string | undefined;
+//         titleId?: string | undefined;
+//       } & React.RefAttributes<SVGSVGElement>
+//     >;
+//     link: string; // Add the link property
+//   }[];
+//   moduleName: string;
+// }
   
-
-const NavListMenu: React.FC<NavListMenuProps> = (props) => {
+// : React.FC<NavListMenuProps> 
+const NavListMenu = (props) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 

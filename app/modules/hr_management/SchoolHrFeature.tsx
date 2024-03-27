@@ -27,7 +27,7 @@ const SchoolHrFeature = () => {
           </div>
           <div>
             <div className=" text-[#DD9933] text-center flex justify-center">
-             View All Feature
+             View All Feature vv
             </div>
           </div>
         </div>
