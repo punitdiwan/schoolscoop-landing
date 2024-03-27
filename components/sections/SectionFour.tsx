@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel } from "@material-tailwind/react";
+
 import Carosel from "./Carosel";
 
 const SectionFour = () => {

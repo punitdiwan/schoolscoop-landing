@@ -6,9 +6,10 @@ const StudentManagementModule = () => {
   return (
     <>
       <div className="">
-        <div className="">
-          <div>
-            <div className="grid md:grid-cols-2 gap-7 p-12 ">
+        <div className="p-[10px]">
+          <div className="p-16 pt-5">
+            {/* YHA PE GAP 7 KI JGH 32 HUA  */}
+            <div className="grid  md:grid-cols-2 gap-32 ">   
               <div className="">
                 <div className="flex justify-center">
                   <img src="/imges/studentmanagement/1.png" />
@@ -20,9 +21,9 @@ const StudentManagementModule = () => {
                   </h1>
                 </div>
 
-                <div className="text-center text-[14px] text-[#999999]">
+                <div className="text-center text-[14px] text-[#999999] ">
                   Fully customize school fee ERP, collection parameters to suit
-                  your needs. Keep track of student fees as they are made.
+                  your needs.  Keep track of student fees as they are 
                   Enable online payments to further automate the collection
                   process. Send notifications before fees are due and to
                   defaulters.
@@ -34,7 +35,8 @@ const StudentManagementModule = () => {
                   </div>
                 </div>
               </div>
-              <div className="grid grid-cols-2">
+              {/* YHA P GAP NHI THA ADD KIYA */}
+              <div  className="grid grid-cols-2 gap-10">
                 <div className="">
                   <div className="flex justify-center">
                     <img src="/imges/studentmanagement/solution-64x64.png" />
@@ -69,8 +71,8 @@ const StudentManagementModule = () => {
                 </div>
               </div>
             </div>
-
-            <div className="grid md:grid-cols-4 xs:grid-cols-2 gap-6">
+                
+            <div className="grid md:grid-cols-4 xs:grid-cols-2 gap-10 mt-16">
               <div>
                 {" "}
                 <div className="">
@@ -91,7 +93,7 @@ const StudentManagementModule = () => {
               </div>
               <div>
                 {" "}
-                <div className="">
+                <div className="mr-6">
                   <div className="flex justify-center">
                     <img src="/imges/studentmanagement/sd-card-64x64.png" />
                   </div>
@@ -110,7 +112,7 @@ const StudentManagementModule = () => {
               </div>
               <div>
                 {" "}
-                <div className="">
+                <div className="ml-6">
                   <div className="flex justify-center">
                     <img src="/imges/studentmanagement/profile-64x64.png" />
                   </div>
@@ -129,7 +131,7 @@ const StudentManagementModule = () => {
               </div>
               <div>
                 {" "}
-                <div className="">
+                <div className=" gap-32">
                   <div className="flex justify-center">
                     <img src="/imges/studentmanagement/id-card-1-64x64.png" />
                   </div>
@@ -149,12 +151,12 @@ const StudentManagementModule = () => {
             </div>
           </div>
 
-          <div className="p-[50px]">
+          <div className="p-[32px]">
             <div className="border-t-1 border-r-1 border-b-1 border-l-1 border-gray-500"></div>
 
             {/* //===========================second =========================================== */}
 
-            <div className="grid md:grid-cols-2 gap-7 p-12 ">
+            <div className="grid md:grid-cols-2 gap-32 p-12 ">
               <div className="">
                 <div className="flex justify-center">
                   <img src="/imges/studentmanagement/feedback-64x64.png" />
@@ -179,7 +181,7 @@ const StudentManagementModule = () => {
                   </div>
                 </div>
               </div>
-              <div className="grid grid-cols-2">
+              <div className="grid grid-cols-2 gap-16">
                 <div className="">
                   <div className="flex justify-center">
                     <img src="/imges/studentmanagement/grading-system-support-1-64x64.png" />
@@ -215,7 +217,7 @@ const StudentManagementModule = () => {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-4 xs:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-4 xs:grid-cols-2 gap-6 mt-12">
               <div>
                 {" "}
                 <div className="">

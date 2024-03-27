@@ -48,16 +48,16 @@ const Section2 = () => {
                 technologies and gained new hights with it's Extraordinary
                 feature! This successful school management system uses
                 cutting-edge technology and makes it user-friendly yet
-                affordable! The product from the team of ultimate and 10+ years
+                affordable! The product from the team of ultimate and 12+ years
                 of expertise offers all the mandatory and complementary
                 functionalities required by an educational institute! Our esteem
-                1600+ global client base tells our successful stories! We
+                200+ global client base tells our successful stories! We
                 believe in.
               </p>
             </div>
           </div>
           <div className="grid md:grid-cols-2 xs:grid-cols-1  gap-9">
-            <div>
+            <div className="">
               <Card2
                 title="Title 1"
                 value="22+"
@@ -68,7 +68,7 @@ const Section2 = () => {
             <div>
               <Card2
                 title="Title 1"
-                value="1600+"
+                value="200+"
                 description="Happy Clients"
                 imgsrc="ic_happy_clients.svg"
               />
@@ -93,7 +93,7 @@ const Section2 = () => {
               <Card2
                 title="Title 1"
                 value="2500+"
-                description="Verified Reviews"
+                description="Daily logins"
                 imgsrc="ic_happy_clients.svg"
               />
             </div>

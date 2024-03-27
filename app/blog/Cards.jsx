@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    Card,
+    Card ,
     CardHeader,
     CardBody,
     CardFooter,
@@ -8,14 +8,9 @@ import {
     Button,
   } from "@material-tailwind/react";
 import Link from 'next/link';
-  interface CardsProps {
-    imageUrl: string;
-    title: string;
-    description: string;
-    
-  }
   
-  const Cards: React.FC<CardsProps> = ({ imageUrl, title, description,  }) => {
+  
+  const Cards = ({ imageUrl, title, description,  }) => {
   return (
     <>
     <div>
@@ -30,17 +25,26 @@ import Link from 'next/link';
         <Typography variant="h5" color="blue-gray" className="mb-2">
         {title}
         </Typography>
+
         {/* <Typography>
         {description}
         </Typography> */}
+
       </CardBody>
       <CardFooter className="pt-0">
         Read More
       </CardFooter>
     </Card>
     </div>
+  
     </>
   )
 }
 
 export default Cards
+
+
+
+
+
+

@@ -18,28 +18,28 @@ const SectionTwo = () => {
             Trust EduSparsh ERP to Simplify School Management & Improve
             Educational Delivery
           </h2>
-          <div className="text-center mt-5">
+          <div className="text-center mt-8">
             <Button className="rounded-full" size="md" color="green">
               Read All Case Studies
             </Button>
           </div>
         </div>
         <div className="xs:grid-cols-1 xs:text-center
-        grid md:grid-cols-4 md:mt-4 md:gap-8 md:p-12">
+        grid md:grid-cols-4 md:mt-4 md:gap-8 md:p-12   m-16">
           <div>
            
           <div>
           <img
               alt="nature"
-              className="w-[78px] h-[101px] xs:ml-[150px] xs:mt-[20px] "
+              className="w-[78px] h-[101px] xs:ml-[150px] xs:mt-[20px] justify-center items-center "
               src="/imges/delhi-public-school-logo-E8BDE7B79B-seeklogo.com_.png"
             />
             <div className="mt-5">
-              <h4 className="text-[#999999]">
+              <h4 className="text-[#535252]">
                 “EduSparsh ERP software has made our day-to-day management so
                 much easier…”
               </h4>
-              <h6 className="text-[#999999]">– Lancer’s Convent</h6>
+              <h6 className="text-[#2b2a2a]">– Lancer’s Convent</h6>
             </div>
           </div>
 
@@ -52,11 +52,11 @@ const SectionTwo = () => {
               src="/imges/maple-bear-logo.png"
             />
             <div className="mt-5">
-              <h4 className="text-[#999999]">
+              <h4 className="text-[#535252]">
                 “EduSparsh ERP software has made our day-to-day management so
                 much easier…”
               </h4>
-              <h6 className="text-[#999999]">– Lancer’s Convent</h6>
+              <h6 className="text-[#2b2a2a]">– Lancer’s Convent</h6>
             </div>
           </div>
           <div>
@@ -67,11 +67,11 @@ const SectionTwo = () => {
               src="/imges/lancer-logo.png "
             />
             <div className="mt-5">
-              <h4 className="text-[#999999]">
+              <h4 className="text-[#535252]">
                 “School scoop ERP software has made our day-to-day management so
                 much easier…”
               </h4>
-              <h6 className="text-[#999999]">– Lancer’s Convent</h6>
+              <h6 className="text-[#2b2a2a]">– Lancer’s Convent</h6>
             </div>
           </div>
           <div>
@@ -82,11 +82,11 @@ const SectionTwo = () => {
               src="/imges/gd-goenka-school.png "
             />
             <div className="mt-5">
-              <h4 className="text-[#999999]">
+              <h4 className="text-[#535252]">
                 “EduSparsh ERP software has made our day-to-day management so
                 much easier…”
               </h4>
-              <h6 className="text-[#999999]">– Lancer’s Convent</h6>
+              <h6 className="text-[#2b2a2a]">– Lancer’s Convent</h6>
             </div>
           </div>
         </div>

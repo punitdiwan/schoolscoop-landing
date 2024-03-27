@@ -8,7 +8,7 @@ const SectionEight = () => {
 
           <div className="grid
           xs:grid-cols-3 xs:p-5 xs:gap-4 xs:col-span-2
-          md:grid-cols-3 md:p-10 md:gap-10">
+          md:grid-cols-3 md:p-10 md:gap-10 mt-6">
 
             <div className="">
               <h1 className="
@@ -18,21 +18,21 @@ const SectionEight = () => {
               </h1>
               <h3 className="
               xs:text-[14px] xs:font-semibold xs:text-white 
-              md:text-lg md:font-semibold md:text-white ">
+              md:text-lg md:font-semibold md:text-white mt-1">
                 For Existing EduSparsh Users
               </h3>
             </div>
 
             <div className="mt-[30px] ml-4 ">
               <img src="/imges/student-50x50.png" />
-              <h4 className="text-white text-base font-normal ">
+              <h4 className="text-white text-base font-normal mt-3 ">
                 For Students & Parents
               </h4>
             </div>
 
             <div className="mt-[30px] ">
               <img src="/imges/support-50x50.png" />
-              <h4 className="text-white text-base font-normal ">
+              <h4 className="text-white text-base font-normal mt-3">
                 For School Staff
               </h4>
             </div>
