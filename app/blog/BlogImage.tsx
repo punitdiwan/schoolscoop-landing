@@ -1,23 +1,34 @@
-import React from 'react'
+import React from "react";
 
 const BlogImage = () => {
   return (
     <>
-       <div>
-        <div className=" relative text-center text-white">
-          <img src="/imges/student_parentsupport/edumarshal-support.jpg" className="xs:h-[450px] md:h-[150px] md:w-[1380px]" />
-          <div className="absolute 
-          xs:top-[30%] xs:left-[5%]
-          md:top-[30%] md:left-[19%] ">
-            {" "}
-            <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>
-            <p className=" ">Find the latest Blogs news from EduSparsh. See related education and technology articles, photos, podcasts and videos.</p>
-          
+      <div>
+        <div className=" flex flex-col gap-3 lg:flex-row">
+          <img
+            src="/imges/student_parentsupport/edumarshal-support.jpg"
+            className="w-[90%] mx-auto h-96 lg:w-[50%] lg:h-[500px] "
+            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+          />
+          <div
+            // className="absolute
+            // xs:top-[30%] xs:left-[5%]
+            // md:top-[30%] md:left-[19%] "
+            className="text-black "
+          > 
+            
+            <div>
+              <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>
+              <p className=" ">
+                Find the latest Blogs news from EduSparsh. See related education
+                and technology articles, photos, podcasts and videos.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default BlogImage
+export default BlogImage;

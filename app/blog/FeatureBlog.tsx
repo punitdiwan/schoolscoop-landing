@@ -6,8 +6,7 @@ import Pagination from "./Pagination";
 const FeatureBlog = () => {
   const [data, setData] = useState<any[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
- 
- 
+
   const fetchData = async () => {
     try {
       const response = await fetch(
@@ -19,6 +18,7 @@ const FeatureBlog = () => {
       console.error("Error fetching data:", error);
     }
   };
+  console.log("Card data====>", data);
 
   useEffect(() => {
     fetchData();
@@ -39,22 +39,50 @@ const FeatureBlog = () => {
   return (
     <>
       <div>
-        <div>
-          <h1 className="text-center text-[24px] font-bold mt-5">
-            FEATURED BLOGS
-          </h1>
+        <div className="flex flex-col items-center lg:flex-row mt-6 w-[90%]">
+          <img
+            src="/imges/student_parentsupport/edumarshal-support.jpg"
+            className="w-[90%] mx-auto h-96 lg:w-[45%] lg:h-[500px] "
+            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+          />
+          <div className="flex flex-col gap-3 w-[45%]">
+            <div className="text-black mx-auto flex flex-col text-center">
+              <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>
+              <p className=" ">
+                Find the latest Blogs news from EduSparsh. See related education
+                and technology articles, photos, podcasts and videos.
+              </p>
+            </div>
+
+            <div className="w-[100%]  flex flex-row border bg-gray-200  border-gray-500 px-2 rounded-xl mx-auto mt-4">
+              <input
+                className=" rounded w-[100%] py-4 bg-blue-gray-100 mx-1 pl-5 my-1"
+                type="text"
+                placeholder="Search..."
+              />
+              <button className="bg-blue-gray-500 px-4 my-1 hover:bg-blue-gray-900  text-white rounded-lg">
+                search
+              </button>
+            </div>
+          </div>
         </div>
 
-        <div className="p-12">
-          <div className="grid md:grid-cols-4 gap-5">
+        <div className="p-12 w-[70%]">
+          <div className="flex flex-wrap gap-5 w-[95%] mx-auto">
             {data &&
               cardsToShow.map((card: any, index: any) => (
-                <div key={index}> 
-                  <Link href={`/blog/${card.id}`} key={card.id}>
+                <div key={index}>
+                  <Link
+                    href={`/blog/${card.blog_title.replace(/ /g, "_")}`}
+                    key={card.id}
+                  >
                     <Cards
                       key={card.id} // Use the "id" as the key for each mapped component
                       imageUrl={card?.blog_image?.data?.full_url}
-                      title={card?.blog_title} description={""}                      // description={card?.blog_message
+                      title={card?.blog_title}
+                      description={""}
+                      date={card?.modified_on}
+                      // description={card?.blog_message
                       //   .split(" ")
                       //   .slice(0, 10)
                       //   .join(" ")}
@@ -63,13 +91,13 @@ const FeatureBlog = () => {
                 </div>
               ))}
           </div>
-       <div className="mt-4">
-       <Pagination
-        currentPage={currentPage}
-        totalPages={totalPages}
-        onPageChange={handlePageChange}
-      />
-       </div>
+          <div className="mt-4">
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          </div>
         </div>
       </div>
     </>

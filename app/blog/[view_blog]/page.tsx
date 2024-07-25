@@ -20,6 +20,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
       );
       const jsonData = await response.json();
       setData(jsonData?.data || []);
+      // console.log("Blogs data====>",data)
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -31,9 +32,13 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
 
   useEffect(() => {
     // Update filtered entries whenever data or params.view_blog changes
+    console.log("======>",)
     if (params.view_blog && data.length > 0) {
       const filtered = data.filter(
-        (entry) => entry.id === parseInt(params.view_blog)
+        
+        (entry) =>
+          
+          entry.blog_title.replace(/ /g, "_")=== params.view_blog
       );
       setFilteredEntries(filtered);
     }
@@ -54,33 +59,39 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
                xs:top-[250px] xs:right-[2px] xs:fixed xs:z-10 md:z-10
                md:top-[210px] md:right-[2px] md:fixed"
             >
-              <img src="/imges/Demo-Button-v.gif" />
+              <img src="/imges/Demo-Button-v.gif" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
             </div>
-
             <BlogTitle />
-
             <div className="p-12">
               <div className="grid grid-cols-1 mx-auto ">
                 {/* Map over the filtered entries to display content */}
                 {filteredEntries.map((entry) => (
                   <div>
                     <div>
-                      <h1 className="text-center font-bold text-4xl">
+                      <h1 className="text-center font-bold text-2xl md:text-[40px]">
                         {entry?.blog_title}
                       </h1>
                     </div>
                     <div>
-                      {" "}
-                      <img
+                      <div className="flex items-center gap-2 lg:ml-[20%] mt-4">
+                        <img className="w-10" src="/profile-circle-icon.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
+                        <p>
+                        <h1 className="text-sm">Written by <span>Edusparsh</span></h1>
+                        <h1 className="text-sm">{entry?.modified_on.slice(0,10)+" "+entry?.modified_on.slice(11,16)}</h1>
+                        </p>
+                      </div>
+                      {entry?.blog_image?.data?.full_url?<img
                         src={entry?.blog_image?.data?.full_url}
-                        className="mx-auto  sm:w-[550px] sm:h-[330px] mt-3"
-                      />
+                        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                        className="mx-auto  sm:w-[550px] sm:h-[330px] md:w-[700px] md:h-[400px] lg:w-[800px] lg:h-[500px] mt-3"
+                      />:null}
                     </div>
                   </div>
                 ))}
 
                 {filteredEntries.map((entry) => (
-                  <div className="mx-auto mt-3 text-justify"
+                  <div
+                    className="mx-auto mt-3 text-justify"
                     dangerouslySetInnerHTML={{ __html: entry.blog_message }}
                   />
                 ))}
