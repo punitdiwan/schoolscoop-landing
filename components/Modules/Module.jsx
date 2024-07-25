@@ -34,7 +34,7 @@ const Module= ({ data }) => {
             {data.items.map((item, index) => (
           <div key={index}>
             <div>
-              <img src={item.icon} alt={`Icon ${index}`} className='w-[50px] h-[50px] grayscale '  />
+              <img src={item.icon} alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." className='w-[50px] h-[50px] grayscale '  />
             </div>
             <p className='text-[#3c3c3c] text-sm '>{item.title}</p>
           </div>

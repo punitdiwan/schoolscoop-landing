@@ -110,7 +110,7 @@ const SectionOne = () => {
 
         <div className="xs:mt-[-720px]">
           <img
-            alt="nature"
+            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             className="w-[500px] h-[397px]  "
             src="/imges/edumarshal-school-erp.png "
           />

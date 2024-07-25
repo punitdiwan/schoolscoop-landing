@@ -8,27 +8,27 @@ const Carosel = () => {
     <Carousel transition={{ duration: 2 }} className="rounded-xl" autoplay loop>
     <img
         src="/imges/oie_34SfRcEmQjpE.jpg"
-        alt="image 1"
+        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
         className="h-full w-full object-cover"
       />
       <img
         src="car1.png"
-        alt="image 1"
+        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
         className="h-full w-full object-cover"
       />
       <img
          src="car2.png"
-        alt="image 1"
+        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
         className="h-full w-full object-cover"
       />
       <img
          src="car3.png"
-        alt="image 1"
+        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
         className="h-full w-full object-cover"
       />
       <img
         src="car4.png"
-        alt="image 1"
+        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
         className="h-full w-full object-cover"
       />
     

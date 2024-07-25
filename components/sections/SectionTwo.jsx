@@ -30,7 +30,7 @@ const SectionTwo = () => {
            
           <div>
           <img
-              alt="nature"
+              alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               className="w-[78px] h-[101px] xs:ml-[150px] xs:mt-[20px] justify-center items-center "
               src="/imges/delhi-public-school-logo-E8BDE7B79B-seeklogo.com_.png"
             />
@@ -47,7 +47,7 @@ const SectionTwo = () => {
           <div>
             {" "}
             <img
-              alt="nature"
+              alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               className="w-[109px] h-[101px] xs:ml-[150px] xs:mt-[20px]"
               src="/imges/maple-bear-logo.png"
             />
@@ -62,7 +62,7 @@ const SectionTwo = () => {
           <div>
             {" "}
             <img
-              alt="nature"
+              alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               className="w-[103px] h-[101px] xs:ml-[150px] xs:mt-[20px]"
               src="/imges/lancer-logo.png "
             />
@@ -77,7 +77,7 @@ const SectionTwo = () => {
           <div>
             {" "}
             <img
-              alt="nature"
+              alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               className="w-[186px] h-[101px] xs:ml-[150px] xs:mt-[20px]"
               src="/imges/gd-goenka-school.png "
             />

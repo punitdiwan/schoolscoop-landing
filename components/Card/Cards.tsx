@@ -16,7 +16,7 @@ const Cards = () => {
     
     <CardBody className="overflow-visible py-2">
       <Image
-        alt="Card background"
+        alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
         className="object-cover rounded-xl"
         src="/imges/media-article-150x150.png"
         width={150}
