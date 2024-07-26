@@ -6,7 +6,7 @@ import {
   CardFooter,
   Divider,
   Link,
-  Image,
+  Image
 } from "@nextui-org/react";
 import CardsNine from "../cardnine/CardsNine";
 import { CampusManagement } from "../Data/CardNineData";
@@ -19,11 +19,9 @@ import { TransportManagement } from "../Data/Transportdata";
 import { TimeManagement } from "../Data/Timedata";
 import { SubjectManagement } from "../Data/Subjectdata";
 import { AttendanceManagement } from "../Data/Attendancedata";
-import {StudentPromotion} from "../Data/Studentpromotiondata"
+import { StudentPromotion } from "../Data/Studentpromotiondata";
 import { Typography } from "@material-tailwind/react";
 import { IoBookOutline } from "react-icons/io5";
-
-
 
 const SectionNine = () => {
   return (
@@ -32,14 +30,19 @@ const SectionNine = () => {
         <div className="md:flex">
           <div className="">
             <div>
-            <Typography
-          as="a"
-          href="#"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-4xl "
-        >
-         <div className="flex"><div> EduSparsh </div><div><IoBookOutline  className="mt-1 ml-2" /></div></div>
-        </Typography>
+              <Typography
+                as="a"
+                href="#"
+                variant="h6"
+                className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-4xl "
+              >
+                <div className="flex">
+                  <div> EduSparsh </div>
+                  <div>
+                    <IoBookOutline className="mt-1 ml-2" />
+                  </div>
+                </div>
+              </Typography>
             </div>
             <div className="mt-[50px]">
               <h2 className="text-[#999999] ">
@@ -53,6 +56,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/telephone.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -66,6 +70,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -82,6 +87,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/telephone.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -95,6 +101,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -111,6 +118,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/telephone.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -124,6 +132,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -140,6 +149,7 @@ const SectionNine = () => {
                 <div>
                   {" "}
                   <img
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] ml-4 mt-1"
                   />
@@ -177,7 +187,6 @@ const SectionNine = () => {
             <div>
               <CardsNine data={TimeManagement} />
             </div>
-        
           </div>
         </div>
       </div>

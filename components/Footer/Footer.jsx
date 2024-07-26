@@ -1,32 +1,32 @@
-
-
 import { Typography } from "@material-tailwind/react";
- 
-const SITEMAP = [
-  {
-    title: "Company",
-    links: ["About Us"],
-  },
-  {
-    title: "Help Center",
-    links: [ "Contact Us"],
-  },
-  {
-    title: "Resources",
-    links: ["Blog"],
-  },
+import Link from "next/link";
 
-];
- 
+// const SITEMAP = [
+//   {
+//     title: "Company",
+//     links: ["About Us"],
+//   },
+//   {
+//     title: "Help Center",
+//     links: [ "Contact Us"],
+//   },
+//   {
+//     title: "Resources",
+//     links: ["Blog"],
+//   },
+
+// ];
+
 const currentYear = new Date().getFullYear();
 
-import React from 'react'
+import React from "react";
+import { FaRegCopyright } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <>
-    <footer className="relative w-full">
-      <div className="mx-auto w-full max-w-7xl px-8">
+      <footer className="mainfooter">
+        {/* <div className="mx-auto w-full max-w-7xl px-8">
         <div className="mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className="w-full">
@@ -104,11 +104,57 @@ const Footer = () => {
             </Typography>
           </div>
         </div>
-      </div>
-    </footer>
-    
-    </>
-  )
-}
+      </div> */}
+        <div className="footerfirst mx-auto justify-center ">
+          <div  className="footerdiv  w-[150px]">
+            <h2>Home </h2>
+            <Link className="hover:text-white" href="/">About eduspash</Link>
+            <Link className="hover:text-white" href="/">why edusparsh</Link>
+            <Link className="hover:text-white" href="/">About company</Link>
+            <Link className="hover:text-white" href="/">Benifit to you</Link>
+            <Link className="hover:text-white" href="/">our apporoach</Link>
+          </div>
+          <div className="footerdiv w-[230px]">
+            <h2>Modules </h2>
+            <Link className="hover:text-white" href="/modules/student_management" >Students management</Link>
+            <Link className="hover:text-white" href="/modules/hr_management" >Administration & HR management</Link>
+            <Link className="hover:text-white" href="/modules/fee_management" >fees management</Link>
+            <Link className="hover:text-white" href="/modules/exam_management" >exam management</Link>
+            <Link className="hover:text-white" href="/modules/transport_management" >transportation management</Link>
+          </div>
+          <div className="footerdiv w-[170px]">
+            <h2>SUCCESS STORIES </h2>
+            <Link className="hover:text-white" href="/">Segments</Link>
+            <Link className="hover:text-white" href="/">Our Clients</Link>
+            <Link className="hover:text-white" href="/">Testimonial</Link>
+          </div>
+          <div className="footerdiv w-[230px]">
+            <h2>help & support </h2>
+            <Link className="hover:text-white" href="/help_and_support/help_student_support">For parets & Students</Link>
+            <Link className="hover:text-white" href="/help_and_support/help_school">for school Staff & Administrators</Link>
 
-export default Footer
+          </div>
+          <div className="footerdiv w-[150px]"> 
+            <h2>Resources </h2>
+            <Link className="hover:text-white" href="/blog">Blog</Link>
+            <Link className="hover:text-white" href="/"> presentation</Link>
+            <Link className="hover:text-white" href="/"> case study</Link>
+            <Link className="hover:text-white" href="/"> brochures</Link>
+          </div>
+          <div className=" footerdiv w-[200px]">
+            <h2>Contact us </h2>
+            <p>House # 36, T - Ward , Bairagarh, Bhopal, MP, India 462030</p>
+            <Link href="/contactus" className="bg-white px-1 py-1 text-gray-700 w-16 text-center  rounded-xl">Demo</Link>
+          </div>
+        </div>
+        <div className="border-white border-1 rounded-full w-[85%] my-6"></div>
+        <div className="flex flex-wrap justify-between w-[80%]">
+          <p className=" flex flex-row items-baseline gap-1 "> <FaRegCopyright className="text-sm -mb-2"/> Edusparsh 2024. All rights reserved</p>
+          <p>Terms of use | Privicy Policy</p>
+        </div>
+      </footer>
+    </>
+  );
+};
+
+export default Footer;

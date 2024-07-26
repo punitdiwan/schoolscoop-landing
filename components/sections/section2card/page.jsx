@@ -23,7 +23,7 @@ const Card2 = ({ title, value, description, imgsrc }) => {
       >
        <div className="flex justify-center p-3">
         <div>
-    <img src={imgsrc}/>
+    <img src={imgsrc} alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
         </div>
        </div>
       </CardHeader>

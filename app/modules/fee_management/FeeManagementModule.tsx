@@ -10,7 +10,7 @@ const FeeManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/fee_management/teaching-64x64.png" />
+                  <img src="/imges/fee_management/teaching-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -33,7 +33,7 @@ const FeeManagementModule = () => {
               <div className="grid grid-cols-2">
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/fee-64x64.png" />
+                    <img src="/imges/fee_management/fee-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -48,7 +48,7 @@ const FeeManagementModule = () => {
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/fee-schedule-64x64.png" />
+                    <img src="/imges/fee_management/fee-schedule-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -70,7 +70,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/invoice-1-64x64.png" />
+                    <img src="/imges/fee_management/invoice-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -88,7 +88,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/cheque-64x64.png" />
+                    <img src="/imges/fee_management/cheque-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -106,7 +106,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/ticket-64x64.png" />
+                    <img src="/imges/fee_management/ticket-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -124,7 +124,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/card-machine-64x64.png" />
+                    <img src="/imges/fee_management/card-machine-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -145,7 +145,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/pay-per-click-64x64.png" />
+                    <img src="/imges/fee_management/pay-per-click-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -164,7 +164,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/money-64x64.png" />
+                    <img src="/imges/fee_management/money-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -182,7 +182,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/big-data-64x64.png" />
+                    <img src="/imges/fee_management/big-data-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -200,7 +200,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/refund-64x64.png" />
+                    <img src="/imges/fee_management/refund-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -227,7 +227,7 @@ const FeeManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/fee_management/bank-64x64.png" />
+                  <img src="/imges/fee_management/bank-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -251,7 +251,7 @@ const FeeManagementModule = () => {
               <div className="grid grid-cols-2">
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/online-64x64.png" />
+                    <img src="/imges/fee_management/online-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -266,7 +266,7 @@ const FeeManagementModule = () => {
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/salary-64x64.png" />
+                    <img src="/imges/fee_management/salary-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -288,7 +288,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/filter-64x64.png" />
+                    <img src="/imges/fee_management/filter-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -306,7 +306,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/online-store-64x64.png" />
+                    <img src="/imges/fee_management/online-store-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -326,7 +326,7 @@ const FeeManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/fee_management/stats-64x64.png" />
+                    <img src="/imges/fee_management/stats-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}

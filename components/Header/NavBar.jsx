@@ -1,3 +1,4 @@
+"user client"
 import React from "react";
 import {
   Navbar,
@@ -10,12 +11,12 @@ import {
   Menu,
   MenuHandler,
   MenuList,
-  MenuItem,
+  MenuItem
 } from "@material-tailwind/react";
 import {
   ChevronDownIcon,
   Bars3Icon,
-  XMarkIcon,
+  XMarkIcon
 } from "@heroicons/react/24/outline";
 import {
   Bars4Icon,
@@ -26,53 +27,50 @@ import {
   SquaresPlusIcon,
   SunIcon,
   TagIcon,
-  UserGroupIcon,
-  
+  UserGroupIcon
 } from "@heroicons/react/24/solid";
 import NavListMenu from "./NavLIstMenu";
 import { IoBookOutline } from "react-icons/io5";
-import { PiStudentLight } from "react-icons/pi";
+import { PiGithubLogoFill, PiPresentationFill, PiStudentLight } from "react-icons/pi";
 import { MdManageAccounts } from "react-icons/md";
 import { TbMoneybag } from "react-icons/tb";
 import { IoMdPaper } from "react-icons/io";
-import { FaBusAlt } from "react-icons/fa";
+import { FaBookReader, FaBusAlt } from "react-icons/fa";
 import { RiParentLine } from "react-icons/ri";
 import { GrUserWorker } from "react-icons/gr";
+import { VscBook } from "react-icons/vsc";
 
 const Modules = [
-  
   {
     title: "Student Management",
     description: "Find the perfect solution for your needs.",
     icon: PiStudentLight,
-    link:`/modules/student_management`
+    link: `/modules/student_management`
   },
   {
     title: "Administration & HR Management",
     description: "Find the perfect solution for your needs.",
     icon: MdManageAccounts,
-    link:`/modules/hr_management`
+    link: `/modules/hr_management`
   },
   {
     title: "Fees Management",
     description: "Learn how we can help you achieve your goals.",
     icon: TbMoneybag,
-    link:`/modules/fee_management`
+    link: `/modules/fee_management`
   },
   {
     title: "Exam Management",
     description: "Reach out to us for assistance or inquiries",
     icon: IoMdPaper,
-    link:`/modules/exam_management`
+    link: `/modules/exam_management`
   },
   {
     title: "Transportation Management",
     description: "Find the perfect solution for your needs.",
     icon: FaBusAlt,
-    link:`/modules/transport_management`
-  },
-
-
+    link: `/modules/transport_management`
+  }
 ];
 
 const Support = [
@@ -80,21 +78,47 @@ const Support = [
     title: "For Parents & Students",
     description: "Find the perfect solution for your needs.",
     icon: RiParentLine,
-    link:`/help_and_support/help_student_support`
+    link: `/help_and_support/help_student_support`
   },
   {
     title: "For School Staff & Administrators",
     description: "Meet and learn about our dedication",
     icon: GrUserWorker,
-    link:`/help_and_support/help_school`
+    link: `/help_and_support/help_school`
+  }
+];
+
+const Blogdata = [
+  {
+    title: "BLOG",
+    description: "Find the perfect solution for your needs.",
+    icon: PiGithubLogoFill,
+    link:`/blog`
+  },
+  {
+    title: "PRESENTATION",
+    description: "Meet and learn about our dedication",
+    icon: PiPresentationFill ,
+    link:`/blog`
+
+  },
+  {
+    title: "CASE STUDY",
+    description: "Find the perfect solution for your needs.",
+    icon: FaBookReader,
+    link:`/blog`
+
+  },
+  {
+    title: "BROCHURES",
+    description: "Meet and learn about our dedication",
+    icon: VscBook,
+    link:`/blog`
+
   },
 ];
 
-
-
-
-
-const NavList =() => {
+const NavList = () => {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 md:text-sm">
       <Typography
@@ -104,10 +128,12 @@ const NavList =() => {
         color="blue-gray"
         className="font-medium"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4 text-[#2c5aa0] text-[15px]  font-bold hover:text-[#ffb000]">HOME</ListItem>
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-[#2c5aa0] text-[15px]  font-bold hover:text-[#ffb000]">
+          HOME
+        </ListItem>
       </Typography>
 
-      <NavListMenu  data={Modules} moduleName="MODULES"/>
+      <NavListMenu data={Modules} moduleName="MODULES" />
 
       <Typography
         as="a"
@@ -120,9 +146,10 @@ const NavList =() => {
           SUCCESS STORIES
         </ListItem>
       </Typography>
-      <NavListMenu  data={Support} moduleName="HELP & SUPPORT"/>
+      <NavListMenu data={Support} moduleName="HELP & SUPPORT" />
 
-      <Typography
+      <NavListMenu data={Blogdata} moduleName="RESOURCES" />
+      {/* <Typography
         as="a"
         href="/blog"
         variant="small"
@@ -132,7 +159,7 @@ const NavList =() => {
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-[#2c5aa0] text-[15px]  font-bold hover:text-[#ffb000]">
           BLOGS
         </ListItem>
-      </Typography>
+      </Typography> */}
       <Typography
         as="a"
         href="/contactus"
@@ -144,78 +171,80 @@ const NavList =() => {
           CONTACT US
         </ListItem>
       </Typography>
-
-  
     </List>
   );
-}
-
-
-
-
+};
 
 const NavBar = () => {
   const [openNav, setOpenNav] = React.useState(false);
 
-
-
   return (
-    <div>    <Navbar className="mx-auto max-w-screen-2xl px-6 py-6">
-      <div className="flex items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-3xl "
-        >
-         <div className="flex"><div> EduSparsh </div><div><IoBookOutline  className="mt-1 ml-2" /></div></div>
-        </Typography>
-        <div className="hidden lg:block">
+    <div>
+      {" "}
+      <Navbar className="mx-auto max-w-screen-2xl px-6 py-6">
+        <div className="flex items-center justify-between text-blue-gray-900">
+          <Typography
+            as="a"
+            href="#"
+            variant="h6"
+            className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-3xl "
+          >
+            <div className="flex">
+              <div> EduSparsh </div>
+              <div>
+                <IoBookOutline className="mt-1 ml-2" />
+              </div>
+            </div>
+          </Typography>
+          <div className="hidden lg:block">
+            <NavList />
+          </div>
+          <div className="hidden gap-1 lg:flex">
+            <Button
+              variant="outlined"
+              size="sm"
+              className="rounded-full w-[6rem]"
+            >
+              Log In
+            </Button>
+            <Button
+              variant="outlined"
+              size="sm"
+              className="rounded-full w-[6rem]  "
+            >
+              Sign In
+            </Button>
+          </div>
+          <IconButton
+            variant="text"
+            color="blue-gray"
+            className="lg:hidden"
+            onClick={() => setOpenNav(!openNav)}
+          >
+            {openNav ? (
+              <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            ) : (
+              <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+            )}
+          </IconButton>
+        </div>
+        <Collapse open={openNav}>
           <NavList />
-        </div>
-        <div className="hidden gap-1 lg:flex">
-          <Button variant="outlined" size="sm" className="rounded-full w-[6rem]" >
-            Log In
-          </Button>
-          <Button variant="outlined" size="sm" className="rounded-full w-[6rem]  ">
-            Sign In
-          </Button>
-        </div>
-        <IconButton
-          variant="text"
-          color="blue-gray"
-          className="lg:hidden"
-          onClick={() => setOpenNav(!openNav)}
-        >
-          {openNav ? (
-            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
-          ) : (
-            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
-          )}
-        </IconButton>
-      </div>
-      <Collapse open={openNav}>
-        <NavList />
-        <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
-            Log In
-          </Button>
-          <Button variant="gradient" size="sm" fullWidth>
-            Sign In
-          </Button>
-        </div>
-      </Collapse>
-    </Navbar></div>
+          <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
+            <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
+              Log In
+            </Button>
+            <Button variant="gradient" size="sm" fullWidth>
+              Sign In
+            </Button>
+          </div>
+        </Collapse>
+      </Navbar>
+    </div>
   );
 };
 
 export default NavBar;
-
-
-
-
-
-
 
 // import React from "react";
 // import {
@@ -236,8 +265,6 @@ export default NavBar;
 // const NavBar = () => {
 //   const [openNav, setOpenNav] = React.useState(false);
 
-
-
 //   const navList = (
 //     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
 //       <Typography
@@ -256,14 +283,13 @@ export default NavBar;
 //         </MenuHandler>
 //         <MenuList>
 //           <MenuItem>Student Management</MenuItem>
-//           <MenuItem>Employee Management</MenuItem>         
+//           <MenuItem>Employee Management</MenuItem>
 //           <MenuItem>Administration & HR Management</MenuItem>
 //           <MenuItem>Fees Management</MenuItem>
 //           <MenuItem>Exam Management </MenuItem>
 //           <MenuItem>Fees Management</MenuItem>
 //           <MenuItem>Transportation Management</MenuItem>
 //           <MenuItem>Attendance Management</MenuItem>
-
 
 //         </MenuList>
 //       </Menu>
@@ -316,7 +342,7 @@ export default NavBar;
 //               >
 //                 <span>Request Free Demo</span>
 //               </Button>
-              
+
 //             </div>
 //             <IconButton
 //               variant="text"
@@ -374,5 +400,3 @@ export default NavBar;
 // };
 
 // export default NavBar;
-
-

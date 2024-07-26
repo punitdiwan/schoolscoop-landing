@@ -5,7 +5,7 @@ import {
   Typography,
   Button,
   IconButton,
-  Card,
+  Card
 } from "@material-tailwind/react";
 
 const TopHeader = () => {
@@ -14,11 +14,13 @@ const TopHeader = () => {
       <div
         className="grid text-[#808080]
           xs:p-2
-          md:grid-cols-3  md:mb-[1px]  md:p-[10px] " >
+          md:grid-cols-3  md:mb-[1px]  md:p-[10px] "
+      >
         <div className="flex">
           <div className="flex">
             <div>
               <img
+                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/telephone.png"
                 className="sm:w-[16px] sm:h-[16px] mt-1 mr-2  cursor-pointer"
               />
@@ -30,14 +32,12 @@ const TopHeader = () => {
           </div>
           <div className="flex ml-4">
             <div>
-             
-              <img
+              <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/mail-black-envelope-symbol.png"
                 className="sm:w-[16px] sm:h-[16px] mt-1 mr-2  cursor-pointer"
               />
             </div>
             <div>
-              
               <h6>info@maitretech.com</h6>
             </div>
           </div>
@@ -46,7 +46,7 @@ const TopHeader = () => {
         <div className="flex">
           <div className="flex xs:ml-[70px]">
             <div>
-              <img
+              <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/android-logo.png"
                 className="sm:w-[16px] sm:h-[16px] mt-1 mr-2 cursor-pointer"
               />
@@ -59,7 +59,7 @@ const TopHeader = () => {
 
           <div className="flex ml-4 xs:hidden">
             <div>
-              <img
+              <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/apple.png"
                 className="sm:w-[16px] sm:h-[16px] mt-1 mr-2 sm:hidden md:block cursor-pointer"
               />

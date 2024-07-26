@@ -38,14 +38,14 @@ const SectionOne = () => {
             <div >
               {" "}
               <div className="mb-7 mt-4">
-                <img src="/imges/modules.png" className="" />
+                <img src="/imges/modules.png" className="" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 <h5 className="text-[#999999] ">45+</h5>
                 <h5 className="text-[#999999] ">Module</h5>
               </div>
             </div>
             <div>
               <div className="mb-4">
-                <img  
+                <img   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/school.png"
                   className="md:w-[64px] md:h-[66px]   "
                 />
@@ -55,7 +55,7 @@ const SectionOne = () => {
             </div>
             <div>
               <div>
-                <img
+                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/reading.png"
                   className="md:w-[60px] md:h-[60px] mt-3 "
                 />
@@ -65,7 +65,7 @@ const SectionOne = () => {
             </div>
             <div>
               <div>
-                <img
+                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/secure-data-60x60.png"
                   className="md:w-[60px] md:h-[60px] mt-3"
                 />{" "}
@@ -76,7 +76,7 @@ const SectionOne = () => {
             <div>
               <div>
                 {" "}
-                <img
+                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/management-60x60.png"
                   className="md:w-[64px] md:h-[64px]  "
                 />
@@ -87,7 +87,7 @@ const SectionOne = () => {
             <div>
               {" "}
               <div>
-                <img
+                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/competition-60x60.png"
                   className="md:w-[60px] md:h-[60px] mt-1 "
                 />
@@ -109,7 +109,7 @@ const SectionOne = () => {
         </div>
 
         <div className="xs:mt-[-720px]">
-          <img
+          <img 
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             className="w-[500px] h-[397px]  "
             src="/imges/edumarshal-school-erp.png "

@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import { MdCancel } from "react-icons/md";
 import {
@@ -26,7 +27,7 @@ const WhatsappForm = () => {
        xs:top-[650px] xs:right-[1px] xs:fixed xs:z-10
        md:top-[480px] md:right-[1px] md:fixed md:z-10"
       >
-        <img
+        <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
           src="/imges/IMessage_logo.svg.png"
           className="w-[50px] cursor-pointer "
           onClick={handleImageClick}

@@ -39,24 +39,24 @@ const FeatureBlog = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col items-center lg:flex-row mt-6 w-[90%]">
-          <img
+        <div className="flex flex-col lg:flex-row mt-6 w-[90%]">
+          {/* <img
             src="/imges/student_parentsupport/edumarshal-support.jpg"
-            className="w-[90%] mx-auto h-96 lg:w-[45%] lg:h-[500px] "
+            className="w-[90%] mx-auto h-96 lg:w-[55%] lg:h-[500px] items-center"
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-          />
-          <div className="flex flex-col gap-3 w-[45%]">
-            <div className="text-black mx-auto flex flex-col text-center">
+          /> */}
+          <div className="flex flex-col gap-3 w-[40%] mx-auto">
+            {/* <div className="text-black mx-auto flex flex-col text-center">
               <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>
               <p className=" ">
                 Find the latest Blogs news from EduSparsh. See related education
                 and technology articles, photos, podcasts and videos.
               </p>
-            </div>
+            </div> */}
 
             <div className="w-[100%]  flex flex-row border bg-gray-200  border-gray-500 px-2 rounded-xl mx-auto mt-4">
               <input
-                className=" rounded w-[100%] py-4 bg-blue-gray-100 mx-1 pl-5 my-1"
+                className=" rounded w-[100%] py-3 bg-blue-gray-100 mx-1 pl-5 my-1"
                 type="text"
                 placeholder="Search..."
               />
@@ -66,30 +66,43 @@ const FeatureBlog = () => {
             </div>
           </div>
         </div>
-
-        <div className="p-12 w-[70%]">
-          <div className="flex flex-wrap gap-5 w-[95%] mx-auto">
-            {data &&
-              cardsToShow.map((card: any, index: any) => (
-                <div key={index}>
-                  <Link
-                    href={`/blog/${card.blog_title.replace(/ /g, "_")}`}
-                    key={card.id}
-                  >
-                    <Cards
-                      key={card.id} // Use the "id" as the key for each mapped component
-                      imageUrl={card?.blog_image?.data?.full_url}
-                      title={card?.blog_title}
-                      description={""}
-                      date={card?.modified_on}
-                      // description={card?.blog_message
-                      //   .split(" ")
-                      //   .slice(0, 10)
-                      //   .join(" ")}
-                    />
-                  </Link>
-                </div>
-              ))}
+        <div className="p-12 ">
+          <div className=" flex flex-col lg:flex-row gap-2  mx-auto">
+            <div className="flex flex-col gap-2   mx-auto w-[70%]  h-auto">
+              {data &&
+                cardsToShow.map((card: any, index: any) => (
+                  <div key={index}>
+                    <Link
+                      href={`/blog/${card.blog_title
+                        .replace(/ /g, "-")
+                        .toLowerCase()}`}
+                      key={card.id}
+                    >
+                      <Cards
+                        key={card.id} // Use the "id" as the key for each mapped component
+                        imageUrl={card?.blog_image?.data?.full_url}
+                        title={card?.blog_title}
+                        description={""}
+                        date={card?.modified_on}
+                      />
+                    </Link>
+                  </div>
+                ))}
+            </div>
+            {/* <div className="flex flex-col justify-start  bg-gray-500 w-[95%] lg:w-[35%] items-center mx-auto">
+              <ul>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+                <li>list</li>
+              </ul>
+            </div> */}
           </div>
           <div className="mt-4">
             <Pagination

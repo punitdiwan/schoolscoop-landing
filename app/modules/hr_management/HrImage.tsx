@@ -5,7 +5,7 @@ const HrImage = () => {
     <>
           <div>
         <div className=" relative text-center text-white">
-          <img src="/imges/hr_management/school-administration-hr-management.jpg" className="xs:h-[650px]" />
+          <img src="/imges/hr_management/school-administration-hr-management.jpg" className="xs:h-[650px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
           <div className="absolute 
           xs:top-[30%] xs:left-[5%]
           md:top-[30%] md:left-[1%] ">

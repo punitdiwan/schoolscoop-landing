@@ -24,17 +24,18 @@ const SectionThree = () => {
 
           <div className=" xs:text-center ">
             <h1 className=" text-[#ffb000] text-xl font-bold ml-12 ">STUDENTS</h1>
-            <img src="/imges/1.png" className="w-[189px] h-[198px] xs:ml-[60px]" />
+            <img src="/imges/1.png" className="w-[189px] h-[198px] xs:ml-[60px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
             
 
             <img
               // src="/imges/image11158.png"
+              alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                src="https://img.freepik.com/premium-photo/young-indian-college-boy-holding-backpack-books-giving-happy-expression_54391-7219.jpg?w=740"
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
             <div>
               {" "}
-              <img
+              <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/line.png"
                 className="w-[172px] h-[1px] ml-[190px] mt-[-90px] xs:hidden"
               />
@@ -43,8 +44,8 @@ const SectionThree = () => {
 
           <div className=" xs:text-center xs:mt-6">
             <h1 className=" text-[#ffb000] text-xl font-bold ml-12">PARENTS</h1>
-            <img src="/imges/2.png" className="w-[189px] h-[198px] xs:ml-[60px]"  />
-            <img
+            <img src="/imges/2.png" className="w-[189px] h-[198px] xs:ml-[60px]"  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+            <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               // src="/imges/image11588.png"
               src="https://img.freepik.com/free-photo/family-looking-together-laptop-home_23-2149126695.jpg?t=st=1710932410~exp=1710936010~hmac=d351cf6248ad473920b915640972bd0357da58a86dbe4d4f71957dda40b5565d&w=740"
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
@@ -52,7 +53,7 @@ const SectionThree = () => {
 
             <div>
               {" "}
-              <img
+              <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/line.png"
                 className="w-[172px] h-[1px] ml-[190px] mt-[-90px] xs:hidden"
               />
@@ -61,8 +62,8 @@ const SectionThree = () => {
 
           <div className=" xs:text-center xs:mt-6">
             <h1 className=" text-[#ffb000] text-xl font-bold ml-12">TEACHERS</h1>
-            <img src="/imges/3.png" className="w-[189px] h-[198px] xs:ml-[60px]" />
-            <img
+            <img src="/imges/3.png" className="w-[189px] h-[198px] xs:ml-[60px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+            <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               // src="/imges/image11179-1.png"
               src="https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
@@ -70,7 +71,7 @@ const SectionThree = () => {
 
             <div>
               {" "}
-              <img
+              <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 src="/imges/line.png"
                 className="w-[172px] h-[1px] ml-[190px] mt-[-90px] xs:hidden"
               />
@@ -81,8 +82,8 @@ const SectionThree = () => {
             <h1 className=" text-[#ffb000] text-xl font-bold">
               DECISION MAKERS
             </h1>
-            <img src="/imges/4.png" className="w-[189px] h-[198px] xs:ml-[60px]" />
-            <img
+            <img src="/imges/4.png" className="w-[189px] h-[198px] xs:ml-[60px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+            <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               // src="/imges/image11577.png"
                src="https://tse1.mm.bing.net/th?id=OIP.9iw6nTVV3ARjQGaVNh9GBwHaEK&pid=Api&P=0&h=180"
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"

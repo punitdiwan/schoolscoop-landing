@@ -10,7 +10,7 @@ const ExamManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/exam_management/multi-school-management-64x64 (1).png" />
+                  <img src="/imges/exam_management/multi-school-management-64x64 (1).png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -32,7 +32,7 @@ const ExamManagementModule = () => {
               </div>
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/exam_management/role-based-access-64x64.png" />
+                  <img src="/imges/exam_management/role-based-access-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -65,7 +65,7 @@ const ExamManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/exam_management/classroom-management-1-64x64.png" />
+                  <img src="/imges/exam_management/classroom-management-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -89,7 +89,7 @@ const ExamManagementModule = () => {
               <div className="grid grid-cols-2">
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/connection-64x64.png" />
+                    <img src="/imges/exam_management/connection-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -104,7 +104,7 @@ const ExamManagementModule = () => {
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/filter-64x64.png" />
+                    <img src="/imges/exam_management/filter-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -125,7 +125,7 @@ const ExamManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/auto-timetable-creator-64x64.png" />
+                    <img src="/imges/exam_management/auto-timetable-creator-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -143,7 +143,7 @@ const ExamManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/attendance-management-1-64x64.png" />
+                    <img src="/imges/exam_management/attendance-management-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -161,7 +161,7 @@ const ExamManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/book-64x64.png" />
+                    <img src="/imges/exam_management/book-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -179,7 +179,7 @@ const ExamManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/classroom-performance-reports-1-64x64.png" />
+                    <img src="/imges/exam_management/classroom-performance-reports-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -199,7 +199,7 @@ const ExamManagementModule = () => {
           <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/exam_management/answer-64x64.png" />
+                  <img src="/imges/exam_management/answer-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -227,7 +227,7 @@ Edumarshal school ERP also auto-generates final assessment reports, report cards
               <div className="grid grid-cols-2">
               <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/connection-64x64.png" />
+                    <img src="/imges/exam_management/connection-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -243,7 +243,7 @@ Edumarshal school ERP also auto-generates final assessment reports, report cards
 
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/grading-system-support-1-64x64.png" />
+                    <img src="/imges/exam_management/grading-system-support-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -258,7 +258,7 @@ Edumarshal school ERP also auto-generates final assessment reports, report cards
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/evaluation-64x64.png" />
+                    <img src="/imges/exam_management/evaluation-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -273,7 +273,7 @@ Edumarshal school ERP also auto-generates final assessment reports, report cards
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/exam_management/schedule-64x64.png" />
+                    <img src="/imges/exam_management/schedule-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}

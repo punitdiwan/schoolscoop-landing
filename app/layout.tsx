@@ -10,6 +10,12 @@ import { Metadata } from 'next';
 const inter = Inter({ subsets: ['latin'] })
 
 
+
+// export async function generateMetadata({ params }) {
+//   return {
+//     title: "first",
+//   }
+// }
 export default function RootLayout({
   children,
 }: {
@@ -19,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Best school software in Madhya Pradesh</title>
-        <meta name='description' content='Edusparsh provides the best school management in mp that helps children, parents, teacher to stay connected.' />
+        <meta content='Edusparsh provides the best school management in mp that helps children, parents, teacher to stay connected.' />
       </head>
         <body > <ThemeProvider> <NextUIProvider>{children}</NextUIProvider></ThemeProvider></body>
     </html>
