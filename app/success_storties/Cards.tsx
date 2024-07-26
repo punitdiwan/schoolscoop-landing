@@ -22,7 +22,7 @@ const VideoWithCard: React.FC<VideoWithCardProps> = ({
 
       <div className="md:max-w-[22rem] xs:max-w-[22rem] xs:mt-5 xs:ml-5  rounded-md border-2 border-[#e7dddd]">
       <div  className="">
-        <img src={imageUrl} className=" w-full" />
+        <img src={imageUrl} className=" w-full" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
       </div>
       <div>
         <div>
@@ -33,17 +33,17 @@ const VideoWithCard: React.FC<VideoWithCardProps> = ({
           <div className="grid grid-cols-3 gap-5 mt-8 p-5">
             <div>
               {" "}
-              <img src="/imges/training.png" className="w-[50px] h-[50px] fill-[#999999]" />
+              <img src="/imges/training.png" className="w-[50px] h-[50px] fill-[#999999]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               <div className="text-[14px] mt-3">{students}</div>
               <div className="text-[14px] mt-1">Students</div>
             </div>
             <div>
-              <img src="/imges/teacher-1.png" className="w-[50px] h-[50px] fill-[#999999]" />
+              <img src="/imges/teacher-1.png" className="w-[50px] h-[50px] fill-[#999999]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               <div className="text-[14px] mt-3">{teachers}</div>
               <div className="text-[14px] mt-1">Teachers</div>
             </div>
             <div>
-              <img src="/imges/training.png" className="w-[50px] h-[50px] fill-[#aa1a1a]" />
+              <img src="/imges/training.png" className="w-[50px] h-[50px] fill-[#aa1a1a]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               <div className="text-[14px] mt-3">{classes}</div>
               <div className="text-[14px] mt-1">Daily Classes</div>
             </div>

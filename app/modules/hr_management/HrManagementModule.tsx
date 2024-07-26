@@ -10,7 +10,7 @@ const HrManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/organization-64x64.png" />
+                  <img src="/imges/hr_management/organization-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -32,7 +32,7 @@ const HrManagementModule = () => {
 
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/collaboration-64x64.png" />
+                  <img src="/imges/hr_management/collaboration-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -61,7 +61,7 @@ const HrManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/group-1-64x64.png" />
+                  <img src="/imges/hr_management/group-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -86,7 +86,7 @@ const HrManagementModule = () => {
               <div className="grid grid-cols-2">
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/hr_management/archive-64x64.png" />
+                    <img src="/imges/hr_management/archive-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -102,7 +102,7 @@ const HrManagementModule = () => {
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/hr_management/salary-64x64.png" />
+                    <img src="/imges/hr_management/salary-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -126,7 +126,7 @@ const HrManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/hr_management/log-in-64x64.png" />
+                    <img src="/imges/hr_management/log-in-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -144,7 +144,7 @@ const HrManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/hr_management/food-64x64.png" />
+                    <img src="/imges/hr_management/food-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -162,7 +162,7 @@ const HrManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/hr_management/planning-64x64.png" />
+                    <img src="/imges/hr_management/planning-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -181,7 +181,7 @@ const HrManagementModule = () => {
                 {" "}
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/hr_management/classroom-performance-reports-1-64x64.png" />
+                    <img src="/imges/hr_management/classroom-performance-reports-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -207,7 +207,7 @@ const HrManagementModule = () => {
           <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/approved-64x64.png" />
+                  <img src="/imges/hr_management/approved-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -230,7 +230,7 @@ const HrManagementModule = () => {
 
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/test-1-64x64.png" />
+                  <img src="/imges/hr_management/test-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -260,7 +260,7 @@ const HrManagementModule = () => {
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/calendar-2-64x64.png" />
+                  <img src="/imges/hr_management/calendar-2-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -283,7 +283,7 @@ const HrManagementModule = () => {
 
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/hr_management/id-card-1-64x64.png" />
+                  <img src="/imges/hr_management/id-card-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}

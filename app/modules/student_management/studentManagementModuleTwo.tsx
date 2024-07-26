@@ -9,7 +9,7 @@ const studentManagementModuleTwo = () => {
           <div className="grid md:grid-cols-2 gap-7 p-12 ">
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/archive-1-64x64.png" />
+                <img src="/imges/studentmanagement/archive-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -31,7 +31,7 @@ const studentManagementModuleTwo = () => {
             </div>
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/attendance-management-1-64x64.png" />
+                <img src="/imges/studentmanagement/attendance-management-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -62,7 +62,7 @@ const studentManagementModuleTwo = () => {
           <div className="grid md:grid-cols-2 gap-7 p-12 ">
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/encryption-64x64.png" />
+                <img src="/imges/studentmanagement/encryption-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -88,7 +88,7 @@ const studentManagementModuleTwo = () => {
 
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/record-64x64.png" />
+                <img src="/imges/studentmanagement/record-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -120,7 +120,7 @@ const studentManagementModuleTwo = () => {
           <div className="grid md:grid-cols-2 gap-7 p-12 ">
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/curriculum-64x64.png" />
+                <img src="/imges/studentmanagement/curriculum-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -143,7 +143,7 @@ const studentManagementModuleTwo = () => {
             </div>
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/elearning-64x64.png" />
+                <img src="/imges/studentmanagement/elearning-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}

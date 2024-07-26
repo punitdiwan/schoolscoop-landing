@@ -4,7 +4,7 @@ const SectionEight = () => {
   return (
     <>
       <div>
-        <div className="md:flex md:h-[300px]   bg-[#1d293a]">
+        <div className="md:flex    bg-[#1d293a]">
 
           <div className="grid
           xs:grid-cols-3 xs:p-5 xs:gap-4 xs:col-span-2
@@ -24,14 +24,14 @@ const SectionEight = () => {
             </div>
 
             <div className="mt-[30px] ml-4 ">
-              <img src="/imges/student-50x50.png" />
+              <img src="/imges/student-50x50.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               <h4 className="text-white text-base font-normal mt-3 ">
                 For Students & Parents
               </h4>
             </div>
 
             <div className="mt-[30px] ">
-              <img src="/imges/support-50x50.png" />
+              <img src="/imges/support-50x50.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               <h4 className="text-white text-base font-normal mt-3">
                 For School Staff
               </h4>

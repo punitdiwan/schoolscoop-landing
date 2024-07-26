@@ -5,7 +5,7 @@ const TransportImage = () => {
     <>
      <div>
         <div className=" relative text-center text-white">
-          <img src="/imges/transpot_management/school-bus-children.jpg" className="xs:h-[650px] md:w-[1380px]" />
+          <img src="/imges/transpot_management/school-bus-children.jpg" className="xs:h-[650px] md:w-[1380px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
           <div className="absolute 
           xs:top-[30%] xs:left-[5%]
           md:top-[10%] md:left-[1%] ">

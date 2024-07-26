@@ -32,6 +32,7 @@ const Address = () => {
                     <img
                       src="/imges/telephone.png"
                       className="w-[16px] h-[16px] mt-1"
+                      alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     />
                   </div>
                   <div>
@@ -47,6 +48,7 @@ const Address = () => {
                   <img
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] mt-1"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   />
                 </div>
                 <div>
@@ -65,6 +67,7 @@ const Address = () => {
                     <img
                       src="/imges/telephone.png"
                       className="w-[16px] h-[16px] mt-1"
+                      alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     />
                   </div>
                   <div>
@@ -80,6 +83,7 @@ const Address = () => {
                   <img
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] mt-1"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   />
                 </div>
                 <div>
@@ -98,6 +102,7 @@ const Address = () => {
                     <img
                       src="/imges/telephone.png"
                       className="w-[16px] h-[16px] mt-1"
+                      alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                     />
                   </div>
                   <div>
@@ -113,6 +118,7 @@ const Address = () => {
                   <img
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] mt-1"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   />
                 </div>
                 <div>
@@ -136,6 +142,7 @@ const Address = () => {
                   <img
                     src="/imges/mail-black-envelope-symbol.png"
                     className="w-[16px] h-[16px] mt-1"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   />
                 </div>
                 <div>

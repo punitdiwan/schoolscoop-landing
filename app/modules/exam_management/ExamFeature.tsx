@@ -14,7 +14,7 @@ const ExamFeature = () => {
         <div className="grid md:grid-cols-5 gap-7 p-12 ">
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/campus-management-system-223x177.png" />
+                <img src="/imges/studentmanagement/campus-management-system-223x177.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
               </div>
               <div>
                 {" "}
@@ -34,7 +34,7 @@ const ExamFeature = () => {
             </div>
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/school-finance-fees-management-213x177.png" />
+                <img src="/imges/studentmanagement/school-finance-fees-management-213x177.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -55,7 +55,7 @@ const ExamFeature = () => {
             </div>
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/school-administration-management-268x177.png" />
+                <img src="/imges/studentmanagement/school-administration-management-268x177.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
               </div>
               <div>
                 {" "}
@@ -75,7 +75,7 @@ const ExamFeature = () => {
             </div>
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/student-portal-230x177.png" />
+                <img src="/imges/studentmanagement/student-portal-230x177.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}
@@ -95,7 +95,7 @@ const ExamFeature = () => {
             </div>
             <div className="">
               <div className="flex justify-center">
-                <img src="/imges/studentmanagement/analytics-reports-schools-245x177.png" />
+                <img src="/imges/studentmanagement/analytics-reports-schools-245x177.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               </div>
               <div>
                 {" "}

@@ -9,7 +9,7 @@ const AdministratorImage = () => {
    <>
     <div>
         <div className=" relative text-center text-white">
-          <img src="/imges/student_parentsupport/edumarshal-support.jpg" className="xs:h-[450px]" />
+          <img src="/imges/student_parentsupport/edumarshal-support.jpg" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." className="xs:h-[450px]" />
           <div className="absolute 
           xs:top-[30%] xs:left-[5%]
           md:top-[30%] md:left-[25%] ">

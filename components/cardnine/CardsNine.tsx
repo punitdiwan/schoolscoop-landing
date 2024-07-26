@@ -27,7 +27,7 @@ interface CardProps {
             <div key={index} className="border-1 rounded-md border-[#999999] p-2">
             < >
               <p>
-                <Link href="`${item.link}`" className="text-[#99999rdBody>9] hover:text-[#ffb000]">
+                <Link href="#" className="text-[#99999rdBody>9] hover:text-[#ffb000]">
                   {item.title}
                 </Link>
               </p>

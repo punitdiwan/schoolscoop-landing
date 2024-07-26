@@ -7,7 +7,7 @@ const TransportModule = () => {
        <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">
                 <div className="flex justify-center">
-                  <img src="/imges/transpot_management/school-bus-64x64.png" />
+                  <img src="/imges/transpot_management/school-bus-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
                   {" "}
@@ -32,7 +32,7 @@ A key feature of the school management ERP module is the ability to track real-t
               <div className="grid grid-cols-2">
               <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/transpot_management/gps-64x64.png" />
+                    <img src="/imges/transpot_management/gps-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -48,7 +48,7 @@ A key feature of the school management ERP module is the ability to track real-t
 
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/transpot_management/location-64x64.png" />
+                    <img src="/imges/transpot_management/location-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -63,7 +63,7 @@ A key feature of the school management ERP module is the ability to track real-t
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/transpot_management/field-64x64.png" />
+                    <img src="/imges/transpot_management/field-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}
@@ -78,7 +78,7 @@ A key feature of the school management ERP module is the ability to track real-t
                 </div>
                 <div className="">
                   <div className="flex justify-center">
-                    <img src="/imges/transpot_management/ticket-1-64x64.png" />
+                    <img src="/imges/transpot_management/ticket-1-64x64.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                   </div>
                   <div>
                     {" "}

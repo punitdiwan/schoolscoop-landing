@@ -17,7 +17,7 @@ const Module= ({ data }) => {
     <div>
             <div className="flex">
               <div>
-                <img
+                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src={data.image}
                   className="w-[185px] h-[154px]"
                 />

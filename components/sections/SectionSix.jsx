@@ -30,7 +30,7 @@ const SectionSix = () => {
             <div className="grid grid-cols-1">
               <div>
                 <Card>
-                  <img src="/imges/edumarshal-school-erp-benefits-500x500.png" />
+                  <img src="/imges/edumarshal-school-erp-benefits-500x500.png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </Card>
               </div>
             </div>
