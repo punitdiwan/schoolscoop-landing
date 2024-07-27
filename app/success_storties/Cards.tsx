@@ -3,7 +3,7 @@ import {
   Card,
   CardHeader,
   CardBody,
-  Typography,
+  Typography
 } from "@material-tailwind/react";
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
 
@@ -17,33 +17,58 @@ interface VideoWithCardProps {
 }
 
 const VideoWithCard: React.FC<VideoWithCardProps> = ({
- imageUrl, name, school, students, teachers, classes }) => {
+  imageUrl,
+  name,
+  school,
+  students,
+  teachers,
+  classes
+}) => {
   return (
-
-      <div className="md:max-w-[22rem] xs:max-w-[22rem] xs:mt-5 xs:ml-5  rounded-md border-2 border-[#e7dddd]">
-      <div  className="">
-        <img src={imageUrl} className=" w-full" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+    <div className="md:max-w-[24rem] xs:max-w-[20rem] mx-auto xs:mt-5   rounded-md border-2 border-[#e7dddd]">
+      <div className="">
+        <img
+          src={imageUrl}
+          className=" w-full"
+          alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+        />
       </div>
       <div>
         <div>
-          <div className="text-center text-[18px] font-bold">{name}, Vice Principal</div>
-          <div className="text-center text-[18px] text-[#999999] font-bold">{school}</div>
+          <div className="text-center text-[18px] font-bold">
+            {name}, Vice Principal
+          </div>
+          <div className="text-center text-[18px] text-[#999999] font-bold">
+            {school}
+          </div>
         </div>
         <div>
           <div className="grid grid-cols-3 gap-5 mt-8 p-5">
             <div>
               {" "}
-              <img src="/imges/training.png" className="w-[50px] h-[50px] fill-[#999999]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+              <img
+                src="/imges/training.png"
+                className="w-[50px] h-[50px] fill-[#999999]"
+                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+              />
               <div className="text-[14px] mt-3">{students}</div>
               <div className="text-[14px] mt-1">Students</div>
             </div>
             <div>
-              <img src="/imges/teacher-1.png" className="w-[50px] h-[50px] fill-[#999999]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+              <img
+                src="/imges/teacher-1.png"
+                className="w-[50px] h-[50px] fill-[#999999]"
+                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+              />
               <div className="text-[14px] mt-3">{teachers}</div>
               <div className="text-[14px] mt-1">Teachers</div>
             </div>
             <div>
-              <img src="/imges/training.png" className="w-[50px] h-[50px] fill-[#aa1a1a]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+              <img
+                src="/imges/training.png"
+                className="w-[50px] h-[50px] fill-[#aa1a1a]"
+                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+              />
               <div className="text-[14px] mt-3">{classes}</div>
               <div className="text-[14px] mt-1">Daily Classes</div>
             </div>
@@ -52,12 +77,13 @@ const VideoWithCard: React.FC<VideoWithCardProps> = ({
       </div>
 
       <div className="flex justify-center mb-5">
-        <div><MdOutlineSlowMotionVideo /></div><div className="mt-[-4px]">View Video</div>
+        <div>
+          <MdOutlineSlowMotionVideo />
+        </div>
+        <div className="mt-[-4px]">View Video</div>
       </div>
     </div>
-
   );
-}
+};
 
 export default VideoWithCard;
-

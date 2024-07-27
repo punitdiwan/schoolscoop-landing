@@ -39,7 +39,7 @@ const SectionEight = () => {
           </div>
           
 
-          <div className="bg-[#848484] p-5">
+          {/* <div className="bg-[#848484] p-5">
             <h1 className="
              xs:text-[50px] xs:font-bold xs:text-white
             md:text-5xl md:font-extrabold md:text-white">
@@ -50,7 +50,7 @@ const SectionEight = () => {
             md:text-lg md:font-normal md:text-white mt-3">
               Learn More About the EduSparsh Reseller Program
             </h3>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

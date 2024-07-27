@@ -32,16 +32,17 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
 
   useEffect(() => {
     // Update filtered entries whenever data or params.view_blog changes
-    console.log("======>");
+    // console.log("======>");
     if (params.view_blog && data.length > 0) {
       const filtered = data.filter(
-        (entry) => entry.blog_title.replace(/ /g, "-").toLowerCase() === params.view_blog
+        (entry) =>
+          entry.blog_title.replace(/ /g, "-").toLowerCase() === params.view_blog
       );
       setFilteredEntries(filtered);
     }
   }, [params.view_blog, data]);
 
-  console.log("filteredEntries", filteredEntries);
+  // console.log("filteredEntries", filteredEntries);
 
   return (
     <>
@@ -103,13 +104,13 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
 
                 {filteredEntries.map((entry) => (
                   <div
-                    className="mx-auto mt-3 text-justify"
+                    className="mx-auto mt-3 text-justify w-[100%]"
                     dangerouslySetInnerHTML={{ __html: entry.blog_message }}
                   />
                 ))}
               </div>
             </div>
-
+            
             <Footer />
           </div>
         </div>

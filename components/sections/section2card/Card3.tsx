@@ -13,8 +13,7 @@ import {
  
  const Card3: React.FC<Card3Props> = ({ imageUrl, title, bgColor }) => {
    return (
-     <div >
-      <div className={`bg-gradient-to-r from-orange-100 to-orange-200 xs:w-[19rem]  h-[14rem] md:w-[15rem] flex justify-center rounded-md`}>
+      <div className={`bg-gradient-to-r from-orange-100 to-orange-200 card3    flex justify-center rounded-md`}>
        <div className="">
         <div className="flex justify-center">
         <img src={imageUrl} className="w-[10rem] h-[10rem] " alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
@@ -22,7 +21,6 @@ import {
          <h1 className="text-center mt-3 text-[#2c5aa0] font-bold">{title}</h1>
        </div>
      </div>
-      </div>
    );
  }
  
