@@ -5,7 +5,7 @@ import './globals.css'
 import { ThemeProvider } from "@material-tailwind/react";
 import {NextUIProvider} from "@nextui-org/react";
 import { Metadata } from 'next';
-
+import ScrollTop from '../components/Top'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,9 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Best school software in Madhya Pradesh</title>
-        <meta content='Edusparsh provides the best school management in mp that helps children, parents, teacher to stay connected.' />
+        <meta name='description' content='Edusparsh provides the best school management in mp that helps children, parents, teacher to stay connected. To transition to the digital world at your school, use this school mobile app.' />
       </head>
-        <body > <ThemeProvider> <NextUIProvider>{children}</NextUIProvider></ThemeProvider></body>
+        <body > <ThemeProvider> <NextUIProvider>{children} <ScrollTop/></NextUIProvider></ThemeProvider></body>
     </html>
   )
 }

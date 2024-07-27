@@ -65,3 +65,78 @@
     width: 90% !important;
    }
 }
+
+.homecard3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+.card3{
+    width: 300px;
+    height: 250px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.blogsearch{
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -25px;
+}
+.blogsearch input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.blogsearch button{
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:650px) {
+    .blogcard{
+        width: 100% !important;
+    }
+    .blogsearch{
+        width: 300px;
+    }
+}
+.scroll-to-top-button {
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top-button.visible {
+    opacity: 1;
+  }

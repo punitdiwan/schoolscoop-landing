@@ -10,11 +10,11 @@ import {
 import Link from "next/link";
 
 const Cards = ({ imageUrl, title, description, date }) => {
-  console.log("Date", date);
+  // console.log("Date", date);
   return (
     <>
       <div>
-        <Card className="mt-11    ">
+        <Card className="mt-11">
           {imageUrl ? (
             <CardHeader className="relative mt-3 ">
               <img
@@ -25,15 +25,15 @@ const Cards = ({ imageUrl, title, description, date }) => {
             </CardHeader>
           ) : null}
           <CardBody>
-            <Typography variant="h6" color="blue-gray" className="">
+            <Typography variant="h6" color="blue-gray" className="md:text-3xl">
               {title}
             </Typography>
-            <Typography variant="h6" color="blue-gray" className="">
+            <Typography variant="h6" color="blue-gray" className=" md:text-2xl mt-3">
               {/* {description} */}
               {date.slice(0, 10) + " | " + date.slice(11, 16)}
             </Typography>
           </CardBody>
-          <CardFooter className="pt-0">Read More</CardFooter>
+          <CardFooter className="pt-0 md:text-2xl">Read More</CardFooter>
         </Card>
       </div>
     </>
