@@ -37,7 +37,7 @@ const ContactInfo = () => {
         {
           method: "POST",
           body: JSON.stringify({
-            name: data.Fname + " "+data.Lname,
+            name: data.Fname + " " + data.Lname,
             email: data.email,
             number: data.phone,
             name_of_institute: data.instituten,
@@ -62,7 +62,6 @@ const ContactInfo = () => {
         NOS: "",
         instituteType: "pre"
       });
-      
     }
   };
   return (
@@ -95,9 +94,9 @@ const ContactInfo = () => {
                     variant="standard"
                     label="First Name"
                     size="lg"
-            value={data.Fname}
                     color="green"
                     crossOrigin={undefined}
+                    value={data.Fname}
                     onChange={(e) => handleChange(e)}
                   />
                 </div>
@@ -110,7 +109,7 @@ const ContactInfo = () => {
                     variant="standard"
                     label="Last Name"
                     size="lg"
-            value={data.Lname}
+                    value={data.Lname}
                     color="green"
                     onChange={(e) => handleChange(e)}
                     crossOrigin={undefined}
@@ -124,7 +123,7 @@ const ContactInfo = () => {
                     type="email"
                     variant="standard"
                     label="Email"
-            value={data.email}
+                    value={data.email}
                     size="lg"
                     color="green"
                     onChange={(e) => handleChange(e)}
@@ -138,7 +137,7 @@ const ContactInfo = () => {
                     required
                     type="number"
                     variant="standard"
-            value={data.phone}
+                    value={data.phone}
                     label="Phone"
                     pattern="[0-9]{10}"
                     color="green"
@@ -153,7 +152,7 @@ const ContactInfo = () => {
                     required
                     variant="standard"
                     label="Name Of Institute"
-            value={data.instituten}
+                    value={data.instituten}
                     size="lg"
                     color="green"
                     onChange={(e) => handleChange(e)}
@@ -167,7 +166,7 @@ const ContactInfo = () => {
                     required
                     variant="standard"
                     label="City"
-            value={data.city}
+                    value={data.city}
                     color="green"
                     size="lg"
                     onChange={(e) => handleChange(e)}
@@ -179,7 +178,7 @@ const ContactInfo = () => {
                   <Input
                     name="NOS"
                     required
-            value={data.NOS}
+                    value={data.NOS}
                     type="number"
                     variant="standard"
                     label="Number Of Students"
@@ -194,7 +193,7 @@ const ContactInfo = () => {
                     label="Institute Type"
                     orientation="horizontal"
                     isRequired
-            value={data.instituteType}
+                    value={data.instituteType}
                     name="instituteType"
                     onChange={(value) => handleChange(value)}
                   >
@@ -274,7 +273,6 @@ const ContactInfo = () => {
                   Submit
                 </Button>
               </div>
-              
             </form>
           </div>
         </div>

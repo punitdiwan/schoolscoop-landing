@@ -30,7 +30,7 @@ const Cards = ({ imageUrl, title, description, date }) => {
             </Typography>
             <Typography variant="h6" color="blue-gray" className=" md:text-2xl mt-3">
               {/* {description} */}
-              {date.slice(0, 10) + " | " + date.slice(11, 16)}
+              {date.slice(0, 10)}
             </Typography>
           </CardBody>
           <CardFooter className="pt-0 md:text-2xl">Read More</CardFooter>

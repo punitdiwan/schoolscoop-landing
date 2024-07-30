@@ -193,7 +193,7 @@ const Section2 = () => {
         <div className="grid md:grid-cols-2 gap-9">
           <Card2
             title="Title 1"
-            value="22+"
+            value="12+"
             description="Successful Years"
             imgsrc="ic_successful_years.svg"
           />

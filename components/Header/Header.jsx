@@ -10,7 +10,7 @@ import {
   Menu,
   MenuHandler,
   MenuList,
-  MenuItem,
+  MenuItem
 } from "@material-tailwind/react";
 import TopHeader from "./TopHeader";
 import { FaSchool } from "react-icons/fa6";
@@ -94,19 +94,18 @@ const Header = () => {
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
             <WhatsappForm />
 
-            <div
-              className="
-      xs:top-[250px] xs:right-[1px] xs:fixed
-      md:top-[210px] md:right-[1px] md:fixed"
-            >
-              <img src="/imges/Demo-Button-v.gif" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+            <div className="xs:top-[250px] xs:right-[1px] xs:fixed md:top-[210px] md:right-[1px] md:fixed">
+              <img
+                src="/imges/Demo-Button-v.gif"
+                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+              />
             </div>
 
             <div className="mx-auto p-2 ">
               <SectionOne />
-              <Section2/>
-              <Section2Two/>
-              <Section2one/>
+              <Section2 />
+              <Section2Two />
+              <Section2one />
 
               <SectionThree />
               <SectionTwo />

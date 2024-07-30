@@ -8,7 +8,7 @@ const ExamManagementModule = () => {
         <div className="">
           <div>
             <div className="grid md:grid-cols-2 gap-7 p-12 ">
-              <div className="">
+              <div className="w-[80%] mx-auto">
                 <div className="flex justify-center">
                   <img src="/imges/exam_management/multi-school-management-64x64 (1).png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
