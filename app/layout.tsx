@@ -27,6 +27,11 @@ export default function RootLayout({
           name="description"
           content="Edusparsh provides the best school management in mp that helps children, parents, teacher to stay connected. To transition to the digital world at your school, use this school mobile app."
         />
+        <link
+          rel="canonical"
+          href="https://www.edusparsh.com/"
+          key="canonical"
+        />
       </head>
       <body>
         {" "}
