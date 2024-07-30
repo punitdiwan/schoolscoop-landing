@@ -28,7 +28,7 @@ const page = () => {
 
             <div className="mx-auto p-2 ">
               <SupportImage />
-              <TutorialVideos />
+              {/* <TutorialVideos /> */}
               <RequestSupport />
               <SectionNine />
 

@@ -93,7 +93,7 @@ const SectionNine = () => {
                   />
                 </div>
                 <div>
-                  <h6 className="text-[#999999] ml-1">+91-989-354-0318</h6>
+                  <h6 className="text-[#999999] ml-1">+91-898-254-4673</h6>
                 </div>
               </div>
 

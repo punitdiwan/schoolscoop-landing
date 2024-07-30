@@ -85,9 +85,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
                             Written by <span>Edusparsh</span>
                           </h1>
                           <h1 className="text-sm">
-                            {entry?.modified_on.slice(0, 10) +
-                              " " +
-                              entry?.modified_on.slice(11, 16)}
+                            {entry?.modified_on.slice(0, 10) }
                           </h1>
                         </p>
                       </div>

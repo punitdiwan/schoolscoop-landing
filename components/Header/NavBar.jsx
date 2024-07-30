@@ -35,7 +35,7 @@ import { PiGithubLogoFill, PiPresentationFill, PiStudentLight } from "react-icon
 import { MdManageAccounts } from "react-icons/md";
 import { TbMoneybag } from "react-icons/tb";
 import { IoMdPaper } from "react-icons/io";
-import { FaBookReader, FaBusAlt } from "react-icons/fa";
+import { FaBookReader, FaBusAlt, FaQuestionCircle } from "react-icons/fa";
 import { RiParentLine } from "react-icons/ri";
 import { GrUserWorker } from "react-icons/gr";
 import { VscBook } from "react-icons/vsc";
@@ -89,12 +89,12 @@ const Support = [
 ];
 
 const Blogdata = [
-  {
-    title: "BLOG",
-    description: "Find the perfect solution for your needs.",
-    icon: PiGithubLogoFill,
-    link:`/blog`
-  },
+  // {
+  //   title: "BLOG",
+  //   description: "Find the perfect solution for your needs.",
+  //   icon: PiGithubLogoFill,
+  //   link:`/blog`
+  // },
   {
     title: "PRESENTATION",
     description: "Meet and learn about our dedication",
@@ -113,6 +113,13 @@ const Blogdata = [
     title: "BROCHURES",
     description: "Meet and learn about our dedication",
     icon: VscBook,
+    link:`/blog`
+
+  },
+  {
+    title: "FAQ",
+    description: "Meet and learn about our dedication",
+    icon: FaQuestionCircle ,
     link:`/blog`
 
   },
@@ -147,7 +154,17 @@ const NavList = () => {
         </ListItem>
       </Typography>
       <NavListMenu data={Support} moduleName="HELP & SUPPORT" />
-
+      <Typography
+        as="a"
+        href="/blog"
+        variant="small"
+        color="blue-gray"
+        className="font-medium"
+      >
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-[#2c5aa0] text-[15px]  font-bold hover:text-[#ffb000]">
+          BLOG
+        </ListItem>
+      </Typography>
       <NavListMenu data={Blogdata} moduleName="RESOURCES" />
       {/* <Typography
         as="a"
@@ -189,7 +206,7 @@ const NavBar = () => {
             variant="h6"
             className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-3xl "
           >
-            <div className="flex">
+            <div className="flex text-[#2e6faf]">
               <div> EduSparsh </div>
               <div>
                 <IoBookOutline className="mt-1 ml-2" />
@@ -199,7 +216,7 @@ const NavBar = () => {
           <div className="hidden lg:block">
             <NavList />
           </div>
-          <div className="hidden gap-1 lg:flex">
+          {/* <div className="hidden gap-1 lg:flex">
             <Button
               variant="outlined"
               size="sm"
@@ -214,7 +231,7 @@ const NavBar = () => {
             >
               Sign In
             </Button>
-          </div>
+          </div> */}
           <IconButton
             variant="text"
             color="blue-gray"
@@ -230,14 +247,14 @@ const NavBar = () => {
         </div>
         <Collapse open={openNav}>
           <NavList />
-          <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
+          {/* <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
             <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
               Log In
             </Button>
             <Button variant="gradient" size="sm" fullWidth>
               Sign In
             </Button>
-          </div>
+          </div> */}
         </Collapse>
       </Navbar>
     </div>

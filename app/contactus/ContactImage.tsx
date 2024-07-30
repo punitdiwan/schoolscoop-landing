@@ -5,7 +5,7 @@ const ContactImage = () => {
     <>
      <div>
         <div className=" relative text-center text-white">
-          <img src="/imges/contact-banner-2.jpeg" className="xs:h-[600px] w-[1370px]"alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
+          <img src="/imges/contact-banner-2.jpeg" className="xs:h-[600px] w-full"alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
           <div className="absolute 
           xs:top-[70%] xs:left-[5%]
           md:top-[70%] md:left-[1%] ">

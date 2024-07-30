@@ -1,4 +1,5 @@
 import { Button, Card } from "@material-tailwind/react";
+import Link from "next/link";
 import React from "react";
 
 const SectionOne = () => {
@@ -49,7 +50,7 @@ const SectionOne = () => {
                   src="/imges/school.png"
                   className="md:w-[64px] md:h-[66px]   "
                 />
-                <h5 className="text-[#999999] ">349+ </h5>
+                <h5 className="text-[#999999] ">200+ </h5>
                 <h5 className="text-[#999999] ">Educational Institute</h5>
               </div>
             </div>
@@ -59,7 +60,7 @@ const SectionOne = () => {
                   src="/imges/reading.png"
                   className="md:w-[60px] md:h-[60px] mt-3 "
                 />
-                <h5 className="text-[#999999] ">2,00,000</h5>
+                <h5 className="text-[#999999] ">1,00,000</h5>
                 <h5 className="text-[#999999] ">Students</h5>
               </div>
             </div>
@@ -97,14 +98,15 @@ const SectionOne = () => {
             </div>
           </div>
           <div className="text-center xs:mt-10">
-            <Button
+            {/* <Button
               color="green"
               size="md"
               variant="filled"
               className="rounded-full"
             >
               Request Free Demo Now !
-            </Button>
+            </Button> */}
+            <Link className="text-medium bg-green-800 p-2 text-white rounded-full font-bold" href="/contactus">Request Free Demo Now</Link>
           </div>
         </div>
 

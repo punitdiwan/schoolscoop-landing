@@ -71,7 +71,7 @@ const Address = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#999999] ">+91-989-354-0318</h6>
+                    <h6 className="text-[#999999] ">+91-898-254-4673</h6>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,6 @@ const Address = () => {
             <div>
               <div>
                 <h1 className="text-base font-bold">Jobs & Recruitment</h1>
-               
               </div>
             </div>
             <div>
