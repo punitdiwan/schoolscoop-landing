@@ -65,6 +65,7 @@ const SuccessStories = () => {
                         <source
                           src={item.image.data.full_url}
                           type="video/mp4"
+                          
                         />{" "}
                       </video>
                     ) : (

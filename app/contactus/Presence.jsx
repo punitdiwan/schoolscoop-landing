@@ -52,7 +52,7 @@ const Presence = () => {
             </Link>
           </div>
           <div>
-            <img src="/india1.png" className="w-[100%] md:w-[400px]" />
+            <img src="/india1.png" className="w-[100%] md:w-[400px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Presence = () => {
         <div className="grid grid-cols-1 md:grid-cols-3  gap-4 w-[80%] mx-auto ">
           {data.map((item,index) => (
             <div key={index} className="flex items-center gap-3 bg-[#8ba7ce] w-[cal] rounded-lg flex-col p-2 lg:flex-row">
-              <img src={item.image} className="w-[80px] rounded-lg h-[70px] hover:w-[82px] hover:h-[72px]"/>
+              <img src={item.image} className="w-[80px] rounded-lg h-[70px] hover:w-[82px] hover:h-[72px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
               <h3 className="font-bold">{item.name}</h3>
             </div>
           ))}
