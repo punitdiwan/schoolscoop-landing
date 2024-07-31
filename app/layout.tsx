@@ -9,11 +9,6 @@ import ScrollTop from "../components/Top";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export async function generateMetadata({ params }) {
-//   return {
-//     title: "first",
-//   }
-// }
 export default function RootLayout({
   children
 }: {
@@ -39,15 +34,7 @@ export default function RootLayout({
           href="https://www.edusparsh.com/"
           key="canonical"
         />
-     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "EduSparsh",
-        "operatingSystem": "Web and Mobile",
-        "applicationCategory": "Educational",
-    }
-    </script>
+
       </head>
       <body>
         {" "}
