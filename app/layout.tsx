@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.edusparsh.com" />
         <meta property="og:site_name" content="EduSparsh" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image" content="https://www.edusparsh.com/og-image.jpg" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
