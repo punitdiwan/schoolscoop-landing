@@ -62,7 +62,6 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 
-        {/* Ended Schema.org */}
       </head>
       <GoogleTagManager gtmId="GTM-NLKJ4KFS" />
       <body>
