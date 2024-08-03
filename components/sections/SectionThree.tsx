@@ -87,14 +87,7 @@ const SectionThree = () => {
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
 
-            {/* <div>
-              {" "}
-              <img
-                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                src="/imges/line.png"
-                className="w-[172px] h-[1px] ml-[190px] mt-[-90px] xs:hidden"
-              />
-            </div> */}
+            
           </div>
 
           <div className=" xs:text-center xs:mt-6">
@@ -113,19 +106,12 @@ const SectionThree = () => {
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
 
-            {/* <div>
-              {" "}
-              <img
-                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                src="/imges/line.png"
-                className="w-[172px] h-[1px] ml-[190px] mt-[-90px] xs:hidden"
-              />
-            </div> */}
+            
           </div>
 
           <div className=" xs:text-center xs:mt-6">
-            <h1 className=" text-[#ffb000] text-xl font-bold">
-              DECISION MAKERS
+            <h1 className=" text-[#ffb000] text-xl uppercase  font-bold">
+            School owner
             </h1>
             <img
               src="/imges/4.png"

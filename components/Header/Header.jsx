@@ -12,7 +12,7 @@ import {
   MenuList,
   MenuItem
 } from "@material-tailwind/react";
-import TopHeader from "./TopHeader";
+// import TopHeader from "./TopHeader";
 import { FaSchool } from "react-icons/fa6";
 import NavBar from "./NavBar";
 import SectionOne from "../sections/SectionOne";
@@ -88,7 +88,6 @@ const Header = () => {
   return (
     <>
       <div>
-        {/* <TopHeader /> */}
         <NavBar />
         <div className="p-[20px]">
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
@@ -113,7 +112,7 @@ const Header = () => {
               {/* <SectionFive /> */}
               <SectionSix />
               {/* <SectionSeven /> */}
-              <SectionEight />
+              {/* <SectionEight /> */}
               {/* <SectionNine /> */}
 
               <Footer />

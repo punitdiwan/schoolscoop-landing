@@ -202,7 +202,6 @@ const HrManagementModule = () => {
           <div className="p-[50px]">
             <div className="border-t-1 border-r-1 border-b-1 border-l-1 border-gray-500"></div>
           </div>
-          {/* //===========================second =========================================== */}
         
           <div className="grid md:grid-cols-2 gap-7 p-12 ">
               <div className="">

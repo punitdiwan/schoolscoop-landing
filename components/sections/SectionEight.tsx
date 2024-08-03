@@ -6,14 +6,10 @@ const SectionEight = () => {
     <>
       <div>
         <div className="md:flex    bg-[#1d293a]  ">
-          {/* <div className="grid
-          xs:grid-cols-3 xs:p-5 xs:gap-4 xs:col-span-2
-          md:grid-cols-3 md:p-10 md:gap-10 mt-6"> */}
+          
           <div className="grid p-5 grid-cols-2 md:grid-cols-4 gap-3">
             <div className="">
-              {/* <h1 className="
-              xs:text-[24px] xs:font-extrabold xs:text-white xs:mt-4
-              md:text-6xl md:font-extrabold md:text-white"> */}
+              
               <h1 className="text-white text-3xl font-bold">Help & Support</h1>
               <h3
                 className="
@@ -55,18 +51,7 @@ const SectionEight = () => {
             </div>
           </div>
 
-          {/* <div className="bg-[#848484] p-5">
-            <h1 className="
-             xs:text-[50px] xs:font-bold xs:text-white
-            md:text-5xl md:font-extrabold md:text-white">
-              Become a Reseller
-            </h1>
-            <h3 className="
-            xs:text-[20px] xs:font-normal xs:text-white xs:mt-1
-            md:text-lg md:font-normal md:text-white mt-3">
-              Learn More About the EduSparsh Reseller Program
-            </h3>
-          </div> */}
+          
         </div>
       </div>
     </>

@@ -51,7 +51,9 @@ const SectionTwo = () => {
         <div className="xs:grid-cols-1 xs:text-center grid md:grid-cols-4 md:mt-4 md:gap-8 md:p-12   m-16">
           {data?.map((item) => (
             <Link
-              href="/success_storties"
+              href={`/success_storties/${item.institute
+                .replace(/ /g, "-")
+                .toLowerCase()}`}
               className=" flex flex-col  items-center"
             >
               {item.image.data.full_url.slice(-3) === "mp4" ? (
@@ -68,7 +70,9 @@ const SectionTwo = () => {
               <div className="mt-5">
                 <div
                   className="mx-auto mt-3 "
-                  dangerouslySetInnerHTML={{ __html: item.story }}
+                  dangerouslySetInnerHTML={{
+                    __html: item.story.slice(0, 100) + "......."
+                  }}
                 />
                 <h2 className="text-[#181111] font-bold">– {item.institute}</h2>
               </div>

@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import Link from "next/link";
 
-const Cards = ({ imageUrl, title, description, date }) => {
+const Cards = ({ imageUrl, title, heading, date }) => {
   // console.log("Date", date);
   return (
     <>
@@ -25,15 +25,18 @@ const Cards = ({ imageUrl, title, description, date }) => {
             </CardHeader>
           ) : null}
           <CardBody>
-            <Typography variant="h6" color="blue-gray" className="md:text-3xl">
+            <Typography variant="h2" color="blue-gray" className=" text-xl md:text-3xl">
               {title}
             </Typography>
-            <Typography variant="h6" color="blue-gray" className=" md:text-2xl mt-3">
+            <Typography variant="h2" color="blue-gray"
+              className=" text-[20px] mt-3">
               {/* {description} */}
               {date.slice(0, 10)}
             </Typography>
           </CardBody>
-          <CardFooter className="pt-0 md:text-2xl">Read More</CardFooter>
+          <h2 className="text-[16px] p-0 m-0  px-5">{heading.slice(0,120)}.......</h2>
+          <CardFooter className="pt-0 md:text-xl mt-2 hover:text-blue-600 ">Read More</CardFooter>
+
         </Card>
       </div>
     </>

@@ -26,11 +26,11 @@ const ExamFeature = () => {
               <div className="text-center text-[14px] text-[#999999]">
              fg     A single dashboard that enables digital transformation & change the way you deliver education.
               </div>
-              <div>
+              {/* <div>
                 <div className=" text-[#DD9933] text-center flex justify-center">
                  View All Feature
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="">
               <div className="flex justify-center">
@@ -46,12 +46,12 @@ const ExamFeature = () => {
               <div className="text-center text-[14px] text-[#999999]">
               Automate fee collection workloads, enable online payments, & improve tracking of income & expense.ications.
               </div>
-              <div>
+              {/* <div>
                 <div className=" text-[#DD9933] text-center flex justify-center">
                  
                   View All Features
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="">
               <div className="flex justify-center">
@@ -67,11 +67,11 @@ const ExamFeature = () => {
               <div className="text-center text-[14px] text-[#999999]">
               Get more done in less time, reduce manual errors in administrative tasks & streamline employee management.
               </div>
-              <div>
+              {/* <div>
                 <div className=" text-[#DD9933] text-center flex justify-center">
                  View All Feature
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="">
               <div className="flex justify-center">
@@ -87,11 +87,11 @@ const ExamFeature = () => {
               <div className="text-center text-[14px] text-[#999999]">
               Enable stakeholders to find relevant data faster and deliver meaningful communication faster.
               </div>
-              <div>
+              {/* <div>
                 <div className=" text-[#DD9933] text-center flex justify-center">
                  View All Feature
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="">
               <div className="flex justify-center">
@@ -107,11 +107,11 @@ const ExamFeature = () => {
               <div className="text-center text-[14px] text-[#999999]">
               Enhance decision making with instant data availability & a wide range of analytics & reporting tools.
               </div>
-              <div>
+              {/* <div>
                 <div className=" text-[#DD9933] text-center flex justify-center">
                  View All Feature
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

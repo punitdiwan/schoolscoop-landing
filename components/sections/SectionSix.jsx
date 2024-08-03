@@ -106,77 +106,6 @@ const SectionSix = () => {
             <div className="md:ml-[150px]">
               <form autoComplete="off" onSubmit={submitData}>
                 <div className="grid md:grid-cols-2 gap-7">
-                  {/* <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="First Name"
-                      size="lg"
-                      color="green"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="Last Name"
-                      size="lg"
-                      color="green"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="Email"
-                      size="lg"
-                      color="green"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="Phone"
-                      size="lg"
-                      color="green"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="Name Of Institute"
-                      size="lg"
-                      color="green"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="City"
-                      color="green"
-                      size="lg"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      variant="standard"
-                      label="Number Of Students"
-                      size="lg"
-                      color="green"
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                </div> */}
                   <div>
                     {" "}
                     <Input
@@ -280,7 +209,6 @@ const SectionSix = () => {
                       crossOrigin={undefined}
                     />
                   </div>
-                  
                 </div>
                 <div className=" mt-5 text-lg font-bold">
                   <RadioGroup

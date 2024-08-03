@@ -17,20 +17,14 @@ const ContactInfo = () => {
   const [error, setError] = useState();
 
   const handleChange = (e) => {
-    // console.log("=========>", e.target.value, "============", e.target.name);
     setData({ ...data, [e.target.name]: e.target.value });
     setError("");
-    // console.log("data===>", data);
-    // console.log(institute_type)
   };
-  // setInstitute(value);
   const submitData = async (e) => {
-    // console.log("data===>", data);
 
     e.preventDefault();
     if (data.number === "") {
       setError("Enter the number");
-      // console.log("Error", error);
     } else {
       const response = await fetch(
         "https://cms.maitretech.com/edusparsh/items/form?fields=*.*",

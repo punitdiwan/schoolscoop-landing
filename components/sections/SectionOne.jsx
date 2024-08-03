@@ -36,17 +36,22 @@ const SectionOne = () => {
           
           "
           >
-            <div >
+            <div>
               {" "}
-              <div className="mb-7 mt-4">
-                <img src="/imges/modules.png" className="" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+              <div className="mb-7 ">
+                <img
+                  src="/imges/modules.png"
+                 className="md:w-[64px] md:h-[62px]   "
+                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                />
                 <h5 className="text-[#999999] ">45+</h5>
                 <h5 className="text-[#999999] ">Module</h5>
               </div>
             </div>
             <div>
               <div className="mb-4">
-                <img   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                <img
+                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/school.png"
                   className="md:w-[64px] md:h-[66px]   "
                 />
@@ -56,9 +61,10 @@ const SectionOne = () => {
             </div>
             <div>
               <div>
-                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                <img
+                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/reading.png"
-                  className="md:w-[60px] md:h-[60px] mt-3 "
+                  className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">1,00,000</h5>
                 <h5 className="text-[#999999] ">Students</h5>
@@ -66,9 +72,10 @@ const SectionOne = () => {
             </div>
             <div>
               <div>
-                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                <img
+                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/secure-data-60x60.png"
-                  className="md:w-[60px] md:h-[60px] mt-3"
+                  className="md:w-[64px] md:h-[66px]   "
                 />{" "}
                 <h5 className="text-[#999999]">Enhanced</h5>
                 <h5 className="text-[#999999]"> Data Security</h5>
@@ -77,9 +84,10 @@ const SectionOne = () => {
             <div>
               <div>
                 {" "}
-                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                <img
+                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/management-60x60.png"
-                  className="md:w-[64px] md:h-[64px]  "
+                  className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">24/7</h5>
                 <h5 className="text-[#999999] ">Help & Support</h5>
@@ -88,9 +96,10 @@ const SectionOne = () => {
             <div>
               {" "}
               <div>
-                <img alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                <img
+                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   src="/imges/competition-60x60.png"
-                  className="md:w-[60px] md:h-[60px] mt-1 "
+                  className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">Fixed Cost</h5>
                 <h5 className="text-[#999999]">Affordable System</h5>
@@ -98,20 +107,18 @@ const SectionOne = () => {
             </div>
           </div>
           <div className="text-center xs:mt-10">
-            {/* <Button
-              color="green"
-              size="md"
-              variant="filled"
-              className="rounded-full"
+            
+            <Link
+              className="text-medium bg-green-800 p-2 text-white rounded-full font-bold"
+              href="/contactus"
             >
-              Request Free Demo Now !
-            </Button> */}
-            <Link className="text-medium bg-green-800 p-2 text-white rounded-full font-bold" href="/contactus">Request Free Demo Now</Link>
+              Request Free Demo Now
+            </Link>
           </div>
         </div>
 
         <div className="xs:mt-[-720px]">
-          <img 
+          <img
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             className="w-[500px] h-[397px]  "
             src="/imges/edumarshal-school-erp.png "

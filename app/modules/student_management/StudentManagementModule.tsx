@@ -9,7 +9,6 @@ const StudentManagementModule = () => {
       <div className="">
         <div className="p-[10px]">
           <div className="p-16 pt-5">
-            {/* YHA PE GAP 7 KI JGH 32 HUA  */}
             <div className="grid  md:grid-cols-2 gap-32 ">
               <Link href="/modules/fee_management" className="w-[80%]">
                 <div className="flex justify-center">
