@@ -20,7 +20,7 @@ const StoriesOne = () => {
               Client Testimonials & Case Studies
             </h1>
             <p className=" ">
-              Edumarshal has enabled digital transformation at hundreds of
+              Edusparsh has enabled digital transformation at hundreds of
               educational institutes, big and small, helping them deliver a
               superior education experience to their students and tackle
               management hurdles impeding their growth in the modern education

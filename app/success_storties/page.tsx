@@ -1,6 +1,6 @@
 "use client";
 import NavBar from "@/components/Header/NavBar";
-import TopHeader from "@/components/Header/TopHeader";
+// import TopHeader from "@/components/Header/TopHeader";
 import React, { useEffect, useState } from "react";
 import StoriesOne from "./StoriesOne";
 
@@ -44,28 +44,22 @@ const SuccessStories = () => {
             <div className="mx-auto p-2 ">
               <StoriesOne />
               {/* <TestimonialCard /> */}
-              <h2 className="text-center uppercase m-4 text-2xl font-bold">
+              <h1 className="text-center uppercase m-4 text-2xl font-bold">
                 Stories
-              </h2>
+              </h1>
               <div className="grid grid-cols-2 gap-4 px-2 mx-auto mt-2 md:grid-cols-4">
-                {data?.map((item:any) => (
+                {data?.map((item: any) => (
                   <Link
                     href={`/success_storties/${item.institute
                       .replace(/ /g, "-")
                       .toLowerCase()}`}
                     className=" flex flex-col border items-center p-3"
                   >
-                    {/* <img
-                      alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                      className="w-[100px] h-[101px]  "
-                      src={item.image.data.full_url}
-                    /> */}
                     {item.image.data.full_url.slice(-3) === "mp4" ? (
                       <video className="w-[110px] h-[110px] ">
                         <source
                           src={item.image.data.full_url}
                           type="video/mp4"
-                          
                         />{" "}
                       </video>
                     ) : (
@@ -98,43 +92,3 @@ const SuccessStories = () => {
 };
 
 export default SuccessStories;
-
-{
-  /* <TopHeader />
-
-<NavBar />
-<WhatsappForm />
-<Request/>
-<StoriesOne />
-<TestimonialCard />
-
-<SectionNine />
-<Footer /> */
-}
-
-{
-  /* <>
-<div>
-<TopHeader />
-  <NavBar />
-  <div className="p-[20px]">
-    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
-      <WhatsappForm />
-
-      <div
-        className="
-xs:top-[250px] xs:right-[1px] xs:fixed
-md:top-[210px] md:right-[1px] md:fixed"
-      >
-        <img src="/imges/Demo-Button-v.gif" />
-      </div>
-
-      <div className="mx-auto p-2 ">
-
-   yhe add karo 
-</div>
-</div>
-</div>
-</div>
-</> */
-}

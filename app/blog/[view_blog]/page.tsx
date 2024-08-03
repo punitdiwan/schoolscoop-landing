@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import TopHeader from "@/components/Header/TopHeader";
+// import TopHeader from "@/components/Header/TopHeader";
 import NavBar from "@/components/Header/NavBar";
 import WhatsappForm from "@/components/whatsapp/WhatsappForm";
 import BlogImage from "../BlogImage";

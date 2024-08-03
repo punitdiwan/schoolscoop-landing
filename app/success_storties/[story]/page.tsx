@@ -60,7 +60,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string,story:any } }) => {
                         className="mx-auto mt-3 "
                         dangerouslySetInnerHTML={{ __html: entry.story }}
                       />
-              <h2 className="font-bold">~ {entry.institute}</h2>
+              <h1 className="font-bold">~ {entry.institute}</h1>
             </div>
           ))}
       </div>

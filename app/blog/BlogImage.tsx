@@ -10,13 +10,7 @@ const BlogImage = () => {
             className="w-[90%] mx-auto h-96 lg:w-[50%] lg:h-[500px] "
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
           />
-          <div
-            // className="absolute
-            // xs:top-[30%] xs:left-[5%]
-            // md:top-[30%] md:left-[19%] "
-            className="text-black "
-          > 
-            
+          <div className="text-black ">
             <div>
               <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>
               <p className=" ">

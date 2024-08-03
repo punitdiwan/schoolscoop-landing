@@ -30,12 +30,12 @@ const Presence = () => {
   ];
   return (
     <div>
-      <div className="bg-[#8ba7ce] py-4">
+      <div className="bg-[#e0e6f0] py-4">
         <h2 className="text-2xl md:text-3xl capitalize font-bold text-center py-3">
           Presence in India
         </h2>
 
-        <div className="px-5 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-center md:px-[10%]  text-white">
+        <div className="px-5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center justify-center md:px-[10%]  ">
           <div className="w-[90%] text-justify flex flex-col gap-4">
             <p>
               We place a high value on educating our clients, and we are always
@@ -52,7 +52,7 @@ const Presence = () => {
             </Link>
           </div>
           <div>
-            <img src="/india1.png" className="w-[100%] md:w-[400px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
+            <img src="/indiamap.png" className="w-[100%] md:w-[500px]" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
           </div>
         </div>
       </div>

@@ -6,13 +6,7 @@ import {
   Button,
 } from "@material-tailwind/react";
  
-// interface CardProps {
-//   title: string;
-//   value: string;
-//   description: string;
-//   imgsrc: string; // Use IconType as the type for the icon prop
-// }
-// : React.FC<CardProps>
+
 const Card2 = ({ title, value, description, imgsrc }) => {
   return (
     <Card className="max-w-[50rem] h-[7rem] flex-row">

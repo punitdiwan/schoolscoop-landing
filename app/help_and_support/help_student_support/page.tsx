@@ -1,11 +1,9 @@
 "use client";
 
 import NavBar from "@/components/Header/NavBar";
-import TopHeader from "@/components/Header/TopHeader";
 import WhatsappForm from "@/components/whatsapp/WhatsappForm";
 import React from "react";
 import SupportImage from "./SupportImage";
-import TutorialVideos from "./TutorialVideos";
 import RequestSupport from "./RequestSupport";
 import SectionNine from "@/components/sections/SectionNine";
 import Footer from "@/components/Footer/Footer";
@@ -28,7 +26,6 @@ const page = () => {
 
             <div className="mx-auto p-2 ">
               <SupportImage />
-              {/* <TutorialVideos /> */}
               <RequestSupport />
               <SectionNine />
 

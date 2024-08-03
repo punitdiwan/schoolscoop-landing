@@ -1,6 +1,5 @@
 "use client";
 import NavBar from "@/components/Header/NavBar";
-import TopHeader from "@/components/Header/TopHeader";
 import WhatsappForm from "@/components/whatsapp/WhatsappForm";
 import React from "react";
 import FeeImage from "./FeeImage";

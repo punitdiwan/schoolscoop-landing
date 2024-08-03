@@ -1,24 +1,26 @@
-import React from 'react'
+import React from "react";
 
 const ContactImage = () => {
   return (
     <>
-     <div>
+      <div>
         <div className=" relative text-center text-white">
-          <img src="/imges/contact-banner-2.jpeg" className="xs:h-[600px] w-full"alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider." />
-          <div className="absolute 
-          xs:top-[70%] xs:left-[5%]
-          md:top-[70%] md:left-[1%] ">
+          <img
+            src="/imges/contact-banner-2.jpeg"
+            className="h-[350px] w-full"
+            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+          />
+          <div className="absolute text-center w-[80%] top-60 justify-items-center">
             {" "}
-            <h1 className="md:text-[40px]  font-bold">Always Think Outside The Box And Embrace Opportunities 
-            That Appear, Wherever They Might Be</h1>
-            
-          
+            <h1 className="md:text-[25px] lg:ml-[10%] font-bold text-center">
+              Digitalising School Edusparsh is the best School software ERP in
+              India
+            </h1>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ContactImage
+export default ContactImage;
