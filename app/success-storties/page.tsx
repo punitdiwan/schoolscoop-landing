@@ -72,7 +72,7 @@ const SuccessStories = () => {
                     <div className="mt-5">
                       <div
                         className="mx-auto mt-3 "
-                        dangerouslySetInnerHTML={{ __html: item.story }}
+                        dangerouslySetInnerHTML={{ __html: item.story.slice(0,120) + "..."}}
                       />
                       <h2 className="text-[#181111] font-bold">
                         – {item.institute}

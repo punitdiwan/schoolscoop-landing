@@ -35,7 +35,7 @@ const SectionTwo = () => {
     },
     {
       id: 2,
-      title: "Education Velley School",
+      title: "Education Valley School",
       image: "/educationvelley.webp",
       description:
         "“We have been using edusparsh software for our four years & has been very happy with the product, the training & the support system.”"
@@ -79,9 +79,9 @@ const SectionTwo = () => {
             Educational Delivery
           </h2>
           <div className="text-center mt-8">
-            <Button className="rounded-full" size="md" color="green">
+            <Link href="/success-storties" className="rounded-full text-medium bg-green-600 p-2 text-white" >
               Read All Case Studies
-            </Button>
+            </Link>
           </div>
         </div>
         <div className="xs:grid-cols-1 xs:text-center grid md:grid-cols-4 md:mt-4 md:gap-8 md:p-12   m-16">
@@ -116,7 +116,7 @@ const SectionTwo = () => {
           ))} */}
           {Data.map((item) => (
             <Link
-              href={`/success_storties/${item.title
+              href={`/success-storties/${item.title
                 .replace(/ /g, "-")
                 .toLowerCase()}`}
               className=" flex flex-col  items-center"
