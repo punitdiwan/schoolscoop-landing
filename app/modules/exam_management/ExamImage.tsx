@@ -15,7 +15,7 @@ const ExamImage = () => {
           xs:top-[30%] xs:left-[5%]
           md:top-[30%] md:left-[1%] "
           >
-            <h1 className="text-[40px] font-bold">Exam Management System</h1>
+            <h3 className="text-[40px] font-bold">Exam Management System</h3>
             <p className="text-justify mx-auto ">
               A comprehensive set of features that allows your teachers to spend
               more time on student progress and teaching, allows parents to be

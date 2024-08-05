@@ -3,9 +3,9 @@ import {
   CardHeader,
   CardBody,
   Typography,
-  Button,
+  Button
 } from "@material-tailwind/react";
- 
+import Image from "next/image";
 
 const Card2 = ({ title, value, description, imgsrc }) => {
   return (
@@ -15,11 +15,16 @@ const Card2 = ({ title, value, description, imgsrc }) => {
         floated={false}
         className="m-0 w-2/5 shrink-0 rounded-r-lg bg-gradient-to-l from-zinc-100 to-gray-700"
       >
-       <div className="flex justify-center p-3">
-        <div>
-    <img src={imgsrc} alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
+        <div className="flex justify-center p-3">
+          <div>
+            <Image
+            width={100}
+            height={100}
+              src={imgsrc}
+              alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+            />
+          </div>
         </div>
-       </div>
       </CardHeader>
       <CardBody>
         <Typography variant="h4" color="blue-gray" className="mb-2">
@@ -31,6 +36,6 @@ const Card2 = ({ title, value, description, imgsrc }) => {
       </CardBody>
     </Card>
   );
-}
+};
 
 export default Card2;

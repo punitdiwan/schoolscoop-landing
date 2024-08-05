@@ -1,5 +1,6 @@
 import { Button, Card, Input } from "@material-tailwind/react";
 import { Radio, RadioGroup } from "@nextui-org/react";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const SectionSix = () => {
@@ -68,15 +69,15 @@ const SectionSix = () => {
     <>
       <div>
         <div>
-          <h1
+          <h2
             className="
             xs:text-[#2c5aa0] xs:text-[24px] xs:font-bold xs:text-center
           md:text-[#2c5aa0] md:text-[40px] md:font-bold md:text-center"
           >
             Start Using EduSparsh ERP for Your School Today!
-          </h1>
+          </h2>
           <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
-          <h1
+          <h3
             className="
           xs:text-[#b2b2b2] xs:text-[14px] xs:font-normal xs:text-center
           md:text-[#b2b2b2] md:text-[20px] md:font-normal md:text-center
@@ -85,7 +86,7 @@ const SectionSix = () => {
             {" "}
             Learn how Edusparsh The Best School Software solution can Help in
             automating your school improve the overall Process of your school.
-          </h1>
+          </h3>
         </div>
 
         <div className="p-10">
@@ -96,8 +97,10 @@ const SectionSix = () => {
             <div className="grid grid-cols-1">
               <div>
                 <Card>
-                  <img
-                    src="/imges/edumarshal-school-erp-benefits-500x500.png"
+                  <Image
+                  width={700}
+                  height={700}
+                    src="/imges/edumarshal-school-erp-benefits-500x500.webp"
                     alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                   />
                 </Card>

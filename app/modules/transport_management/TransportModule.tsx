@@ -14,9 +14,9 @@ const TransportModule = () => {
           </div>
           <div>
             {" "}
-            <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+            <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
               Transport & Fleet Management
-            </h1>
+            </h5>
           </div>
 
           <div className="text-center text-[14px] text-[#999999]">
@@ -49,9 +49,9 @@ const TransportModule = () => {
             </div>
             <div>
               {" "}
-              <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+              <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                 Stops & Routes
-              </h1>
+              </h5>
             </div>
 
             <div className="text-center text-[14px] text-[#999999]">
@@ -69,9 +69,9 @@ const TransportModule = () => {
             </div>
             <div>
               {" "}
-              <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+              <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                 Live Tracking on Map
-              </h1>
+              </h3>
             </div>
 
             <div className="text-center text-[14px] text-[#999999]">
@@ -88,9 +88,9 @@ const TransportModule = () => {
             </div>
             <div>
               {" "}
-              <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+              <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                 Route-wise Fares
-              </h1>
+              </h5>
             </div>
 
             <div className="text-center text-[14px] text-[#999999]">
@@ -107,9 +107,9 @@ const TransportModule = () => {
             </div>
             <div>
               {" "}
-              <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+              <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                 Student Transport Slips
-              </h1>
+              </h5>
             </div>
 
             <div className="text-center text-[14px] text-[#999999]">

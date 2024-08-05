@@ -64,7 +64,7 @@ const StaffReachSupport = () => {
     <>
       <div>
         <div className="p-10">
-          <h1 className="text-[40px] font-bold">Request Support</h1>
+          <h3 className="text-[40px] font-bold">Request Support</h3>
           <div className="border-t-2 border-r-2 border-b-2 border-l-2 border-orange-500"></div>
         </div>
         <div>

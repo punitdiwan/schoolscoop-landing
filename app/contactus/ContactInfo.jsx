@@ -63,9 +63,9 @@ const ContactInfo = () => {
       <div>
         <div className="p-12">
           <div>
-            <h1 className="text-[#2c5aa0] text-[40px] font-bold text-center">
+            <h3 className="text-[#2c5aa0] text-[40px] font-bold text-center">
               Lets Navigate Digital Transformation Together!!!
-            </h1>
+            </h3>
           </div>
           <div>
             <p className="text-[#2c5aa0] text-[20px] font-normal text-center">

@@ -6,12 +6,12 @@ const Section2Two = () => {
       <div>
         <div className="p-12">
           <div>
-            <h1
+            <h3
               className="text-center xs:text-[14px] xs:font-bold
             md:text-2xl md:font-bold "
             >
               We Provide
-            </h1>
+            </h3>
             <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
           </div>
           <div>

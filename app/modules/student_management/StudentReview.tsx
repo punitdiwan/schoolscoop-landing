@@ -29,7 +29,7 @@ const StudentReview = () => {
                   <h1>Princicpal,</h1>
                 </div>
                 <div>
-                  <h1>Delhi Public School, New Delhi, India</h1>
+                  <h3>Delhi Public School, New Delhi, India</h3>
                 </div>
               </div>
             </div>

@@ -51,7 +51,7 @@ const SectionNine = () => {
             </div>
 
             <div className="mt-[30px]">
-              <h1 className="text-base font-bold">Sales</h1>
+              <h3 className="text-base font-bold">Sales</h3>
               <div className="flex mt-2">
                 <div>
                   {" "}
@@ -82,7 +82,7 @@ const SectionNine = () => {
             </div>
 
             <div>
-              <h1 className="text-base font-bold mt-2">Support & Help</h1>
+              <h2 className="text-base font-bold mt-2">Support & Help</h2>
               <div className="flex mt-2">
                 <div>
                   {" "}
@@ -113,7 +113,7 @@ const SectionNine = () => {
             </div>
 
             <div>
-              <h1 className="text-base font-bold mt-2">Become a Reseller</h1>
+              <h3 className="text-base font-bold mt-2">Become a Reseller</h3>
               <div className="flex mt-2">
                 <div>
                   {" "}
@@ -143,7 +143,7 @@ const SectionNine = () => {
               </div>
             </div>
             <div>
-              <h1 className="text-base font-bold mt-2">Jobs & Recruitment</h1>
+              <h4 className="text-base font-bold mt-2">Jobs & Recruitment</h4>
 
               <div className="flex mt-2">
                 <div>

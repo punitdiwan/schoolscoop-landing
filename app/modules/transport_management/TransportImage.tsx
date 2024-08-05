@@ -16,9 +16,9 @@ const TransportImage = () => {
           md:top-[10%] md:left-[1%] "
           >
             {" "}
-            <h1 className="text-[40px] font-bold ">
+            <h3 className="text-[40px] font-bold ">
               Transport Management System
-            </h1>
+            </h3>
             <p className=" ">
               Manage student life cycle from pre-admissions to graduation.
               Improve accuracy of your student data, and ensure ready

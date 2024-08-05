@@ -6,9 +6,9 @@ const TranspotFeature = () => {
       <div>
         <div>
           <div>
-            <h1 className="text-[#2c5aa0] text-[40px] font-bold text-center">
-              fg Explore Other SchoolScoop Features
-            </h1>
+            <h5 className="text-[#2c5aa0] text-[40px] font-bold text-center">
+               Explore Other SchoolScoop Features
+            </h5>
           </div>
           <div>
             <h2 className="text-[#2c5aa0] text-[20px] font-normal text-center">

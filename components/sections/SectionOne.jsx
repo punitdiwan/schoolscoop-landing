@@ -1,4 +1,5 @@
 import { Button, Card } from "@material-tailwind/react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -39,9 +40,11 @@ const SectionOne = () => {
             <div>
               {" "}
               <div className="mb-7 ">
-                <img
-                  src="/imges/modules.png"
-                 className="md:w-[64px] md:h-[62px]   "
+                <Image
+                width={55}
+                height={55}
+                  src="/imges/modules.webp"
+                //  className="md:w-[64px] md:h-[62px]   "
                   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                 />
                 <h5 className="text-[#999999] ">45+</h5>
@@ -50,10 +53,12 @@ const SectionOne = () => {
             </div>
             <div>
               <div className="mb-4">
-                <img
+                <Image
+                width={55}
+                height={55}
                   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                  src="/imges/school.png"
-                  className="md:w-[64px] md:h-[66px]   "
+                  src="/imges/school.webp"
+                  // className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">200+ </h5>
                 <h5 className="text-[#999999] ">Educational Institute</h5>
@@ -61,10 +66,12 @@ const SectionOne = () => {
             </div>
             <div>
               <div>
-                <img
+                <Image
+                width={55}
+                height={55}
                   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                  src="/imges/reading.png"
-                  className="md:w-[64px] md:h-[66px]   "
+                  src="/imges/reading.webp"
+                  // className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">1,00,000</h5>
                 <h5 className="text-[#999999] ">Students</h5>
@@ -72,10 +79,12 @@ const SectionOne = () => {
             </div>
             <div>
               <div>
-                <img
+                <Image
+                width={55}
+                height={55}
                   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                  src="/imges/secure-data-60x60.png"
-                  className="md:w-[64px] md:h-[66px]   "
+                  src="/imges/secure-data-60x60.webp"
+                  // className="md:w-[64px] md:h-[66px]   "
                 />{" "}
                 <h5 className="text-[#999999]">Enhanced</h5>
                 <h5 className="text-[#999999]"> Data Security</h5>
@@ -84,10 +93,12 @@ const SectionOne = () => {
             <div>
               <div>
                 {" "}
-                <img
+                <Image
+                width={55}
+                height={55}
                   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                  src="/imges/management-60x60.png"
-                  className="md:w-[64px] md:h-[66px]   "
+                  src="/imges/management-60x60.webp"
+                  // className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">24/7</h5>
                 <h5 className="text-[#999999] ">Help & Support</h5>
@@ -96,10 +107,12 @@ const SectionOne = () => {
             <div>
               {" "}
               <div>
-                <img
+                <Image
+                width={55}
+                height={55}
                   alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                  src="/imges/competition-60x60.png"
-                  className="md:w-[64px] md:h-[66px]   "
+                  src="/imges/competition-60x60.webp"
+                  // className="md:w-[64px] md:h-[66px]   "
                 />
                 <h5 className="text-[#999999] ">Fixed Cost</h5>
                 <h5 className="text-[#999999]">Affordable System</h5>
@@ -118,10 +131,12 @@ const SectionOne = () => {
         </div>
 
         <div className="xs:mt-[-720px]">
-          <img
+          <Image
+          width={500}
+          height={397}
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-            className="w-[500px] h-[397px]  "
-            src="/imges/edumarshal-school-erp.png "
+            // className="w-[500px] h-[397px]  "
+            src="/imges/edumarshal-school-erp.webp "
           />
 
           <h3 className="xs:hidden md:block md:font-semibold md:text-4xl text-center text-[#2c5aa0] mt-10 bg-white">
