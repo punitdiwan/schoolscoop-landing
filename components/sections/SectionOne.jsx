@@ -136,7 +136,7 @@ const SectionOne = () => {
           height={397}
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             // className="w-[500px] h-[397px]  "
-            src="/imges/edumarshal-school-erp.webp "
+            src="/edumarshal-school-erp.webp "
           />
 
           <h3 className="xs:hidden md:block md:font-semibold md:text-4xl text-center text-[#2c5aa0] mt-10 bg-white">

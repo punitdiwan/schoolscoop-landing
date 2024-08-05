@@ -76,7 +76,7 @@ const Carosel = () => {
               height={700}
                 src={card.slider_img.data.full_url}
                 alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                // className="h-full w-full object-cover"
+                className="h-full w-full object-cover"
               />
             </div>
           ))}
