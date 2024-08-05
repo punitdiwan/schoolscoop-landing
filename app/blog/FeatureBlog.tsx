@@ -59,6 +59,7 @@ const FeatureBlog = () => {
 console.log("=================+++>",data)
   return (
     <div>
+      <h1 className="hidden">BLOGS</h1>
       <div className="blogsearch">
         <input
           onChange={(e) => setSearchVal(e.target.value)}

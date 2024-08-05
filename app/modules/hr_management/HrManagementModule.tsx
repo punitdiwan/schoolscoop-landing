@@ -14,9 +14,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Manage Multiple Departments
-                  </h1>
+                  </h5>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -36,9 +36,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h6 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Create Multiple Employee Roles
-                  </h1>
+                  </h6>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -65,9 +65,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Employee Management
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -90,9 +90,9 @@ const HrManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Employee Records
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -106,9 +106,9 @@ const HrManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Payroll Management
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -130,9 +130,9 @@ const HrManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Employee Portal
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -148,9 +148,9 @@ const HrManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Manage Employee Meal Plans
-                    </h1>
+                    </h4>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -166,9 +166,9 @@ const HrManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Manage Employee Leaves
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -185,9 +185,9 @@ const HrManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Generate Employee Reports
-                    </h1>
+                    </h4>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -210,9 +210,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Manage Job Applications
-                  </h1>
+                  </h4>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -233,9 +233,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Faculty Feedback & Student Surveys
-                  </h1>
+                  </h4>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -263,9 +263,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Manage Holidays & School Events
-                  </h1>
+                  </h4>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -286,9 +286,9 @@ const HrManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   ID Cards & Gate Passes
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">

@@ -13,9 +13,9 @@ const studentManagementModuleTwo = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Transfer Certificates
-                </h1>
+                </h5>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">
@@ -35,9 +35,9 @@ const studentManagementModuleTwo = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Attendance Management
-                </h1>
+                </h3>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">
@@ -65,9 +65,9 @@ const studentManagementModuleTwo = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Secure Student Information Storage
-                </h1>
+                </h3>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">
@@ -91,9 +91,9 @@ const studentManagementModuleTwo = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Maintain Detailed Student Records
-                </h1>
+                </h3>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">
@@ -123,9 +123,9 @@ const studentManagementModuleTwo = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Recruitment & Placement Management
-                </h1>
+                </h3>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">
@@ -146,9 +146,9 @@ const studentManagementModuleTwo = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Alumni Management
-                </h1>
+                </h3>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">

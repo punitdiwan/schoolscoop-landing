@@ -28,7 +28,7 @@ const Cards = ({ imageUrl, title, heading, date }) => {
             <Typography variant="h2" color="blue-gray" className=" text-xl md:text-3xl">
               {title}
             </Typography>
-            <Typography variant="h2" color="blue-gray"
+            <Typography variant="h3" color="blue-gray"
               className=" text-[20px] mt-3">
               {/* {description} */}
               {date.slice(0, 10)}

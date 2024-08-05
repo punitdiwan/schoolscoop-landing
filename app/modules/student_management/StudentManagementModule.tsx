@@ -19,9 +19,9 @@ const StudentManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Student Fee Management
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999] ">
@@ -48,9 +48,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h6 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Enquiry Management
-                    </h1>
+                    </h6>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -67,9 +67,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Custom Form Builder
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -92,9 +92,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Counselor & Interviews
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -113,9 +113,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Bulk Upload Students
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -135,9 +135,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Upload Student Documents
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -157,9 +157,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h6 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Auto-generate ID Cards & Passes
-                    </h1>
+                    </h6>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -186,9 +186,9 @@ const StudentManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Student Academic Assessment
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -214,9 +214,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h2 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Multiple Grading Systems Supported
-                    </h1>
+                    </h2>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -233,9 +233,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Customize Evaluation Criteria
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -258,9 +258,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Manage Assignments & Homework
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -280,9 +280,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Examination Management
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -301,9 +301,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Student Performance Reports
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -323,9 +323,9 @@ const StudentManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Custom Printable Report Cards
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">

@@ -17,9 +17,9 @@ const ExamManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Multi-school Management
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -45,9 +45,9 @@ const ExamManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Role-Based Access
-                  </h1>
+                  </h4>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -82,9 +82,9 @@ const ExamManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Classroom Management
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -110,9 +110,9 @@ const ExamManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h6 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Unlimited Classes, Batches & Subjects
-                    </h1>
+                    </h6>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -128,9 +128,9 @@ const ExamManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h2 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Centralized Syllabus Manager
-                    </h1>
+                    </h2>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -152,9 +152,9 @@ const ExamManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Auto Timetable Generation
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -174,9 +174,9 @@ const ExamManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Attendance Management
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -196,9 +196,9 @@ const ExamManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Manage Class Assignments
-                    </h1>
+                    </h3>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -218,9 +218,9 @@ const ExamManagementModule = () => {
                   </div>
                   <div>
                     {" "}
-                    <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                    <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                       Classroom Performance Reportss
-                    </h1>
+                    </h4>
                   </div>
 
                   <div className="text-center text-[14px] text-[#999999]">
@@ -242,9 +242,9 @@ const ExamManagementModule = () => {
               </div>
               <div>
                 {" "}
-                <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
                   Examination Management
-                </h1>
+                </h5>
               </div>
 
               <div className="text-center text-[14px] text-[#999999]">
@@ -281,9 +281,9 @@ const ExamManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Unlimited Classes, Batches & Subjects
-                  </h1>
+                  </h4>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -300,9 +300,9 @@ const ExamManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Multiple Grading Systems Supported
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">
@@ -319,9 +319,9 @@ const ExamManagementModule = () => {
                 </div>
                 <div>
                   {" "}
-                  <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+                  <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
                     Customize Evaluation Criteria
-                  </h1>
+                  </h3>
                 </div>
 
                 <div className="text-center text-[14px] text-[#999999]">

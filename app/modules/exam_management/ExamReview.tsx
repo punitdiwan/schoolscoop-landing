@@ -23,10 +23,10 @@ const ExamReview = () => {
                   <img src="/imges/studentmanagement/delhi-public-school-logo-E8BDE7B79B-seeklogo.com_-77x100 (1).png" alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."/>
                 </div>
                 <div>
-                  <h1>Princicpal,</h1>
+                  <h5>Princicpal,</h5>
                 </div>
                 <div>
-                  <h1>Delhi Public School, New Delhi, India</h1>
+                  <h3>Delhi Public School, New Delhi, India</h3>
                 </div>
               </div>
             </div>

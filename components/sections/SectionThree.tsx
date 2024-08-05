@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const SectionThree = () => {
@@ -27,13 +28,13 @@ const SectionThree = () => {
       <div className=""></div>
       <div className="p-10 ">
         <div className="mt-4 ">
-          <h1
+          <h3
             className="
           xs:text-[24px] xs:font-bold xs:text-center xs:text-[#2c5aa0]
           md:text-4xl md:font-bold md:text-center md:text-[#2c5aa0]"
           >
             One System, One Dashboard
-          </h1>
+          </h3>
           <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
           <h4
             className="
@@ -48,20 +49,25 @@ const SectionThree = () => {
         {/* <div className="flex flex-wrap mt-8 ml-32 mr-16 p-1 "> */}
         <div className="section3 ">
           <div className=" xs:text-center ">
-            <h1 className=" text-[#ffb000] text-xl font-bold ml-12 ">
+            <h3 className=" text-[#ffb000] text-xl font-bold ml-12 ">
               STUDENTS
-            </h1>
-            <img
+            </h3>
+            <Image
+            width={189}
+            height={198}
               src="/imges/1.png"
-              className="w-[189px] h-[198px] xs:ml-[60px]"
+              className=" xs:ml-[60px]"
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             />
 
-            <img
+            <Image
+            width={171}
+            height={171}
               // src="/imges/image11158.png"
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-              src={data?.student_img?.data?.full_url}
-              className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
+              // src={data?.student_img?.data?.full_url}
+              src="/student.webp"
+              className=" mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
             {/* <div>
               {" "}
@@ -74,16 +80,21 @@ const SectionThree = () => {
           </div>
 
           <div className=" xs:text-center xs:mt-6">
-            <h1 className=" text-[#ffb000] text-xl font-bold ml-12">PARENTS</h1>
-            <img
+            <h3 className=" text-[#ffb000] text-xl font-bold ml-12">PARENTS</h3>
+            <Image
+            width={189}
+            height={198}
               src="/imges/2.png"
-              className="w-[189px] h-[198px] xs:ml-[60px]"
+              className=" xs:ml-[60px]"
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             />
-            <img
+            <Image
+              width={171}
+              height={171}
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               // src="/imges/image11588.png"
-              src={data?.parent_img?.data?.full_url}
+              src="/parents.webp"
+              // src={data?.parent_img?.data?.full_url}
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
 
@@ -91,18 +102,22 @@ const SectionThree = () => {
           </div>
 
           <div className=" xs:text-center xs:mt-6">
-            <h1 className=" text-[#ffb000] text-xl font-bold ml-12">
+            <h3 className=" text-[#ffb000] text-xl font-bold ml-12">
               TEACHERS
-            </h1>
-            <img
+            </h3>
+            <Image
+            width={189}
+            height={198}
               src="/imges/3.png"
-              className="w-[189px] h-[198px] xs:ml-[60px]"
+              className=" xs:ml-[60px]"
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             />
-            <img
+            <Image
+            width={180}
+            height={171}
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-              // src="/imges/image11179-1.png"
-              src={data?.teacher_img?.data?.full_url}
+              src="/teacher.webp"
+              // src={data?.teacher_img?.data?.full_url}
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
 
@@ -110,18 +125,23 @@ const SectionThree = () => {
           </div>
 
           <div className=" xs:text-center xs:mt-6">
-            <h1 className=" text-[#ffb000] text-xl uppercase  font-bold">
+            <h3 className=" text-[#ffb000] text-xl uppercase  font-bold">
             School owner
-            </h1>
-            <img
+            </h3>
+            <Image
+            width={189}
+            height={198}
               src="/imges/4.png"
-              className="w-[189px] h-[198px] xs:ml-[60px]"
+              className=" xs:ml-[60px]"
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
             />
-            <img
+            <Image
+            width={180}
+            height={171}
               alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
               // src="/imges/image11577.png"
-              src={data?.decision_makers?.data?.full_url}
+              src="/owner.webp"
+              // src={data?.decision_makers?.data?.full_url}
               className="w-[171px] h-[171px] mt-[-185px] ml-[10px] xs:ml-[70px] rounded-full"
             />
           </div>

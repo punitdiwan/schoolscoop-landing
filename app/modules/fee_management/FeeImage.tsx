@@ -10,7 +10,7 @@ const FeeImage = () => {
           xs:top-[30%] xs:left-[5%]
           md:top-[30%] md:left-[1%] ">
             {" "}
-            <h1 className="text-[40px] font-bold">Student Fees & Finance Management</h1>
+            <h2 className="text-[40px] font-bold">Student Fees & Finance Management</h2>
             <p className=" ">Transform the most cumbersome aspects of managing an educational
              institutes finances into an effortless operation. All the features in school fee ERP 
              you need to not only expedite student school

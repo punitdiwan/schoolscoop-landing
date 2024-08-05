@@ -18,9 +18,9 @@ interface CardProps {
   return (
     <>
       <div className="mt-2">
-        <h1 className="font-bold text-xl text-center mb-4">
+        <h3 className="font-bold text-xl text-center mb-4">
           {data.title}
-        </h1>
+        </h3>
        
          {
           data.items.map((item,index)=>(

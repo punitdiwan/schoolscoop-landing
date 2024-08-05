@@ -26,7 +26,7 @@ const Address = () => {
           <div>
             <div>
               <div>
-                <h1 className="text-base font-bold">Sales</h1>
+                <h5 className="text-base font-bold">Sales</h5>
                 <div className="flex ">
                   <div>
                     <img
@@ -61,7 +61,7 @@ const Address = () => {
           <div>
             <div>
               <div>
-                <h1 className="text-base font-bold">Support & Help</h1>
+                <h5 className="text-base font-bold">Support & Help</h5>
                 <div className="flex ">
                   <div>
                     <img
@@ -96,7 +96,7 @@ const Address = () => {
           <div>
             <div>
               <div>
-                <h1 className="text-base font-bold">Become a Reseller</h1>
+                <h3 className="text-base font-bold">Become a Reseller</h3>
                 <div className="flex ">
                   <div>
                     <img
@@ -131,7 +131,7 @@ const Address = () => {
           <div>
             <div>
               <div>
-                <h1 className="text-base font-bold">Jobs & Recruitment</h1>
+                <h3 className="text-base font-bold">Jobs & Recruitment</h3>
               </div>
             </div>
             <div>

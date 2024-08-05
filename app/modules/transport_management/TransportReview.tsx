@@ -33,7 +33,7 @@ const TransportReview = () => {
                   <h1>Princicpal,</h1>
                 </div>
                 <div>
-                  <h1>Delhi Public School, New Delhi, India</h1>
+                  <h2>Delhi Public School, New Delhi, India</h2>
                 </div>
               </div>
             </div>

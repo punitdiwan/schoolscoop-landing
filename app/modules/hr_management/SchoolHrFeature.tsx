@@ -4,7 +4,7 @@ const SchoolHrFeature = () => {
   return (
     <div>
     <div>
-        <div><h1 className='text-[#2c5aa0] text-[40px] font-bold text-center'>Explore Other SchoolScoop Features</h1></div>
+        <div><h3 className='text-[#2c5aa0] text-[40px] font-bold text-center'>Explore Other SchoolScoop Features</h3></div>
         <div><h2 className='text-[#2c5aa0] text-[20px] font-normal text-center'>45+ modules to modernize and streamline management of educational institutes</h2></div>
     </div>
 
@@ -17,9 +17,9 @@ const SchoolHrFeature = () => {
           </div>
           <div>
             {" "}
-            <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+            <h4 className="text-[20px] text-[#DD9933] font-semibold text-center">
             Campus Management System
-            </h1>
+            </h4>
           </div>
 
           <div className="text-center text-[14px] text-[#999999]">
@@ -37,9 +37,9 @@ const SchoolHrFeature = () => {
           </div>
           <div>
             {" "}
-            <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+            <h6 className="text-[20px] text-[#DD9933] font-semibold text-center">
             Fees & Finance Management
-            </h1>
+            </h6>
           </div>
 
           <div className="text-center text-[14px] text-[#999999]">
@@ -59,9 +59,9 @@ const SchoolHrFeature = () => {
           </div>
           <div>
             {" "}
-            <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+            <h5 className="text-[20px] text-[#DD9933] font-semibold text-center">
             Communication Portal
-            </h1>
+            </h5>
           </div>
 
           <div className="text-center text-[14px] text-[#999999]">
@@ -79,9 +79,9 @@ const SchoolHrFeature = () => {
           </div>
           <div>
             {" "}
-            <h1 className="text-[20px] text-[#DD9933] font-semibold text-center">
+            <h3 className="text-[20px] text-[#DD9933] font-semibold text-center">
             Analytics & Reporting
-            </h1>
+            </h3>
           </div>
 
           <div className="text-center text-[14px] text-[#999999]">

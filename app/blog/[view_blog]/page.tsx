@@ -69,9 +69,9 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
                 {filteredEntries.map((entry) => (
                   <div>
                     <div>
-                      <h1 className="text-center font-bold text-2xl md:text-[40px]">
+                      <h3 className="text-center font-bold text-2xl md:text-[40px]">
                         {entry?.blog_title}
-                      </h1>
+                      </h3>
                     </div>
                     <div>
                       <div className="flex items-center gap-2 lg:ml-[20%] mt-4">
@@ -81,12 +81,12 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
                           alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
                         />
                         <p>
-                          <h1 className="text-sm">
+                          <h5 className="text-sm">
                             Written by <span>Edusparsh</span>
-                          </h1>
-                          <h1 className="text-sm">
+                          </h5>
+                          <h6 className="text-sm">
                             {entry?.modified_on.slice(0, 10) }
-                          </h1>
+                          </h6>
                         </p>
                       </div>
                       {entry?.blog_image?.data?.full_url ? (

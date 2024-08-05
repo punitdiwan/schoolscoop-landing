@@ -114,7 +114,6 @@ const Header = () => {
               {/* <SectionSeven /> */}
               {/* <SectionEight /> */}
               {/* <SectionNine /> */}
-
               <Footer />
             </div>
           </div>
