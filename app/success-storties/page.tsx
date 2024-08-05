@@ -26,7 +26,7 @@ const SuccessStories = () => {
       console.error("Error fetching data:", error);
     }
   };
-  console.log("para data====>", data);
+  // console.log("para data====>", data);
 
   useEffect(() => {
     fetchData();
@@ -50,7 +50,7 @@ const SuccessStories = () => {
               <div className="grid grid-cols-2 gap-4 px-2 mx-auto mt-2 md:grid-cols-4">
                 {data?.map((item: any) => (
                   <Link
-                    href={`/success_storties/${item.institute
+                    href={`/success-storties/${item.institute
                       .replace(/ /g, "-")
                       .toLowerCase()}`}
                     className=" flex flex-col border items-center p-3"

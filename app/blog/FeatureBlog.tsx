@@ -56,7 +56,7 @@ const FeatureBlog = () => {
   const endIndex = startIndex + itemsPerPage;
 
   const cardsToShow = filteredData.slice().reverse().slice(startIndex, endIndex);
-console.log("=================+++>",data)
+// console.log("=================+++>",data)
   return (
     <div>
       <h1 className="hidden">BLOGS</h1>

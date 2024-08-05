@@ -17,7 +17,7 @@ const StaffReachSupport = () => {
     // console.log("=========>", e.target.n, "============", e.target.name);
     setData({ ...data, [e.target.name]: e.target.value });
     setError("");
-    console.log("data===>", data);
+    // console.log("data===>", data);
     // console.log(institute_type)
   };
   // setInstitute(value);
