@@ -53,7 +53,7 @@ const Section2one = () => {
       imageUrl: "/educationcard8.webp"
     },
   ];
-console.log("imagecard===>",)
+// console.log("imagecard===>",)
   return (
     <>
       <div className="p-12">

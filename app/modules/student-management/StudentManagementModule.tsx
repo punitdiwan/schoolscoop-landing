@@ -10,7 +10,7 @@ const StudentManagementModule = () => {
         <div className="p-[10px]">
           <div className="p-16 pt-5">
             <div className="grid  md:grid-cols-2 gap-32 ">
-              <Link href="/modules/fee_management" className="w-[80%]">
+              <Link href="/modules/fee-management" className="w-[80%]">
                 <div className="flex justify-center">
                   <img
                     src="/imges/studentmanagement/1.png"

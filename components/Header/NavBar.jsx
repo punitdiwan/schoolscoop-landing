@@ -45,31 +45,31 @@ const Modules = [
     title: "Student Management",
     description: "Find the perfect solution for your needs.",
     icon: PiStudentLight,
-    link: `/modules/student_management`
+    link: `/modules/student-management`
   },
   {
     title: "Administration & HR Management",
     description: "Find the perfect solution for your needs.",
     icon: MdManageAccounts,
-    link: `/modules/hr_management`
+    link: `/modules/hr-management`
   },
   {
     title: "Fees Management",
     description: "Learn how we can help you achieve your goals.",
     icon: TbMoneybag,
-    link: `/modules/fee_management`
+    link: `/modules/fee-management`
   },
   {
     title: "Exam Management",
     description: "Reach out to us for assistance or inquiries",
     icon: IoMdPaper,
-    link: `/modules/exam_management`
+    link: `/modules/exam-management`
   },
   {
     title: "Transportation Management",
     description: "Find the perfect solution for your needs.",
     icon: FaBusAlt,
-    link: `/modules/transport_management`
+    link: `/modules/transport-management`
   }
 ];
 
@@ -78,13 +78,13 @@ const Support = [
     title: "For Parents & Students",
     description: "Find the perfect solution for your needs.",
     icon: RiParentLine,
-    link: `/help_and_support/help_student_support`
+    link: `/help-and-support/help-student-support`
   },
   {
     title: "For School Staff & Administrators",
     description: "Meet and learn about our dedication",
     icon: GrUserWorker,
-    link: `/help_and_support/help_school`
+    link: `/help-and-support/help-school`
   }
 ];
 
@@ -139,7 +139,7 @@ const NavList = () => {
 
       <Typography
         as="a"
-        href="/success_storties"
+        href="/success-storties"
         variant="small"
         color="blue-gray"
         className="font-medium"

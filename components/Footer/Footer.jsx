@@ -82,22 +82,22 @@ const Footer = () => {
             <h2 className="uppercase font-bold text-white">Modules </h2>
             <Link
               className="hover:text-white"
-              href="/modules/student_management"
+              href="/modules/student-management"
             >
               Students Management
             </Link>
-            <Link className="hover:text-white" href="/modules/hr_management">
+            <Link className="hover:text-white" href="/modules/hr-management">
               Administration & HR management
             </Link>
-            <Link className="hover:text-white" href="/modules/fee_management">
+            <Link className="hover:text-white" href="/modules/fee-management">
               Fees management
             </Link>
-            <Link className="hover:text-white" href="/modules/exam_management">
+            <Link className="hover:text-white" href="/modules/exam-management">
               Exam management
             </Link>
             <Link
               className="hover:text-white"
-              href="/modules/transport_management"
+              href="/modules/transport-management"
             >
               Transportation management
             </Link>
@@ -107,13 +107,13 @@ const Footer = () => {
             <h2 className="uppercase font-bold text-white">help & support </h2>
             <Link
               className="hover:text-white"
-              href="/help_and_support/help_student_support"
+              href="/help-and-support/help-student-support"
             >
               For parets & Students
             </Link>
             <Link
               className="hover:text-white"
-              href="/help_and_support/help_school"
+              href="/help-and-support/help-school"
             >
               for school Staff & Administrators
             </Link>
