@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import React, { useEffect, useState, useCallback } from "react";
 import Cards from "./Cards";
@@ -9,7 +8,7 @@ interface BlogItem {
   blog_title: string;
   blog_image: { data: { full_url: string } };
   modified_on: string;
-  card_heading:string;
+  card_heading: string;
 }
 
 const FeatureBlog = () => {
@@ -55,8 +54,11 @@ const FeatureBlog = () => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
-  const cardsToShow = filteredData.slice().reverse().slice(startIndex, endIndex);
-// console.log("=================+++>",data)
+  const cardsToShow = filteredData
+    .slice()
+    .reverse()
+    .slice(startIndex, endIndex);
+  // console.log("=================+++>",data)
   return (
     <div>
       <h1 className="hidden">BLOGS</h1>
@@ -73,14 +75,18 @@ const FeatureBlog = () => {
           {cardsToShow.map((card) => (
             <div key={card.id}>
               <Link
-                href={`/blog/${card.blog_title.replace(/ /g, "-").toLowerCase()}`}
+                // href={`/blog/${card.blog_title.replace(/ /g, "-").toLowerCase()}`}
+                href={`/blog/${card.blog_title
+                  .replace(/[ :]+/g, "-")
+                  .replace(/[^a-z0-9-]/g, "")
+                  .toLowerCase()}`}
               >
-                  <Cards
-                    imageUrl={card?.blog_image?.data?.full_url}
-                    title={card.blog_title}
-                    heading={card?.card_heading}
-                    date={card.modified_on}
-                  />
+                <Cards
+                  imageUrl={card?.blog_image?.data?.full_url}
+                  title={card.blog_title}
+                  heading={card?.card_heading}
+                  date={card.modified_on}
+                />
               </Link>
             </div>
           ))}
