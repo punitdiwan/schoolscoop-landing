@@ -36,7 +36,11 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
     if (params.view_blog && data.length > 0) {
       const filtered = data.filter(
         (entry) =>
-          entry.blog_title.replace(/ /g, "-").toLowerCase() === params.view_blog
+          // entry.blog_title.replace(/ /g, "-").toLowerCase() === params.view_blog
+          entry.blog_title
+            .replace(/[ :]+/g, "-")
+            .replace(/[^a-z0-9-]/g, "")
+            .toLowerCase() === params.view_blog
       );
       setFilteredEntries(filtered);
     }
@@ -85,7 +89,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
                             Written by <span>Edusparsh</span>
                           </h5>
                           <h6 className="text-sm">
-                            {entry?.modified_on.slice(0, 10) }
+                            {entry?.modified_on.slice(0, 10)}
                           </h6>
                         </p>
                       </div>
@@ -108,7 +112,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
                 ))}
               </div>
             </div>
-            
+
             <Footer />
           </div>
         </div>
