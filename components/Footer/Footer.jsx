@@ -155,14 +155,11 @@ const Footer = () => {
               href="https://maitretech.com/"
               className=" flex flex-row items-baseline "
             >
-              {" "}
-              <FaRegCopyright className="text-sm -mb-2" /> Edusparsh 2024. All
-              rights reserved maitretech Solution
+               &copyEdusparsh 2024. All Rights Reserved Maitretech Solution
             </Link>
-            {/* <Link href="https://maitretech.com/"> </Link> */}
           </div>
 
-          <p><Link href="https://maitretech.com/Services.html">Terms and Contitions</Link> | <Link href="https://maitretech.com/RefundCancillation.html">Privicy Policy</Link></p>
+          <p><Link className="text-white" href="https://maitretech.com/Services.html">Terms and Contitions</Link> | <Link className="text-white" href="https://maitretech.com/RefundCancillation.html">Privicy Policy</Link></p>
         </div>
       </footer>
     </>
