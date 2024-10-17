@@ -162,7 +162,7 @@ const Footer = () => {
             {/* <Link href="https://maitretech.com/"> </Link> */}
           </div>
 
-          <p>Terms of use | Privicy Policy</p>
+          <p><Link href="https://maitretech.com/Services.html">Terms and Contitions</Link> | <Link href="https://maitretech.com/RefundCancillation.html">Privicy Policy</Link></p>
         </div>
       </footer>
     </>
