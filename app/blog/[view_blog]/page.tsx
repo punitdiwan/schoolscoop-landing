@@ -38,9 +38,9 @@ const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
         (entry) =>
           // entry.blog_title.replace(/ /g, "-").toLowerCase() === params.view_blog
           entry.blog_title
-            .replace(/[ :]+/g, "-")
-            .replace(/[^a-z0-9-]/g, "")
-            .toLowerCase() === params.view_blog
+            ?.replace(/[ :]+/g, "-")
+            ?.replace(/[^a-z0-9-]/g, "")
+            ?.toLowerCase() === params.view_blog
       );
       setFilteredEntries(filtered);
     }

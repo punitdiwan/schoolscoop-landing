@@ -77,9 +77,9 @@ const FeatureBlog = () => {
               <Link
                 // href={`/blog/${card.blog_title.replace(/ /g, "-").toLowerCase()}`}
                 href={`/blog/${card.blog_title
-                  .replace(/[ :]+/g, "-")
-                  .replace(/[^a-z0-9-]/g, "")
-                  .toLowerCase()}`}
+                  ?.replace(/[ :]+/g, "-")
+                  ?.replace(/[^a-z0-9-]/g, "")
+                  ?.toLowerCase()}`}
               >
                 <Cards
                   imageUrl={card?.blog_image?.data?.full_url}
