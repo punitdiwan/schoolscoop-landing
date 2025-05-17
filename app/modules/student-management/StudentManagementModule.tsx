@@ -2,10 +2,183 @@ import React from "react";
 import { IoMdPlayCircle } from "react-icons/io";
 import StudentManagementModuleTwo from "./studentManagementModuleTwo";
 import Link from "next/link";
+// import ModuleContent from '../../../components/Modules/ModuleContent';
+import BenefitCard from '../../../components/Modules/BenefitCard';
+
+const data = [
+  {
+    imgSrc: '/student.jpg',
+    title: 'Student Management System',
+    heading: 'Human Resource',
+    listItems: [
+      "Manage employee from recruitment to retirement",
+      "Store basic, personal, job, statutory & communication details",
+      "Bulk data upload facility",
+      "Inbuilt employee ID card",
+      "Comprehensive employee report",
+      "Custom employee search",
+    ],
+  },
+  {
+    imgSrc: '/student.jpg',
+    title: 'Student Management System',
+    heading: 'Human Resource',
+    listItems: [
+      "Manage employee from recruitment to retirement",
+      "Store basic, personal, job, statutory & communication details",
+      "Bulk data upload facility",
+      "Inbuilt employee ID card",
+      "Comprehensive employee report",
+      "Custom employee search",
+    ],
+  },
+  {
+    imgSrc: '/student.jpg',
+    title: 'Student Management System',
+    heading: 'Human Resource',
+    listItems: [
+      "Manage employee from recruitment to retirement",
+      "Store basic, personal, job, statutory & communication details",
+      "Bulk data upload facility",
+      "Inbuilt employee ID card",
+      "Comprehensive employee report",
+      "Custom employee search",
+    ],
+  },
+  {
+    imgSrc: '/student.jpg',
+    title: 'Student Management System',
+    heading: 'Human Resource',
+    listItems: [
+      "Manage employee from recruitment to retirement",
+      "Store basic, personal, job, statutory & communication details",
+      "Bulk data upload facility",
+      "Inbuilt employee ID card",
+      "Comprehensive employee report",
+      "Custom employee search",
+    ],
+  },
+];
 
 const StudentManagementModule = () => {
   return (
-    <>
+    <> 
+{/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center sm:justify-start">
+  {data.map((item, index) => (
+    <BenefitCard key={index} {...item} />
+  ))}
+</div> */}
+
+{/* what is */}
+<div className="flex flex-col lg:flex-row items-center bg-[#ffece0] px-4 py-8 lg:px-12 lg:py-16 gap-8">
+  {/* Image Section - Left on large screens, smaller size */}
+  <div className="w-full lg:w-5/12 flex justify-center">
+    <img
+      src="/module-bg.webp"
+      alt="Student Management System"
+      className="w-3/4 md:w-2/3 lg:w-full h-auto"
+    />
+  </div>
+
+  {/* Text Section */}
+  <div className="w-full lg:w-7/12 space-y-4 text-center lg:text-left">
+    <h1 className="text-3xl md:text-5xl font-bold text-blue-900">
+      Student Management System
+    </h1>
+    <h2 className="text-lg md:text-2xl font-semibold text-gray-700">
+      What is a Student Management System?
+    </h2>
+    <p className="text-gray-700 leading-relaxed">
+      A Student Management System (SMS) is a digital platform that helps educational institutions efficiently manage and organize student-related data and activities. 
+      It centralizes information like admissions, attendance, grades, timetables, performance reports, and communication with parents.
+    </p>
+    <p className="text-gray-700 leading-relaxed">
+      This system streamlines administrative tasks, reduces paperwork, improves accuracy, and allows teachers and staff to focus more on student development.
+      It also enhances communication between schools, students, and parents through online portals and mobile apps.
+    </p>
+  </div>
+</div>
+
+{/* why do we need  */}
+<div className="flex flex-col lg:flex-row-reverse items-center px-4 py-8 lg:px-12 lg:py-16 gap-8">
+  {/* Image Section - Right on large screens */}
+  <div className="w-full lg:w-5/12 flex justify-center">
+    <img
+      src="/module-bg2.png"
+      alt="Student Management System"
+      className="w-3/4 md:w-2/3 lg:w-full h-auto"
+    />
+  </div>
+
+  {/* Text Section */}
+  <div className="w-full lg:w-7/12 space-y-4 text-center lg:text-left">
+    <h1 className="text-3xl md:text-5xl font-bold text-blue-900">
+      Student Management System
+    </h1>
+    <h2 className="text-lg md:text-2xl font-semibold text-gray-700">
+      Why Do We Need Admission Management Software?
+    </h2>
+    <p className="text-gray-700 leading-relaxed">
+      Admission Management Software is essential for educational institutions
+      to modernize and streamline their admission processes. This software automates 
+      tasks like application submission, document verification, and fee processing, 
+      reducing the burden on administrative staff and minimizing errors. With centralized 
+      data management, it provides a unified platform for all admission-related activities.
+      The software ensures a smoother experience for both applicants and administrators, 
+      promoting efficiency and transparency. Real-time updates and automated communication
+      features contribute to timely decision-making. Overall, Admission Management Software 
+      is a crucial tool in enhancing the effectiveness of admission procedures, helping 
+      educational institutions stay organized, improve communication, and provide a positive
+      experience for prospective students.
+    </p>
+  </div>
+</div>
+
+
+
+{/* benefits section */}
+<section className="relative w-[262px] h-[261px] rounded-lg overflow-hidden shadow-lg group">
+  {/* Background Image */}
+  <div className="w-full h-full relative">
+    <img
+      src="/student.jpg"
+      alt="Student Management System"
+      className="w-full h-full object-cover rounded-lg"
+    />
+    <h1 className="absolute bottom-3 text-black text-sm font-bold  bg-opacity-80 px-2 py-1 ">
+      Student Management System
+    </h1>
+  </div>
+
+  {/* Hover Overlay with Custom Gradient */}
+  <div
+    className="absolute inset-0 p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg"
+    style={{
+      background:
+        'linear-gradient(90deg, rgba(251, 92, 24, 1) 5%, rgba(251, 87, 23, 1) 37%, rgba(247, 166, 14, 1) 100%)',
+    }}
+  >
+    <h2 className="text-lg font-bold text-white mb-2">Human Resource</h2>
+    <ul className="space-y-1 text-white text-[12px] leading-snug">
+      {[
+        "Manage employee from recruitment to retirement",
+        "Store basic, personal, job, statutory & communication details",
+        "Bulk data upload facility",
+        "Inbuilt employee ID card",
+        "Comprehensive employee report",
+        "Custom employee search",
+      ].map((item, index) => (
+        <li key={index} className="flex items-start space-x-1">
+          <img src="/star.png" alt="star" className="w-3.5 h-3.5 mt-0.5" />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+
+      {/* old */}
       <div className="">
         <div className="p-[10px]">
           <div className="p-16 pt-5">

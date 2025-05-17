@@ -31,7 +31,13 @@ import {
 } from "@heroicons/react/24/solid";
 import NavListMenu from "./NavLIstMenu";
 import { IoBookOutline } from "react-icons/io5";
-import { PiGithubLogoFill, PiPresentationFill, PiStudentLight } from "react-icons/pi";
+import { PiGithubLogoFill, PiPresentationFill, PiStudentLight,
+  PiBookOpenTextLight,
+  PiArrowCircleUpLight,
+  PiChatTeardropTextLight,
+  PiIdentificationCardLight,
+  PiHeadsetLight,
+  PiEnvelopeSimpleOpenLight } from "react-icons/pi";
 import { MdManageAccounts } from "react-icons/md";
 import { TbMoneybag } from "react-icons/tb";
 import { IoMdPaper } from "react-icons/io";
@@ -70,7 +76,43 @@ const Modules = [
     description: "Find the perfect solution for your needs.",
     icon: FaBusAlt,
     link: `/modules/transport-management`
-  }
+  },
+  {
+    title: "Manage Subject",
+    description: "Organize academic subjects efficiently.",
+    icon: PiBookOpenTextLight,
+    link: "/modules/manage-subject",
+  },
+  {
+    title: "Student Promotion",
+    description: "Promote students to the next level with ease.",
+    icon: PiArrowCircleUpLight,
+    link: "/modules/student-promotion",
+  },
+  {
+    title: "SMS Module",
+    description: "Send instant messages and notifications.",
+    icon: PiChatTeardropTextLight,
+    link: "/modules/sms-module",
+  },
+  {
+    title: "Employee Role",
+    description: "Define and assign staff responsibilities.",
+    icon: PiIdentificationCardLight,
+    link: "/modules/employee-role",
+  },
+  {
+    title: "Support Ticket",
+    description: "Handle queries and complaints effectively.",
+    icon: PiHeadsetLight,
+    link: "/modules/support-ticket",
+  },
+  {
+    title: "Admission Enquiry",
+    description: "Track and manage new admission enquiries.",
+    icon: PiEnvelopeSimpleOpenLight,
+    link: "/modules/admission-enquiry",
+  },
 ];
 
 const Support = [

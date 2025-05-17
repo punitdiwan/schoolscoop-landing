@@ -125,3 +125,13 @@ body{
   color: #333;
   height: 90vh;
 }
+.gradient-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(27, 22, 87, 1) 0%,
+    rgba(11, 11, 125, 1) 28%,
+    rgba(12, 24, 133, 1) 63%,
+    rgba(48, 121, 209, 1) 100%
+  );
+  opacity: 0.9;
+}
