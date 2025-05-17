@@ -6,6 +6,8 @@ import TransportImage from "./TransportImage";
 import TransportModule from "./TransportModule";
 import TransportReview from "./TransportReview";
 import Footer from "@/components/Footer/Footer";
+import TransportFeatureCardsSection from "./Featurecard";
+import TransportationContent from "./ModuleContent"
 
 const TransportManagement = () => {
   return (
@@ -13,6 +15,12 @@ const TransportManagement = () => {
       <div>
       
         <NavBar />
+
+        <img src="/modules/transportation.png"
+               className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                    />
+         
         <div className="p-[20px]">
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
             <WhatsappForm />
@@ -26,9 +34,11 @@ const TransportManagement = () => {
             </div>
 
             <div className="mx-auto p-2 ">
-              <TransportImage />
-              <TransportModule />
-              <TransportReview />
+              <TransportationContent></TransportationContent>
+              <TransportFeatureCardsSection></TransportFeatureCardsSection>
+              {/* <TransportImage /> */}
+              {/* <TransportModule /> */}
+              {/* <TransportReview /> */}
               <Footer/>
             </div>
           </div>

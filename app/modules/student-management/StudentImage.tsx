@@ -7,8 +7,8 @@ const StudentImage = () => {
       <div>
         <div className=" relative text-center text-white">
           <img
-            src="/imges/studentmanagement/student-management-system.jpg"
-            className="xs:h-[650px]"
+            src="/sliderimages/testing/test11.png"
+            className="h-[450px] w-full"
             alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
           />
           <div

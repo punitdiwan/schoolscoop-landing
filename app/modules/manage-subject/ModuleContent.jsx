@@ -1,6 +1,6 @@
 import React from 'react';
 import ModuleContent from '../../../components/Modules/ModuleContent';
-import { HiOutlineDatabase } from 'react-icons/hi';
+
 
 
 
@@ -23,7 +23,6 @@ const ManageSubject = () =>{
       imageSrc="/module-bg2.png" 
       imagePosition="right"
       backgroundColor="#f9fafb"
-      heading="Manage Subject"
       subheading="Why Do We Need Manage subject module in school Software?"
 paragraphs={[
   "The Manage Subject module in school software is vital for organizing and streamlining the academic curriculum.",

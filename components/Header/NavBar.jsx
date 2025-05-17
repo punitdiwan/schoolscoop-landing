@@ -37,6 +37,7 @@ import { PiGithubLogoFill, PiPresentationFill, PiStudentLight,
   PiChatTeardropTextLight,
   PiIdentificationCardLight,
   PiHeadsetLight,
+  PiUserCircleLight,
   PiEnvelopeSimpleOpenLight } from "react-icons/pi";
 import { MdManageAccounts } from "react-icons/md";
 import { TbMoneybag } from "react-icons/tb";
@@ -54,19 +55,25 @@ const Modules = [
     link: `/modules/student-management`
   },
   {
-    title: "Administration & HR Management",
+    title: "Employee Management",
+    description: "Streamline your workforce management with ease.",
+    icon: PiUserCircleLight,  
+    link: `/modules/employee-management`
+},
+  {
+    title: "HR management system",
     description: "Find the perfect solution for your needs.",
     icon: MdManageAccounts,
     link: `/modules/hr-management`
   },
   {
-    title: "Fees Management",
+    title: "Manage Fees",
     description: "Learn how we can help you achieve your goals.",
     icon: TbMoneybag,
     link: `/modules/fee-management`
   },
   {
-    title: "Exam Management",
+    title: "Manage Exam",
     description: "Reach out to us for assistance or inquiries",
     icon: IoMdPaper,
     link: `/modules/exam-management`
