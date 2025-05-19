@@ -134,7 +134,14 @@ const Support = [
     description: "Meet and learn about our dedication",
     icon: GrUserWorker,
     link: `/help-and-support/help-school`
-  }
+  },
+  {
+    title: "FAQ",
+    description: "Meet and learn about our dedication",
+    icon: FaQuestionCircle ,
+    link:`/frequently-question`
+
+  },
 ];
 
 const Blogdata = [
@@ -157,7 +164,7 @@ const Blogdata = [
     title: "BROCHURES",
     description: "Meet and learn about our dedication",
     icon: VscBook,
-    link:`/blog`
+    link:`/brochure`
 
   },
   {

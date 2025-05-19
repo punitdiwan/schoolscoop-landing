@@ -1,3 +1,4 @@
+import FeatureCard from '../../../components/Modules/FeatureCard';
 import {
   HiOutlineLocationMarker,
   HiOutlineMap,
@@ -10,68 +11,70 @@ import {
   HiOutlineDatabase,
   HiOutlineClock,
 } from 'react-icons/hi';
-import FeatureCard from '../../../components/Modules/FeatureCard';
+
+// Define a default gradient class for consistency
+const defaultGradientClass = 'bg-gradient-to-r from-indigo-900 to-blue-800';
 
 export const transportFeatures = [
   {
     title: 'Real-Time Tracking',
     description: 'Parents and administrators can track buses in real time for better security and convenience.',
     icon: HiOutlineLocationMarker,
-    gradientClass: 'bg-gradient-to-r from-blue-500 to-indigo-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Optimized Routes',
     description: 'Efficient route planning saves time, fuel, and transportation costs.',
     icon: HiOutlineMap,
-    gradientClass: 'bg-gradient-to-r from-green-500 to-emerald-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Improved Safety',
     description: 'Monitors vehicle speed, routes, and stops to ensure student safety.',
     icon: HiOutlineShieldCheck,
-    gradientClass: 'bg-gradient-to-r from-red-500 to-rose-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Automated Fee Management',
     description: 'Simplifies transport fee collection, invoicing, and record-keeping.',
     icon: HiOutlineCurrencyDollar,
-    gradientClass: 'bg-gradient-to-r from-yellow-500 to-amber-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Accurate Pickup/Drop Records',
     description: 'Ensures accurate student attendance and monitoring during transport.',
     icon: HiOutlineClipboardCheck,
-    gradientClass: 'bg-gradient-to-r from-purple-500 to-pink-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Instant Alerts & Notifications',
     description: 'Sends SMS/email updates about delays, pick-up/drop-off times, or emergencies.',
     icon: HiOutlineBell,
-    gradientClass: 'bg-gradient-to-r from-orange-500 to-red-600',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Driver & Vehicle Management',
     description: 'Tracks driver details, vehicle status, maintenance schedules, and licenses.',
     icon: HiOutlineTruck,
-    gradientClass: 'bg-gradient-to-r from-gray-600 to-gray-800',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Enhanced Communication',
     description: 'Easy communication between parents, drivers, and school admins for smooth operations.',
     icon: HiOutlineChat,
-    gradientClass: 'bg-gradient-to-r from-pink-500 to-rose-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Centralized Data',
     description: 'All transport-related information is stored in one accessible platform.',
     icon: HiOutlineDatabase,
-    gradientClass: 'bg-gradient-to-r from-teal-500 to-cyan-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
   {
     title: 'Time-Saving Automation',
     description: 'Reduces manual tasks and administrative workload for school staff.',
     icon: HiOutlineClock,
-    gradientClass: 'bg-gradient-to-r from-lime-500 to-green-700',
+    gradientClass: defaultGradientClass, // Use default gradient class
   },
 ];
 

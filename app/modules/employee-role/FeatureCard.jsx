@@ -11,60 +11,63 @@ import {
 } from 'react-icons/hi';
 import FeatureCard from '../../../components/Modules/FeatureCard';
 
+// Define the default gradient class
+const defaultGradientClass = 'bg-gradient-to-r from-indigo-900 to-blue-800'; // Adjust the gradient as needed
+
 export const employeeRoleFeatures = [
   {
     title: 'Enhanced Data Security',
     description: 'Assigning specific roles ensures sensitive data like student records and financials is only accessed by authorized personnel.',
     icon: HiOutlineShieldCheck,
-    gradientClass: 'bg-gradient-to-r from-red-500 to-rose-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Streamlined Role Management',
     description: 'Simplifies assigning, managing, and updating employee roles based on responsibilities for better organization.',
     icon: HiOutlineUserCircle,
-    gradientClass: 'bg-gradient-to-r from-blue-500 to-indigo-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Improved Efficiency',
     description: 'Clear roles allow staff to focus on specific tasks, boosting productivity and operational flow.',
     icon: HiOutlineLightningBolt,
-    gradientClass: 'bg-gradient-to-r from-green-500 to-emerald-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Customization and Flexibility',
     description: 'Administrators can tailor roles for various staff types, adapting to any organizational structure.',
     icon: HiOutlineAdjustments,
-    gradientClass: 'bg-gradient-to-r from-purple-500 to-pink-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Clear Accountability',
     description: 'Defined roles help track individual responsibilities, monitor performance, and promote accountability.',
     icon: HiOutlineClipboardCheck,
-    gradientClass: 'bg-gradient-to-r from-yellow-500 to-orange-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Access Control',
     description: 'Fine-tuned data and feature access ensures employees only view what is relevant to their role.',
     icon: HiOutlineKey,
-    gradientClass: 'bg-gradient-to-r from-gray-600 to-gray-800',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Simplified System Management',
     description: 'Centralized permission settings reduce workload for admins and ensure consistency across the system.',
     icon: HiOutlineCog,
-    gradientClass: 'bg-gradient-to-r from-teal-500 to-cyan-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Scalability',
     description: 'The system supports growth by easily integrating new roles and structures without disruption.',
     icon: HiOutlineTrendingUp,
-    gradientClass: 'bg-gradient-to-r from-indigo-500 to-blue-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
   {
     title: 'Improved Collaboration',
     description: 'Defined responsibilities streamline communication and coordination across departments.',
     icon: HiOutlineUserGroup,
-    gradientClass: 'bg-gradient-to-r from-lime-500 to-green-700',
+    gradientClass: defaultGradientClass, // Use the default gradient class
   },
 ];
 

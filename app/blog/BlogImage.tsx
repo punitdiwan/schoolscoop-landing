@@ -5,11 +5,11 @@ const BlogImage = () => {
     <>
       <div>
         <div className=" flex flex-col gap-3 lg:flex-row">
-          <img
+          {/* <img
             src="/imges/student_parentsupport/edumarshal-support.jpg"
             className="w-[90%] mx-auto h-96 lg:w-[50%] lg:h-[500px] "
-            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-          />
+            alt="helo   ."
+          /> */}
           <div className="text-black ">
             <div>
               <h1 className="text-[40px] font-bold">EduSparsh Blogs</h1>

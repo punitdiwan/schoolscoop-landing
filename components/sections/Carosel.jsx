@@ -1,88 +1,73 @@
-import { Carousel } from "@material-tailwind/react";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import Carousel from "../carousel/Carousel";
+import Image from "next/image";
 
 const Carosel = () => {
-  // const [data, setData] = useState();
-  // const fetchData = async () => {
-  //   try {
-  //     const response = await fetch(
-  //       "https://cms.maitretech.com/edusparsh/items/home_slider?fields=*.*"
-  //     );
-  //     const jsonData = await response.json();
+  const [items, setItems] = useState([]);
 
-  //     setData(jsonData.data);
-  //   } catch (error) {
-  //     console.error("Error fetching data:", error);
-  //   }
-  // };
-  // // console.log("slider data====>", data);
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        "https://cms.maitretech.com/edusparsh/items/home_slider?fields=*.*"
+      );
+      const jsonData = await response.json();
 
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
-
-  const Data = [
-    {
-      id: 1,
-      title: "Title 1",
-      slider_img: {
-        data: {
-          full_url: "/card1.webp"
-        }
-      }
-    },
-    {
-      id: 2,
-      title: "Title 2",
-      slider_img: {
-        data: {
-          full_url: "/card2.webp"
-        }
-      }
-    },
-    {
-      id: 3,
-      title: "Title 3",
-      slider_img: {
-        data: {
-          full_url: "/card3.webp"
-        }
-      }
-    },
-    {
-      id: 4,
-      title: "Title 4",
-      slider_img: {
-        data: {
-          full_url: "/card4.webp"
-        }
-      }
-    },
-  ];
-  return (
-    <>
-      <div>
-        <Carousel
-          transition={{ duration: 2 }}
-          className="rounded-xl"
-          autoplay
-          loop
-        >
-          {Data?.map((card) => (
-            <div key={card.id}>
-              <Image
+      const formattedSlides = (jsonData.data || []).map((item, index) => {
+        const imageUrl =
+          item?.slider_img?.data?.full_url?.replace("http://", "https://") || "";
+        return (
+          <div key={item.id || index} className="p-2">
+            <Image
+              src={imageUrl}
+              alt={item.title || `Slide ${index + 1}`}
               width={1000}
-              height={700}
-                src={card.slider_img.data.full_url}
-                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                className="h-full w-full object-cover"
-              />
-            </div>
-          ))}
-        </Carousel>
+              height={400}
+              className="w-full h-full object-cover rounded-xl"
+              priority
+            />
+          </div>
+        );
+      });
+
+      setItems(formattedSlides);
+    } catch (error) {
+      console.error("Error fetching carousel data:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  // Carousel settings
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+    pauseOnHover: true,
+    cssEase: "ease-in-out",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
+  };
+
+  return (
+    <div className="py-8 px-4 md:px-12">
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white">
+        <Carousel items={items} settings={settings} />
       </div>
-    </>
+    </div>
   );
 };
 

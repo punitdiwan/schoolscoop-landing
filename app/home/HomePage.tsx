@@ -28,7 +28,7 @@ const HomePage = () => {
               onClick={() => setShowPopup(false)}
               className="absolute top-3 right-3 text-gray-700 hover:text-black text-xl"
             >
-              ❌
+              ❎
             </button>
 
             {/* Image */}

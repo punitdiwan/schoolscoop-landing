@@ -15,7 +15,7 @@ interface Card3Props {
 
 const Card3: React.FC<Card3Props> = ({ imageUrl, title, bgColor }) => {
   
-  console.log("Image===>",imageUrl)
+  // console.log("Image===>",imageUrl)
   return (
     <Link
       href="#"
