@@ -26,6 +26,11 @@ const StudentPromotion = () =>{
             <StudentPromotionContent></StudentPromotionContent>
             <PromotionFeatureCardsSection></PromotionFeatureCardsSection>
               {/* <SectionSix />s */}
+<div className="bg-gradient-to-r from-slate-900 to-slate-700 h-64 w-full">
+  {/* Your content goes here */}
+  helo
+</div>
+
 
               <Footer />
             </div>

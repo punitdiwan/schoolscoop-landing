@@ -5,6 +5,7 @@ import { PiDownloadSimpleBold } from 'react-icons/pi';
 import Image from 'next/image';
 import NavBar from "@/components/Header/NavBar";
 import Footer from "@/components/Footer/Footer";
+import FlipCard from '../../components/Card/FlippingCard';
 
 const BrochureDownload = () => {
   // Form states
@@ -153,6 +154,10 @@ const BrochureDownload = () => {
           "At <span className='text-indigo-600 font-bold'>EduSparsh</span>, <span className='text-indigo-500'>education</span> is more than teaching — it's about igniting minds, nurturing growth, and shaping the future."
         </h3>
       </div>
+      <div className='flex justify-center'>
+         <FlipCard></FlipCard>
+      </div>
+
 
       <Footer />
     </>
