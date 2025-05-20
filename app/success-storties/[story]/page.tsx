@@ -41,7 +41,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string,story:any } }) => {
   return (
     <div>
       <NavBar/>
-      <StoriesOne/>
+      {/* <StoriesOne/> */}
       <div className="w-[80%] mx-auto mb-10">
          {filteredEntries.map((entry, index) => (
             <div key={index} className=" flex flex-col items-center justify-center mx-auto">
@@ -51,7 +51,7 @@ const ViewBlogs = ({ params }: { params: { view_blog: string,story:any } }) => {
                 </video>
               ) : (
                 <img
-                  alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                  alt="image"
                   className="w-80 h-80  "
                   src={entry.image.data.full_url}
                 />

@@ -16,13 +16,12 @@ const Carosel = () => {
         const imageUrl =
           item?.slider_img?.data?.full_url?.replace("http://", "https://") || "";
         return (
-          <div key={item.id || index} className="p-2">
+          <div key={item.id || index}  className="relative w-full aspect-[16/9] sm:aspect-[4/3] md:aspect-[16/9] lg:aspect-[6/2]  overflow-hidden">
             <Image
               src={imageUrl}
               alt={item.title || `Slide ${index + 1}`}
-              width={1000}
-              height={400}
-              className="w-full h-full object-cover rounded-xl"
+              fill
+              className="object-fill rounded-xl"
               priority
             />
           </div>

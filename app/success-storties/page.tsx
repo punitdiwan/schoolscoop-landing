@@ -42,7 +42,7 @@ const SuccessStories = () => {
             <Request />
 
             <div className="mx-auto p-2 ">
-              <StoriesOne />
+              {/* <StoriesOne /> */}
               {/* <TestimonialCard /> */}
               <h1 className="text-center uppercase m-4 text-2xl font-bold">
                 Stories
@@ -81,7 +81,7 @@ const SuccessStories = () => {
                   </Link>
                 ))}
               </div>
-              <SectionNine />
+              {/* <SectionNine /> */}
               <Footer />
             </div>
           </div>

@@ -57,7 +57,7 @@ export const homecardData = [
     features: [
       "Manage Exam Group",
       "Assign Marks",
-      "View Weightage Consolidate Report",
+      "Generate Admit Card",
       "Exam Report Before Publish Report",
       "Assign Weightage",
       "Publish Result",
