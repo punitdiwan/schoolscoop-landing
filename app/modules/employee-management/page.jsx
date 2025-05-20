@@ -12,10 +12,7 @@ return (
     <div>
               <div>
                 <NavBar />
-                    <img src="/modules/employee.png"
-                    className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
-                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                    />
+
          
                 <div className="p-[20px]">
         
@@ -34,6 +31,11 @@ return (
                     </div>
         
                     <div className="mx-auto p-2 ">
+
+                                          <img src="/modules/employee.png"
+                    className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                    />
                       <EmployeeContent/>
                        <FeatureCardsSection/>
                       <Footer />
