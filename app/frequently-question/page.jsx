@@ -9,7 +9,7 @@ import GlobalLoader from "@/components/GlobalLoader"; // Assuming this is a spin
 export default function FrequentlyQuestion() {
   const [faqs, setFaqs] = useState([]);
   const [openIndex, setOpenIndex] = useState(null);
-  const [loading, setLoading] = useState(true); // loading state
+  const [loading, setLoading] = useState(true);
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -26,7 +26,7 @@ export default function FrequentlyQuestion() {
       } catch (error) {
         console.error("Error fetching FAQs:", error);
       } finally {
-        setLoading(false); // hide loader
+        setLoading(false);
       }
     };
 
@@ -37,10 +37,11 @@ export default function FrequentlyQuestion() {
     <>
       <NavBar />
 
-      <div className="min-h-screen bg-gray-100 p-6">
-        <h1 className="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
+      <div className="min-h-screen bg-gray-100 p-6 bg-gradient-to-b from-blue-100 via-blue-50 to-white">
+        <h1 className="text-3xl font-bold mb-6 text-blue-800">
+          Frequently Asked Questions
+        </h1>
 
-        {/* Show loader while fetching */}
         {loading ? (
           <div className="flex justify-center items-center py-20">
             <GlobalLoader />
@@ -56,7 +57,9 @@ export default function FrequentlyQuestion() {
                   className="flex justify-between items-center cursor-pointer"
                   onClick={() => toggleFAQ(index)}
                 >
-                  <h2 className="text-lg font-medium">{faq.question}</h2>
+                  <h2 className="text-lg font-medium text-indigo-900">
+                    {faq.question}
+                  </h2>
                   <span className="text-3xl font-bold text-blue-600">
                     {openIndex === index ? "−" : "+"}
                   </span>

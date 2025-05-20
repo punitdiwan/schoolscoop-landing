@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "../../components/carousel/Carousel";
 import Image from "next/image";
+import { ClipLoader } from "react-spinners";
 
 export default function HomeSlider() {
   const [images, setImages] = useState([]);
+  const [loader, setLoader] = useState(true);
 
   const fetchData = async () => {
     try {
@@ -17,7 +19,8 @@ export default function HomeSlider() {
 
       const formattedImages = (jsonData.data || []).map((item, index) => {
         const imageUrl =
-          item?.sliderphoto?.data?.full_url?.replace("http://", "https://") || "";
+          item?.sliderphoto?.data?.full_url?.replace("http://", "https://") ||
+          "";
 
         return {
           id: item.id || index,
@@ -29,6 +32,8 @@ export default function HomeSlider() {
       setImages(formattedImages);
     } catch (err) {
       console.error("Failed to fetch home page slider images:", err);
+    } finally {
+      setLoader(false); // ✅ stop loading after fetch completes
     }
   };
 
@@ -45,7 +50,7 @@ export default function HomeSlider() {
         src={item.url}
         alt={item.title}
         fill
-        className=" w-full h-full rounded-lg "
+        className="w-full h-full rounded-lg"
         priority={idx === 0}
         sizes="100vw"
       />
@@ -63,5 +68,15 @@ export default function HomeSlider() {
     arrows: true,
   };
 
-  return <Carousel items={slides} settings={settings} />;
+  return (
+    <>
+      {loader ? (
+        <div className="flex items-center justify-center h-[300px] md:h-[400px] lg:h-[500px]">
+          <ClipLoader size={50} color="#123abc" />
+        </div>
+      ) : (
+        <Carousel items={slides} settings={settings} />
+      )}
+    </>
+  );
 }

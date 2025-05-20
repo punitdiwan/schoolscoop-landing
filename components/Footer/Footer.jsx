@@ -130,11 +130,11 @@ const Footer = () => {
               {" "}
               case study
             </Link>
-            <Link className="hover:text-white" href="/">
+            <Link className="hover:text-white" href="/brochure">
               {" "}
               brochures
             </Link>
-            <Link className="hover:text-white" href="/">
+            <Link className="hover:text-white" href="/frequently-question">
               {" "}
               FAQ
             </Link>

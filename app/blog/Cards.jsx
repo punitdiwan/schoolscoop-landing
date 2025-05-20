@@ -13,42 +13,50 @@ const Cards = ({ imageUrl, title, heading, date }) => {
   // console.log("Date", date);
   return (
     <>
-      <div>
-        <Card className="mt-11">
-          {imageUrl ? (
-            <CardHeader className="relative mt-3 ">
-              <img
-                className="w-[100%]   mx-auto "
-                src={imageUrl}
-                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-              />
-            </CardHeader>
-          ) : null}
-          <CardBody>
-            <Typography
-              variant="h2"
-              color="blue-gray"
-              className=" text-xl md:text-3xl"
-            >
-              {title}
-            </Typography>
-            <Typography
-              variant="h3"
-              color="blue-gray"
-              className=" text-[20px] mt-3"
-            >
-              {/* {description} */}
-              {date.slice(0, 10)}
-            </Typography>
-          </CardBody>
-          <h2 className="text-[16px] p-0 m-0  px-5">
-            {heading?.slice(0, 120)}.......
-          </h2>
-          <CardFooter className="pt-0 md:text-xl mt-2 hover:text-blue-600 ">
-            Read More
-          </CardFooter>
-        </Card>
-      </div>
+<div className="mt-11">
+  <Card className="flex flex-col md:flex-row gap-6">
+    {/* Image on the left */}
+    {imageUrl ? (
+      <CardHeader className="relative md:w-[12rem] flex justify-center">
+        <img
+          className="w-[10rem] md:w-[12rem] h-[10rem] md:h-[12rem] object-cover rounded-lg"
+          src={imageUrl?.replace("http://", "https://")}
+          alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+        />
+      </CardHeader>
+    ) : null}
+
+    {/* Text on the right */}
+    <CardBody className="flex flex-col justify-between">
+      <Typography
+        variant="h2"
+        color="blue-gray"
+        className="text-[1.25rem] md:text-[2rem] font-semibold"
+      >
+        {title}
+      </Typography>
+      <Typography
+        variant="h3"
+        color="blue-gray"
+        className="text-[1rem] mt-3 font-medium text-gray-600"
+      >
+        {date.slice(0, 10)} {/* Display date */}
+      </Typography>
+
+      <h2 className="text-[1rem] mt-3 text-gray-700">
+        {heading?.slice(0, 120)}....
+      </h2>
+
+      {/* Read More Button */}
+      <CardFooter className="pt-4 mt-4 hover:text-blue-600 cursor-pointer">
+        Read More
+      </CardFooter>
+    </CardBody>
+  </Card>
+</div>
+
+
+
     </>
   );
 };
