@@ -101,7 +101,7 @@ const Section2 = () => {
       <div className="grid md:grid-cols-2 gap-8 p-12">
         {/* Left column: Text content from CMS */}
         <div>
-          <div className="text-4xl font-medium">We Have</div>
+          <div className="text-4xl font-medium text-center">We Have</div>
           <div className="text-[#2c5aa0] text-2xl font-bold mt-3">
             Lot Of Success Stories
           </div>
