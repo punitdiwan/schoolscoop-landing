@@ -1,120 +1,114 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-// import TopHeader from "@/components/Header/TopHeader";
 import NavBar from "@/components/Header/NavBar";
 import WhatsappForm from "@/components/whatsapp/WhatsappForm";
-import BlogImage from "../BlogImage";
 import Footer from "@/components/Footer/Footer";
-import BlogTitle from "./BlogTitle";
+import { ClipLoader } from "react-spinners";  // Import the spinner component
 
 const ViewBlogs = ({ params }: { params: { view_blog: string } }) => {
   const [data, setData] = useState<any[]>([]);
   const [filteredEntries, setFilteredEntries] = useState<any[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);  // Loading state
   const router = useRouter();
 
-  const fetchData = async () => {
-    try {
-      const response = await fetch(
-        "https://cms.maitretech.com/edusparsh/items/blog?fields=*.*"
-      );
-      const jsonData = await response.json();
-      setData(jsonData?.data || []);
-      // console.log("Blogs data====>",data)
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
-
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://cms.maitretech.com/edusparsh/items/blog?fields=*.*"
+        );
+        const jsonData = await response.json();
+        setData(jsonData?.data || []);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);  // Set loading to false once data is fetched
+      }
+    };
+
     fetchData();
   }, []);
 
   useEffect(() => {
-    // Update filtered entries whenever data or params.view_blog changes
-    // console.log("======>");
     if (params.view_blog && data.length > 0) {
-      const filtered = data.filter(
-        (entry) =>
-          // entry.blog_title.replace(/ /g, "-").toLowerCase() === params.view_blog
-          entry.blog_title
-            ?.replace(/[ :]+/g, "-")
-            ?.replace(/[^a-z0-9-]/g, "")
-            ?.toLowerCase() === params.view_blog
+      const filtered = data.filter((entry) =>
+        entry.blog_title
+          ?.replace(/[ :]+/g, "-")
+          ?.replace(/[^a-z0-9-]/g, "")
+          ?.toLowerCase() === params.view_blog
       );
       setFilteredEntries(filtered);
     }
   }, [params.view_blog, data]);
 
-  // console.log("filteredEntries", filteredEntries);
-
   return (
     <>
-      <div>
-        <NavBar />
-        <div className="p-[20px]">
-          <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
-            <WhatsappForm />
+      <NavBar />
 
-            <div
-              className="
-               xs:top-[250px] xs:right-[2px] xs:fixed xs:z-10 md:z-10
-               md:top-[210px] md:right-[2px] md:fixed"
-            >
-              <img
-                src="/imges/Demo-Button-v.gif"
-                alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-              />
-            </div>
-            <BlogTitle />
-            <div className="p-12">
-              <div className="grid grid-cols-1 mx-auto ">
-                {/* Map over the filtered entries to display content */}
-                {filteredEntries.map((entry) => (
-                  <div>
-                    <div>
-                      <h3 className="text-center font-bold text-2xl md:text-[40px]">
-                        {entry?.blog_title}
-                      </h3>
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2 lg:ml-[20%] mt-4">
-                        <img
-                          className="w-10"
-                          src="/profile-circle-icon.png"
-                          alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                        />
-                        <p>
-                          <h5 className="text-sm">
-                            Written by <span>Edusparsh</span>
-                          </h5>
-                          <h6 className="text-sm">
-                            {entry?.modified_on.slice(0, 10)}
-                          </h6>
-                        </p>
-                      </div>
-                      {entry?.blog_image?.data?.full_url ? (
-                        <img
-                          src={entry?.blog_image?.data?.full_url}
-                          alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-                          className="mx-auto  sm:w-[550px] sm:h-[330px] md:w-[700px] md:h-[400px] lg:w-[800px] lg:h-[500px] mt-3"
-                        />
-                      ) : null}
-                    </div>
-                  </div>
-                ))}
+      <div className="px-4 sm:px-6 md:px-12 py-8">
+        {/* WhatsApp Form */}
+        <div className="relative">
+          <WhatsappForm />
 
-                {filteredEntries.map((entry) => (
-                  <div
-                    className="mx-auto mt-3 text-justify w-[100%]"
-                    dangerouslySetInnerHTML={{ __html: entry.blog_message }}
-                  />
-                ))}
-              </div>
-            </div>
-
-            <Footer />
+          {/* Floating Demo Button */}
+          <div className="fixed z-50 right-3 top-40 md:top-52">
+            <img src="/imges/Demo-Button-v.gif" alt="Demo Button" />
           </div>
+        </div>
+
+        {/* Show the spinner while data is loading */}
+        {loading ? (
+          <div className="flex justify-center items-center py-20">
+            <ClipLoader size={50} color="#2c5aa0" />
+          </div>
+        ) : (
+          <div className="max-w-4xl mx-auto mt-10 space-y-16">
+            {filteredEntries.map((entry) => (
+              <div key={entry.id} className="bg-white rounded-lg shadow-md p-6">
+                {/* Blog Title */}
+                <h1 className="text-3xl md:text-4xl font-bold text-center text-[#2c5aa0]">
+                  {entry.blog_title}
+                </h1>
+
+                {/* Author Info */}
+                <div className="flex items-center gap-3 mt-6 justify-center">
+                  <img
+                    className="w-10 h-10 rounded-full"
+                    src="/profile-circle-icon.png"
+                    alt="Author Profile"
+                  />
+                  <div className="text-sm text-gray-600">
+                    <p>
+                      Written by <span className="font-semibold text-black">Edusparsh</span>
+                    </p>
+                    <p>{entry?.modified_on?.slice(0, 10)}</p>
+                  </div>
+                </div>
+
+                {/* Blog Image */}
+                {entry?.blog_image?.data?.full_url && (
+                  <div className="mt-6">
+                    <img
+                      src={entry.blog_image.data.full_url.replace("http://", "https://")}
+                      alt="Blog"
+                      className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"
+                    />
+                  </div>
+                )}
+
+                {/* Blog Content */}
+                <div
+                  className="prose prose-base md:prose-lg lg:prose-xl mt-6 max-w-none text-justify text-gray-800"
+                  dangerouslySetInnerHTML={{ __html: entry.blog_message }}
+                />
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div className="mt-20">
+          <Footer />
         </div>
       </div>
     </>

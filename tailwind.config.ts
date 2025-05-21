@@ -17,8 +17,15 @@ const config: Config = {
       screens: {
         'xs': {'min': '340px', 'max': '767px'},
       },
+      clipPath: {
+        star: 'polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)'
+      }
     },
   },
-  plugins: [nextui()],
+ plugins: [nextui(),
+  require("tailwind-clip-path")
+ ],
+
+
 }
 export default withMT(config);

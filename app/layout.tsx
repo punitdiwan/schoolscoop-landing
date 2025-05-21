@@ -7,6 +7,8 @@ import { NextUIProvider } from "@nextui-org/react";
 import { Metadata } from "next";
 import ScrollTop from "../components/Top";
 import { GoogleTagManager } from "@next/third-parties/google";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -31,7 +31,14 @@ import {
 } from "@heroicons/react/24/solid";
 import NavListMenu from "./NavLIstMenu";
 import { IoBookOutline } from "react-icons/io5";
-import { PiGithubLogoFill, PiPresentationFill, PiStudentLight } from "react-icons/pi";
+import { PiGithubLogoFill, PiPresentationFill, PiStudentLight,
+  PiBookOpenTextLight,
+  PiArrowCircleUpLight,
+  PiChatTeardropTextLight,
+  PiIdentificationCardLight,
+  PiHeadsetLight,
+  PiUserCircleLight,
+  PiEnvelopeSimpleOpenLight } from "react-icons/pi";
 import { MdManageAccounts } from "react-icons/md";
 import { TbMoneybag } from "react-icons/tb";
 import { IoMdPaper } from "react-icons/io";
@@ -48,19 +55,25 @@ const Modules = [
     link: `/modules/student-management`
   },
   {
-    title: "Administration & HR Management",
+    title: "Employee Management",
+    description: "Streamline your workforce management with ease.",
+    icon: PiUserCircleLight,  
+    link: `/modules/employee-management`
+},
+  {
+    title: "HR management system",
     description: "Find the perfect solution for your needs.",
     icon: MdManageAccounts,
     link: `/modules/hr-management`
   },
   {
-    title: "Fees Management",
+    title: "Manage Fees",
     description: "Learn how we can help you achieve your goals.",
     icon: TbMoneybag,
     link: `/modules/fee-management`
   },
   {
-    title: "Exam Management",
+    title: "Manage Exam",
     description: "Reach out to us for assistance or inquiries",
     icon: IoMdPaper,
     link: `/modules/exam-management`
@@ -70,7 +83,43 @@ const Modules = [
     description: "Find the perfect solution for your needs.",
     icon: FaBusAlt,
     link: `/modules/transport-management`
-  }
+  },
+  {
+    title: "Manage Subject",
+    description: "Organize academic subjects efficiently.",
+    icon: PiBookOpenTextLight,
+    link: "/modules/manage-subject",
+  },
+  {
+    title: "Student Promotion",
+    description: "Promote students to the next level with ease.",
+    icon: PiArrowCircleUpLight,
+    link: "/modules/student-promotion",
+  },
+  {
+    title: "SMS Module",
+    description: "Send instant messages and notifications.",
+    icon: PiChatTeardropTextLight,
+    link: "/modules/sms-module",
+  },
+  {
+    title: "Employee Role",
+    description: "Define and assign staff responsibilities.",
+    icon: PiIdentificationCardLight,
+    link: "/modules/employee-role",
+  },
+  {
+    title: "Support Ticket",
+    description: "Handle queries and complaints effectively.",
+    icon: PiHeadsetLight,
+    link: "/modules/support-ticket",
+  },
+  {
+    title: "Admission Enquiry",
+    description: "Track and manage new admission enquiries.",
+    icon: PiEnvelopeSimpleOpenLight,
+    link: "/modules/admission-enquiry",
+  },
 ];
 
 const Support = [
@@ -85,7 +134,14 @@ const Support = [
     description: "Meet and learn about our dedication",
     icon: GrUserWorker,
     link: `/help-and-support/help-school`
-  }
+  },
+  {
+    title: "FAQ",
+    description: "Meet and learn about our dedication",
+    icon: FaQuestionCircle ,
+    link:`/frequently-question`
+
+  },
 ];
 
 const Blogdata = [
@@ -108,7 +164,7 @@ const Blogdata = [
     title: "BROCHURES",
     description: "Meet and learn about our dedication",
     icon: VscBook,
-    link:`/blog`
+    link:`/brochure`
 
   },
   {

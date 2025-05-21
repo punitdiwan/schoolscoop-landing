@@ -1,22 +1,23 @@
 "use client";
 import NavBar from "@/components/Header/NavBar";
-// import TopHeader from "@/components/Header/TopHeader";
 import WhatsappForm from "@/components/whatsapp/WhatsappForm";
 import React from "react";
-import StudentImage from "./StudentImage";
-import StudentManagementModule from "./StudentManagementModule";
-import SchoolScoopFeature from "./SchoolScoopFeature";
-import StudentReview from "./StudentReview";
-import SectionNine from "@/components/sections/SectionNine";
 import Footer from "@/components/Footer/Footer";
-import SectionSix from "@/components/sections/SectionSix";
 
+import FeatureCardsSection from    "./FeatureCard"
+import StudentContent from "./ModuleContent"
 const StudentManagement = () => {
   return (
     <>
       <div>
         <NavBar />
+            <img src="/modules/student.png"
+            className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
+            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+            />
+ 
         <div className="p-[20px]">
+
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
             <WhatsappForm />
 
@@ -32,11 +33,13 @@ md:top-[210px] md:right-[1px] md:fixed"
             </div>
 
             <div className="mx-auto p-2 ">
-              <StudentImage />
-              <StudentManagementModule />
-              <SchoolScoopFeature />
-              <StudentReview />
-              <SectionSix />
+              {/* <StudentImage /> */}
+              {/* <StudentManagementModule /> */}
+              <StudentContent/>
+               <FeatureCardsSection/>
+              {/* <SchoolScoopFeature /> */}
+              {/* <StudentReview /> */}
+              {/* <SectionSix /> */}
 
               <Footer />
             </div>

@@ -9,6 +9,8 @@ import FeeReview from "./FeeReview";
 import SectionSix from "@/components/sections/SectionSix";
 import SectionNine from "@/components/sections/SectionNine";
 import Footer from "@/components/Footer/Footer";
+import FeeContent from "./ModuleContent"
+import FeatureCardsSection from "./FeatureCard"
 
 const FeesManagement = () => {
   return (
@@ -16,6 +18,12 @@ const FeesManagement = () => {
       <div>
   
         <NavBar />
+
+                         <img src="/modules/managefee.png"
+                    className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
+                    alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+                    />
+         
         <div className="p-[20px]">
           <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  overflow-auto scrollbar-hide ">
             <WhatsappForm />
@@ -29,11 +37,13 @@ const FeesManagement = () => {
             </div>
 
             <div className="mx-auto p-2 ">
-              <FeeImage />
-              <FeeManagementModule />
-              <FeeFeature />
-              <FeeReview />
-              <SectionSix />
+              {/* <FeeImage /> */}
+              <FeeContent/>
+              <FeatureCardsSection/>
+              {/* <FeeManagementModule /> */}
+              {/* <FeeFeature /> */}
+              {/* <FeeReview /> */}
+              {/* <SectionSix /> */}
  
 
               <Footer />

@@ -35,7 +35,7 @@ const Footer = () => {
             </p>
             <div className=" flex flex-row gap-2">
               <a
-                href="https://www.facebook.com/profile.php?id=61563847685647"
+                href="https://www.facebook.com/profile.php?id=61573794088271# "
                 className="text-xl bg-white text-blue-900 px-1 py-1 rounded-lg hover:text-white  hover:bg-blue-900"
               >
                 <FaFacebook />
@@ -130,11 +130,11 @@ const Footer = () => {
               {" "}
               case study
             </Link>
-            <Link className="hover:text-white" href="/">
+            <Link className="hover:text-white" href="/brochure">
               {" "}
               brochures
             </Link>
-            <Link className="hover:text-white" href="/">
+            <Link className="hover:text-white" href="/frequently-question">
               {" "}
               FAQ
             </Link>
@@ -163,7 +163,7 @@ const Footer = () => {
         </div>
       </footer>
     </>
-  );
+  )
 };
 
 export default Footer;
