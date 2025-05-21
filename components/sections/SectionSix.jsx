@@ -106,179 +106,183 @@ const SectionSix = () => {
                 </Card>
               </div>
             </div>
-            <div className="md:ml-[150px]">
-              <form autoComplete="off" onSubmit={submitData}>
-                <div className="grid md:grid-cols-2 gap-7">
-                  <div>
-                    {" "}
-                    <Input
-                      name="Fname"
-                      required
-                      type="text"
-                      variant="standard"
-                      label="First Name"
-                      size="lg"
-                      value={data.Fname}
-                      color="green"
-                      crossOrigin={undefined}
-                      onChange={(e) => handleChange(e)}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      name="Lname"
-                      required
-                      type="text"
-                      variant="standard"
-                      label="Last Name"
-                      size="lg"
-                      value={data.Lname}
-                      color="green"
-                      onChange={(e) => handleChange(e)}
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      name="email"
-                      required
-                      type="email"
-                      variant="standard"
-                      label="Email"
-                      value={data.email}
-                      size="lg"
-                      color="green"
-                      onChange={(e) => handleChange(e)}
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      name="phone"
-                      required
-                      type="number"
-                      variant="standard"
-                      value={data.phone}
-                      label="Phone"
-                      pattern="[0-9]{10}"
-                      color="green"
-                      onChange={(e) => handleChange(e)}
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      name="instituten"
-                      required
-                      variant="standard"
-                      label="Name Of Institute"
-                      value={data.instituten}
-                      size="lg"
-                      color="green"
-                      onChange={(e) => handleChange(e)}
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      name="city"
-                      required
-                      variant="standard"
-                      label="City"
-                      value={data.city}
-                      color="green"
-                      size="lg"
-                      onChange={(e) => handleChange(e)}
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <Input
-                      name="NOS"
-                      required
-                      value={data.NOS}
-                      type="number"
-                      variant="standard"
-                      label="Number Of Students"
-                      size="lg"
-                      color="green"
-                      onChange={(e) => handleChange(e)}
-                      crossOrigin={undefined}
-                    />
-                  </div>
-                </div>
-                <div className=" mt-5 text-lg font-bold">
-                  <RadioGroup
-                    label="Institute Type"
-                    orientation="horizontal"
-                    isRequired
-                    value={data.instituteType}
-                    name="instituteType"
-                    onChange={(value) => handleChange(value)}
-                  >
-                    <div className="grid md:grid-cols-3 xs:grid-cols-2 gap-6">
-                      <div>
-                        <Radio value="pre_school" color="success" size="lg">
-                          <label className="font-normal text-base text-[#999999]">
-                            Pre - School
-                          </label>
-                        </Radio>
-                      </div>
-                      <div>
-                        <Radio value="school" color="success" size="lg">
-                          <label className="font-normal text-base text-[#999999]">
-                            School
-                          </label>
-                        </Radio>
-                      </div>
-                      <div>
-                        <Radio value="college" color="success" size="lg">
-                          <label className="font-normal text-base text-[#999999]">
-                            College
-                          </label>
-                        </Radio>
-                      </div>
-                      <div>
-                        <Radio value="university" color="success" size="lg">
-                          <label className="font-normal text-base text-[#999999]">
-                            University
-                          </label>
-                        </Radio>
-                      </div>
-                      <div>
-                        <Radio
-                          value="training_center"
-                          color="success"
-                          size="lg"
-                        >
-                          <label className="font-normal text-base text-[#999999]">
-                            Training Center
-                          </label>
-                        </Radio>
-                      </div>
-                    </div>
-                  </RadioGroup>
-                </div>
+            {/* form  */}
+<div className="md:ml-[150px] bg-white p-8 lg:mr-6 rounded-xl border border-black shadow-lg">
+  <h1 className="text-center text-2xl text-black pb-1"> Contact Us</h1>
+  <form autoComplete="off" onSubmit={submitData}>
+    <div className="grid md:grid-cols-2 gap-7">
+      <div>
+        {" "}
+        <Input
+          name="Fname"
+          required
+          type="text"
+          variant="standard"
+          label="First Name"
+          size="lg"
+          value={data.Fname}
+          color="green"
+          crossOrigin={undefined}
+          onChange={(e) => handleChange(e)}
+        />
+      </div>
+      <div>
+        {" "}
+        <Input
+          name="Lname"
+          required
+          type="text"
+          variant="standard"
+          label="Last Name"
+          size="lg"
+          value={data.Lname}
+          color="green"
+          onChange={(e) => handleChange(e)}
+          crossOrigin={undefined}
+        />
+      </div>
+      <div>
+        {" "}
+        <Input
+          name="email"
+          required
+          type="email"
+          variant="standard"
+          label="Email"
+          value={data.email}
+          size="lg"
+          color="green"
+          onChange={(e) => handleChange(e)}
+          crossOrigin={undefined}
+        />
+      </div>
+      <div>
+        {" "}
+        <Input
+          name="phone"
+          required
+          type="number"
+          variant="standard"
+          value={data.phone}
+          label="Phone"
+          pattern="[0-9]{10}"
+          color="green"
+          onChange={(e) => handleChange(e)}
+          crossOrigin={undefined}
+        />
+      </div>
+      <div>
+        {" "}
+        <Input
+          name="instituten"
+          required
+          variant="standard"
+          label="Name Of Institute"
+          value={data.instituten}
+          size="lg"
+          color="green"
+          onChange={(e) => handleChange(e)}
+          crossOrigin={undefined}
+        />
+      </div>
+      <div>
+        {" "}
+        <Input
+          name="city"
+          required
+          variant="standard"
+          label="City"
+          value={data.city}
+          color="green"
+          size="lg"
+          onChange={(e) => handleChange(e)}
+          crossOrigin={undefined}
+        />
+      </div>
+      <div>
+        {" "}
+        <Input
+          name="NOS"
+          required
+          value={data.NOS}
+          type="number"
+          variant="standard"
+          label="Number Of Students"
+          size="lg"
+          color="green"
+          onChange={(e) => handleChange(e)}
+          crossOrigin={undefined}
+        />
+      </div>
+    </div>
+    <div className="mt-5 text-lg font-bold">
+      <RadioGroup
+        label="Institute Type"
+        orientation="horizontal"
+        isRequired
+        value={data.instituteType}
+        name="instituteType"
+        onChange={(value) => handleChange(value)}
+      >
+        <div className="grid md:grid-cols-3 xs:grid-cols-2 gap-6">
+          <div>
+            <Radio value="pre_school" color="success" size="lg">
+              <label className="font-normal text-base text-[#999999]">
+                Pre - School
+              </label>
+            </Radio>
+          </div>
+          <div>
+            <Radio value="school" color="success" size="lg">
+              <label className="font-normal text-base text-[#999999]">
+                School
+              </label>
+            </Radio>
+          </div>
+          <div>
+            <Radio value="college" color="success" size="lg">
+              <label className="font-normal text-base text-[#999999]">
+                College
+              </label>
+            </Radio>
+          </div>
+          <div>
+            <Radio value="university" color="success" size="lg">
+              <label className="font-normal text-base text-[#999999]">
+                University
+              </label>
+            </Radio>
+          </div>
+          <div>
+            <Radio
+              value="training_center"
+              color="success"
+              size="lg"
+            >
+              <label className="font-normal text-base text-[#999999]">
+                Training Center
+              </label>
+            </Radio>
+          </div>
+        </div>
+      </RadioGroup>
+    </div>
 
-                <div className="flex justify-center">
-                  <Button
-                    variant="filled"
-                    color="green"
-                    size="lg"
-                    className="rounded-full mt-6 text-center"
-                    type="submit"
-                  >
-                    Submit
-                  </Button>
-                </div>
-              </form>
-            </div>
+    <div className="flex justify-center">
+      <Button
+        variant="filled"
+        color="green"
+        size="lg"
+        className="rounded-full mt-6 text-center"
+        type="submit"
+      >
+        Submit
+      </Button>
+    </div>
+  </form>
+</div>
+
+
           </div>
         </div>
       </div>
