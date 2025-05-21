@@ -146,13 +146,7 @@ const Support = [
 
 const Blogdata = [
  
-  {
-    title: "PRESENTATION",
-    description: "Meet and learn about our dedication",
-    icon: PiPresentationFill ,
-    link:`/blog`
-
-  },
+ 
   {
     title: "CASE STUDY",
     description: "Find the perfect solution for your needs.",
@@ -167,13 +161,7 @@ const Blogdata = [
     link:`/brochure`
 
   },
-  {
-    title: "FAQ",
-    description: "Meet and learn about our dedication",
-    icon: FaQuestionCircle ,
-    link:`/blog`
 
-  },
 ];
 
 const NavList = () => {

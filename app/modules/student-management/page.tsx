@@ -11,10 +11,7 @@ const StudentManagement = () => {
     <>
       <div>
         <NavBar />
-            <img src="/modules/student.png"
-            className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
-            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
-            />
+ 
  
         <div className="p-[20px]">
 
@@ -35,6 +32,10 @@ md:top-[210px] md:right-[1px] md:fixed"
             <div className="mx-auto p-2 ">
               {/* <StudentImage /> */}
               {/* <StudentManagementModule /> */}
+                         <img src="/modules/student.png"
+            className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px] lg:mt-1 object-fit"
+            alt="Best School management software | Best school software company | Best software company in Bhopal | Online software service provider."
+            />
               <StudentContent/>
                <FeatureCardsSection/>
               {/* <SchoolScoopFeature /> */}

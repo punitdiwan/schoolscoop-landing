@@ -14,7 +14,7 @@ const ModuleContent = ({
 
   return (
     <div
-      className={`flex flex-col ${isImageRight ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center`}
+      className={`flex flex-col ${isImageRight ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center overflow-hidden`}
       style={{ backgroundColor }}
     >
       {/* Image Section */}

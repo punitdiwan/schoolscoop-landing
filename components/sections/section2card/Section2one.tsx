@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card3 from "./Card3";
+import FlipCard from "../../Card/FlippingCard"
 
 const Section2one = () => {
   // const [data, setData] = useState([]);
@@ -53,9 +54,33 @@ const Section2one = () => {
       imageUrl: "/educationcard8.webp"
     },
   ];
+
+
+  const homecardData = {
+  image: "/educationcard1.webp",
+  title: "Student Management System",
+  features: [
+    "Student Admission",
+    "View All Students",
+    "Create Student Category",
+    "Student Roll Number",
+    "Delete Student",
+    "Archive Student",
+    "Student Character Certificate",
+  ],
+  
+};
+
 // console.log("imagecard===>",)
   return (
     <>
+     <div className="flex justify-center items-center p-4">
+      <FlipCard
+        image={homecardData.image}
+        title={homecardData.title}
+        features={homecardData.features}
+      />
+    </div>
       <div className="p-12">
         <div className="homecard3">
           {data1.map((card: any, index: any) => (

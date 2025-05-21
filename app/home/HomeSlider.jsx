@@ -7,50 +7,46 @@ export default function HomeSlider() {
   const [images, setImages] = useState([]);
   const [loader, setLoader] = useState(true);
 
-  const fetchData = async () => {
-    try {
-      const response = await fetch(
-        "https://cms.maitretech.com/edusparsh/items/homepageslider?fields=*.*",
-        {
-          cache: "no-store",
-        }
-      );
-      const jsonData = await response.json();
-
-      const formattedImages = (jsonData.data || []).map((item, index) => {
-        const imageUrl =
-          item?.sliderphoto?.data?.full_url?.replace("http://", "https://") ||
-          "";
-
-        return {
-          id: item.id || index,
-          url: imageUrl,
-          title: item.title || `Slide ${index + 1}`,
-        };
-      });
-
-      setImages(formattedImages);
-    } catch (err) {
-      console.error("Failed to fetch home page slider images:", err);
-    } finally {
-      setLoader(false); // ✅ stop loading after fetch completes
-    }
-  };
-
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://cms.maitretech.com/edusparsh/items/homepageslider?fields=*.*",
+          { cache: "no-store" }
+        );
+        const jsonData = await response.json();
+        const formattedImages = (jsonData.data || []).map((item, index) => {
+          const imageUrl =
+            item?.sliderphoto?.data?.full_url?.replace("http://", "https://") ||
+            "";
+          return {
+            id: item.id || index,
+            url: imageUrl,
+            title: item.title || `Slide ${index + 1}`,
+          };
+        });
+        setImages(formattedImages);
+      } catch (err) {
+        console.error("Failed to fetch home page slider images:", err);
+      } finally {
+        setLoader(false);
+      }
+    };
+
     fetchData();
   }, []);
 
   const slides = images.map((item, idx) => (
     <div
       key={item.id}
-      className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden group"
+      className="relative w-full aspect-[16/9] sm:aspect-[4/3] md:aspect-[16/9] lg:aspect-[6/2] overflow-hidden"
+
     >
       <Image
         src={item.url}
         alt={item.title}
         fill
-        className="w-full h-full rounded-lg"
+        className="object-fill rounded-lg"
         priority={idx === 0}
         sizes="100vw"
       />
@@ -69,14 +65,14 @@ export default function HomeSlider() {
   };
 
   return (
-    <>
+    <div className="w-full">
       {loader ? (
-        <div className="flex items-center justify-center h-[300px] md:h-[400px] lg:h-[500px]">
+        <div className="flex items-center justify-center w-full aspect-[16/9] sm:aspect-[4/3] md:aspect-[16/9]">
           <ClipLoader size={50} color="#123abc" />
         </div>
       ) : (
         <Carousel items={slides} settings={settings} />
       )}
-    </>
+    </div>
   );
 }

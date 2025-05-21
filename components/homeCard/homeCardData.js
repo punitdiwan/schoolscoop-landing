@@ -1,0 +1,101 @@
+export const homecardData = [
+  {
+    title: "Student Management System",
+    image: "/educationcard1.webp",
+    features: [
+      "Student Admission",
+      "View All Students",
+      "Create Student Category",
+      "Student Roll Number",
+      "Delete Student",
+      "Archive Student",
+      "Student Character Certificate",
+    ],
+  },
+  {
+    title: "Fees & Finance Management",
+    image: "/educationcard2.webp",
+    features: [
+      "Fee Category",
+      "Particulars",
+      "Discounts",
+      "Fee Collection",
+      "Submit Fees",
+      "Course One Time Fees",
+      "Manage Fee Collections",
+      "Transaction History",
+    ],
+  },
+  {
+    title: "Student Diary Management System",
+    image: "/educationcard3.webp",
+    features: [
+      "Manage Major Subject",
+      "Manage Elective Subject",
+      "Assign Elective Subject",
+      "Create Daily Notes",
+      "Parent-Teacher Communication",
+      "Homework Submissions",
+    ],
+  },
+  {
+    title: "Transport Management System",
+    image: "/educationcard4.webp",
+    features: [
+      "Assign Transport Studentwise",
+      "Assign Transport Routewise",
+      "Transport Fee Collections",
+      "View All Collection",
+      "Submit Fees",
+      "Class Batch Wise Report",
+      "Route Wise Report",
+    ],
+  },
+  {
+    title: "Exam Management System",
+    image: "/educationcard5.webp",
+    features: [
+      "Manage Exam Group",
+      "Assign Marks",
+      "Generate Admit Card",
+      "Exam Report Before Publish Report",
+      "Assign Weightage",
+      "Publish Result",
+    ],
+  },
+  {
+    title: "Student Promotion System",
+    image: "/educationcard6.webp",
+    features: [
+      "Batch Transfer",
+      "Archive Student",
+      "Generate TC",
+      "Download TC",
+      "TC Settings",
+    ],
+  },
+  {
+    title: "Time Table Management System",
+    image: "/educationcard7.webp",
+    features: [
+      "Set Class Timing",
+      "Work Allotment",
+      "Add/Edit Time Tables",
+      "My Time Table",
+      "Teacher Availability View",
+      "Substitute Allocation",
+    ],
+  },
+  {
+    title: "Administration & HR Management System",
+    image: "/educationcard8.webp",
+    features: [
+      "Staff Attendance Tracking",
+      "Leave Management",
+      "Payroll Generation",
+      "Teacher ID Cards",
+      "Role & Permission Control",
+      "Staff Performance Reports",
+    ],
+  }
+];

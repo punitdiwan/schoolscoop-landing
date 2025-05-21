@@ -30,6 +30,8 @@ import Section2 from "../sections/Section2";
 import Section2one from "../sections/section2card/Section2one";
 import Section2Two from "../sections/section2card/Section2Two";
 import HomeSlider from   "../../app/home/HomeSlider"
+import HomeCards from "../homeCard/HomeCard"
+
 
 const Header = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -106,7 +108,8 @@ const Header = () => {
               {/* <SectionOne /> */}
               <Section2 />
               <Section2Two />
-              <Section2one />
+              <HomeCards></HomeCards>
+              {/* <Section2one /> */}
 
               <SectionThree />
               <SectionTwo />
