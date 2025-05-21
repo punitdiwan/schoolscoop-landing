@@ -17,7 +17,7 @@ const SectionFour = () => {
 
       <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
 
-      <div className='p-12'>
+      <div className='p-2'>
       <Carosel/>
       </div>
     </>
