@@ -48,7 +48,7 @@ const Carosel = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: true,
-    pauseOnHover: false,
+    // pauseOnHover: false,
     cssEase: "ease-in-out",
     responsive: [
       {
