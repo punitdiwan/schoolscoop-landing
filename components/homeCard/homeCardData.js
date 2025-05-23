@@ -58,7 +58,7 @@ export const homecardData = [
       "Manage Exam Group",
       "Assign Marks",
       "Generate Admit Card",
-      "Exam Report Before Publish Report",
+      "Preview Exam Report",
       "Assign Weightage",
       "Publish Result",
     ],
