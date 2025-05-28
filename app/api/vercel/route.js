@@ -2,8 +2,7 @@
 
 export async function GET(request) {
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;       // https://vercel.com/api/web-analytics/stats?filter={}
-  const queryParams = process.env.NEXT_PUBLIC_QUERY_PARAMS; // &limit=250&projectId=edusparsh&teamId=team_qrXJCkE6eCryc3LyWQhmLlwJ&type=path
+  
   const token = process.env.VERCEL_TOKEN;
   // Get today's date
   const today = new Date();
