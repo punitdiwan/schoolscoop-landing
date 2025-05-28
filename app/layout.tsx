@@ -9,6 +9,7 @@ import ScrollTop from "../components/Top";
 import { GoogleTagManager } from "@next/third-parties/google";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -72,6 +73,7 @@ export default function RootLayout({
           {" "}
           <NextUIProvider>
             {children} <ScrollTop />
+            <Analytics mode="production"/>
           </NextUIProvider>
         </ThemeProvider>
       </body>

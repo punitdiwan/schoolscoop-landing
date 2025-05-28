@@ -2,7 +2,9 @@ import Link from "next/link";
 import React, { useEffect, useState, useCallback } from "react";
 import Cards from "./Cards";
 import Pagination from "./Pagination";
-import { ClipLoader } from "react-spinners"; // 🌀 Import spinner
+import { ClipLoader } from "react-spinners"; 
+import { Eye } from "lucide-react";
+
 
 interface BlogItem {
   id: number;
@@ -73,6 +75,8 @@ const FeatureBlog = () => {
     .reverse()
     .slice(startIndex, endIndex);
 
+
+    
   return (
     <div>
       <h1 className="hidden">BLOGS</h1>
