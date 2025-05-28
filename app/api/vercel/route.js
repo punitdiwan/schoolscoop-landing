@@ -23,7 +23,7 @@ export async function GET(request) {
 
   // Construct the full URL
   
-  const url= `https://vercel.com/api/web-analytics/stats?&limit=250&type=path&projectId=edusparsh&teamId=team_qrXJCkE6eCryc3LyWQhmLlwJ&from=${encodeURIComponent(fromISO)}&to=${encodeURIComponent(toISO)} `
+  const url= `https://vercel.com/api/web-analytics/stats?&limit=250&type=path&projectId=edusparsh&teamId=team_qrXJCkE6eCryc3LyWQhmLlwJ&from=${encodeURIComponent(fromISO)}&to=${encodeURIComponent(toISO)}`
 
   try {
     const response = await fetch(url, {
