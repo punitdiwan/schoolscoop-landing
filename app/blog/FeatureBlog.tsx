@@ -34,7 +34,7 @@ const FeatureBlog = () => {
       
       setData((prevData) => [...prevData, ...jsonData?.data || []]);
 
-      fetch("/api/vercel")
+      fetch("/api/vercel", {  cache: 'no-store'})
         .then((res) => res.json())
         .then((data) => {
           const viewsMap: Record<string, number> = {};
