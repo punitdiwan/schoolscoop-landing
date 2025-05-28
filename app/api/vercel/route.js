@@ -30,7 +30,10 @@ export async function GET(request) {
   try {
     const response = await fetch(url, {
       headers: {
-         Authorization: `Bearer ${token}`,
+       Authorization: `Bearer ${token}`,
+       'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0',
       },
     });
 
