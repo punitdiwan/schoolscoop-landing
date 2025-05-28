@@ -29,6 +29,7 @@ export async function GET(request) {
 
   try {
     const response = await fetch(url, {
+      cache: 'no-store', // prevents fetch caching
       headers: {
        Authorization: `Bearer ${token}`,
        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
@@ -38,7 +39,6 @@ export async function GET(request) {
     });
 
     const data = await response.json();
-    console.log('Vercel Stats:', data); // Server log
 
     return new Response(JSON.stringify(data), {
       status: 200,
