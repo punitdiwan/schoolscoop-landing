@@ -19,7 +19,8 @@ const Carosel = () => {
           <div key={item.id || index}  className="relative w-full aspect-[16/9] sm:aspect-[4/3] md:aspect-[16/9] lg:aspect-[6/2]  overflow-hidden">
             <Image
               src={imageUrl}
-              alt={item.title || `Slide ${index + 1}`}
+              alt={item.title || `Slidsearch
+e ${index + 1}`}
               fill
               className="object-fill rounded-xl"
               priority

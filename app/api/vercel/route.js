@@ -15,8 +15,9 @@ export async function GET(request) {
 
   // Set 'from' date (one month ago - 1 day)
   const from = new Date(today);
-  from.setMonth(from.getMonth() - 1);
-  from.setDate(from.getDate() - 1);
+  
+  // Set 'from' date (30days)
+  from.setDate(from.getDate() - 29);
   from.setHours(0, 0, 0, 0);
 
   // Convert to ISO strings
@@ -24,8 +25,7 @@ export async function GET(request) {
   const toISO = to.toISOString();
 
   // Construct the full URL
-  
-  const url= `https://vercel.com/api/web-analytics/stats?&limit=250&type=path&projectId=edusparsh&teamId=team_qrXJCkE6eCryc3LyWQhmLlwJ&from=${encodeURIComponent(fromISO)}&to=${encodeURIComponent(toISO)}`
+  const url = `https://vercel.com/api/web-analytics/stats?&limit=250&type=path&projectId=edusparsh&teamId=team_qrXJCkE6eCryc3LyWQhmLlwJ&from=${encodeURIComponent(fromISO)}&to=${encodeURIComponent(toISO)}`;
 
   try {
     const response = await fetch(url, {
