@@ -7,7 +7,7 @@ export async function GET(request) {
   
   const token = process.env.VERCEL_TOKEN;
   // Get today's date
-  const today = new Date();
+  // const today = new Date();
 
   // Set 'to' date (end of today)
   const to = new Date(today);
@@ -15,7 +15,6 @@ export async function GET(request) {
 
   // Set 'from' date (one month ago - 1 day)
   const from = new Date(today);
-  
   // Set 'from' date (30days)
   from.setDate(from.getDate() - 29);
   from.setHours(0, 0, 0, 0);
