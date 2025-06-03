@@ -108,19 +108,21 @@ const FeatureBlog = () => {
               const views = blogViews[slug] || 0;
 
               return (
-                <div key={card.id}>
+                <div key={card.id} className="lg:mb-4">
+                   <div className="flex  items-center gap-2 text-sm text-gray-600 mt-1 lg:pl-4">
+                    <Eye className="" size={18} />
+                    <span className="text-black">{views} views</span>
+                  </div>
                   <Link href={slug}>
                     <Cards
                       imageUrl={card?.blog_image?.data?.full_url?.replace('http://', 'https://')}
                       title={card.blog_title}
                       heading={card?.card_heading}
                       date={card.modified_on}
+                      
                     />
                   </Link>
-                  <div className="flex items-center gap-2 text-sm text-gray-600 mt-1 ml-2">
-                    <Eye size={16} />
-                    <span>{views} views</span>
-                  </div>
+                 
                 </div>
               );
             })}
