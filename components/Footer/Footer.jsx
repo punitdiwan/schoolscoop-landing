@@ -155,7 +155,7 @@ const Footer = () => {
               href="https://maitretech.com/"
               className=" flex flex-row items-baseline "
             >
-               &copyEdusparsh 2024. All Rights Reserved Maitretech Solution
+                <FaRegCopyright /> {new Date().getFullYear()} EduSparsh. All Rights Reserved.
             </Link>
           </div>
 
