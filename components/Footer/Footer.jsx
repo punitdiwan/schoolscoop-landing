@@ -102,7 +102,7 @@ const Footer = () => {
               Transportation management
             </Link>
           </div>
-          
+
           <div className="flex flex-col mb-3 capitalize">
             <h2 className="uppercase font-bold text-white">help & support </h2>
             <Link
@@ -117,7 +117,7 @@ const Footer = () => {
             >
               for school Staff & Administrators
             </Link>
-           
+
           </div>
           <div className="flex flex-col mb-3 capitalize">
             <h2 className="uppercase font-bold text-white">Resources </h2>
@@ -144,7 +144,7 @@ const Footer = () => {
             <p className="hover:text-white">
               House # 36, T - Ward , Bairagarh, Bhopal, MP, India 462030
             </p>
-           
+
           </div>
         </div>
 
@@ -155,7 +155,8 @@ const Footer = () => {
               href="https://maitretech.com/"
               className=" flex flex-row items-baseline "
             >
-                <FaRegCopyright /> {new Date().getFullYear()} EduSparsh. All Rights Reserved.
+              <FaRegCopyright className="text-white" />
+              <Link className="text-white" href="https://maitretech.com">{new Date().getFullYear()}  A Product of Maitretech Solution. All Rights Reserved.</Link>
             </Link>
           </div>
 
