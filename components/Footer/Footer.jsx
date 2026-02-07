@@ -17,15 +17,12 @@ const Footer = () => {
   return (
     <>
       <footer className="mainfooter">
+        <div className="font-bold text-white text-2xl mb-4"> About Maitretech Solution's EduSparsh</div>
         <div className="grid  grid-cols-1 sm:grid-cols-3  lg:grid-cols-6  px-4  mx-auto">
-          {/* <div className="footerfirst mx-auto justify-center "> */}
           <div className="flex flex-col mb-3 gap-2">
-            {/* <h2 className=" font-bold text-white text-3xl">Edusparsh </h2> */}
             <div className="flex font-bold text-white text-3xl">
-              <div> EduSparsh </div>
-              <div>
-                <IoBookOutline className="mt-1 ml-2" />
-              </div>
+              <div>EduSparsh </div>
+
             </div>
             <p className="text-[13px]">
               Edusparsh is one of the leading ERP solution for eductional
