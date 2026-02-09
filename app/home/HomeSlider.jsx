@@ -1,40 +1,38 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Carousel from "../../components/carousel/Carousel";
 import Image from "next/image";
 import { ClipLoader } from "react-spinners";
 
 export default function HomeSlider() {
-  const [images, setImages] = useState([]);
-  const [loader, setLoader] = useState(true);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "https://cms.maitretech.com/edusparsh/items/homepageslider?fields=*.*",
-          { cache: "no-store" }
-        );
-        const jsonData = await response.json();
-        const formattedImages = (jsonData.data || []).map((item, index) => {
-          const imageUrl =
-            item?.sliderphoto?.data?.full_url?.replace("http://", "https://") ||
-            "";
-          return {
-            id: item.id || index,
-            url: imageUrl,
-            title: item.title || `Slide ${index + 1}`,
-          };
-        });
-        setImages(formattedImages);
-      } catch (err) {
-        console.error("Failed to fetch home page slider images:", err);
-      } finally {
-        setLoader(false);
+  // Hardcoded homepage slider (relevant fields only)
+  const hardcodedResponse = {
+    data: [
+      {
+        id: 1,
+        sliderphoto: {
+          title: "Edusparsh Slidder2",
+          data: { full_url: "http://cms.maitretech.com/uploads/zebacms/originals/b61d5398-f138-4de5-83a1-11d6ea76901a.png" }
+        }
+      },
+      {
+        id: 2,
+        sliderphoto: {
+          title: "Edusparsh Slidder1",
+          data: { full_url: "http://cms.maitretech.com/uploads/zebacms/originals/bc5014f1-f9ef-4a26-8fe2-02ffde072366.png" }
+        }
       }
-    };
+    ],
+    public: true
+  };
 
-    fetchData();
-  }, []);
+  const initialImages = (hardcodedResponse.data || []).map((item, index) => ({
+    id: item.id || index,
+    url: item?.sliderphoto?.data?.full_url?.replace("http://", "https://") || "",
+    title: item?.sliderphoto?.title || `Slide ${index + 1}`,
+  }));
+
+  const [images, setImages] = useState(initialImages);
+  const [loader, setLoader] = useState(false);
 
   const slides = images.map((item, idx) => (
     <div

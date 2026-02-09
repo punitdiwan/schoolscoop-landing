@@ -1,10 +1,4 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Avatar
-} from "@material-tailwind/react";
+
 import Image from "next/image";
 import Link from "next/link";
 interface Card3Props {

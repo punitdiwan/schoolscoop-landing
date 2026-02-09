@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Card2 from "./section2card/page";
 import Card3 from "./section2card/Card3";
 
@@ -12,37 +12,22 @@ import { GiReturnArrow } from "react-icons/gi";
 import { FcBusinessman } from "react-icons/fc";
 
 const Section2 = () => {
-  // State to manage fetched HTML content
-  const [data, setData] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+    // Hardcoded CMS response (was fetched previously)
+    const hardcodedResponse = {
+    "data": [
+      {
+      "id": 1,
+      "status": "published",
+      "owner": { "id": 1 },
+      "created_on": "2024-07-27T07:26:03+00:00",
+      "we_have": "<p>EduSparsh School Management ERP Solution, <strong>developed by Maitretech Solution</strong>, has revolutionized how educational institutions operate by integrating the latest technologies to streamline and enhance school management processes. With its comprehensive and innovative features, EduSparsh has reached new heights in delivering efficiency and productivity within the education sector. This powerful ERP solution utilizes cutting-edge technology to ensure robust and secure data maagement solution with indus standard guidlines. It is also user-friendly and cost-effective for institutions of all sizes.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; With a proud and growing client base of over 200+ esteemed institutions across the globe, our success is reflected in their continued trust and satisfaction. At EduSparsh, we believe in transforming education through technology, and we are committed to helping schools achieve operational excellence and academic success.</p>"
+      }
+    ],
+    "public": true
+    };
 
-  // Fetch data from external CMS
-  const fetchData = async () => {
-    try {
-      const response = await fetch(
-        "https://cms.maitretech.com/edusparsh/items/home?fields=*.*"
-      );
-      const jsonData = await response.json();
-      const main = jsonData?.data[0];
-      setData(main?.we_have || "");
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      // Uncomment if you want to display error in UI
-      // setError("Error fetching data");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  // Trigger fetch on component mount
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  // Return loading or error state if applicable
-  if (loading) return <div className="text-center">Loading...</div>;
-  if (error) return <div className="text-center text-red-600">{error}</div>;
+    const initialWeHave = hardcodedResponse?.data?.[0]?.we_have || "";
+    const [data] = useState(initialWeHave);
 
   // Card content array for mapping
   const cardData = [
@@ -89,7 +74,7 @@ const Section2 = () => {
       {/* Section Header */}
       <div>
         <h1 className="text-center text-[#2c5aa0] text-4xl font-bold">
-          Why EduSparsh School Management System
+          EduSparsh from Maitretech Solution!
         </h1>
         <div className="w-[9rem] h-1 rounded-lg bg-[#ffb000] mx-auto"></div>
         <h2 className="text-center text-[#2c5aa0] text-2xl font-bold mt-1">

@@ -3,23 +3,6 @@ import Card3 from "./Card3";
 import FlipCard from "../../Card/FlippingCard"
 
 const Section2one = () => {
-  // const [data, setData] = useState([]);
-  // const fetchData = async () => {
-  //   try {
-  //     const response = await fetch(
-  //       "https://cms.maitretech.com/edusparsh/items/home_provide?fields=*.*"
-  //     );
-  //     const jsonData = await response.json();
-  //     setData(jsonData?.data || []);
-  //   } catch (error) {
-  //     console.error("Error fetching data:", error);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
-
   const data1 = [
     {
       title: "Student Management System",
