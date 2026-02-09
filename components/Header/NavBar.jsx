@@ -236,7 +236,7 @@ const NavBar = () => {
             className="mr-4 cursor-pointer py-1.5 lg:ml-2 sm:font-extrabold text-3xl "
           >
             <div className="flex text-[#2e6faf]">
-              <div> EduSparsh </div>
+              <div> Maitretech EduSparsh </div>
               <div>
                 <IoBookOutline className="mt-1 ml-2" />
               </div>
